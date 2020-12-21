@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU103-011
+Libellé du cas d'usage :;;Afficher  le bloc d’images
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’image en cours de visualisation;;;;; l’entité image située à sa droite est affichée
+2;Via un balayage latéral de gauche à droite;;;;; le système affiche l’entité image suivante
+3;Via un balayage latéral de gauche à droite;;;;; le système affiche l’entité image précédente

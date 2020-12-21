@@ -1,0 +1,68 @@
+"4.	Version Desktop - liste des cas d'utilisations 
+4.1	Eléments transverses du site [LOT 1]
+"
+"UseCase : 4.1.1	CU001-001 Afficher le header
+Acteur : Internaute
+Cas d’utilisation permettant à un internaute  de consulter le header du site. L’utilisateur visualise le header sur toutes les pages du site sauf pour les pages suivantes :
+Explorer les collections
+Parcours
+Pages de la télécommande
+"
+"Notes : 
+	Le système affiche les éléments suivants :
+	Le logo du musée M*
+	Le bouton d’accessibilité
+	Le bouton langue (voir cas d’utilisation Afficher le bouton de langue)
+	Les boutons réseaux
+	le système affiche les boutons des réseaux sociaux suivants
+	Bouton facebook
+	Bouton twitter
+"
+"Actions : 
+	Si l’utilisateur clique 
+	sur le logo depuis une page intérieure, le système redirige vers la page d’accueil du site sans jouer la vidéo du bloc identitaire et sans les informations temps réels..  
+	Sur le logo depuis la page d’accueil, le système affiche le bloc d’information temps réel et le bloc identitaire
+	Si l’utilisateur clique sur le bouton d’accessibilité, le système redirige vers une page éditoriale.
+	Un clic sur un bouton de réseaux sociaux permet à l’utilisateur d’accéder au réseau social concerné (dans une nouvelle fenêtre) :
+	Un clic sur le bouton facebook redirige vers la page suivante : https://www.facebook.com/M*
+	Un clic sur le bouton twitter redirige vers la page suivante : https://twitter.com/M*
+"
+"UseCase : 4.1.2   CU001-002 Afficher le bouton de langue
+"
+"Acteur : Internaute
+Cas d’utilisation permettant à un internaute  de consulter le bouton de langue. 
+"
+"Notes : 
+    Le système affiche : 
+    la langue sélectionnée
+    La langue sélectionnée par défaut est la langue française (FR) 
+"
+"Actions : 
+    Au clic sur la langue sélectionnée, le système affiche les autres langues
+    Si la langue sélectionnée est français, le système affiche
+En deuxième langue,  le bouton Anglais (EN) à la place du bouton réseau social Twitter
+En troisième langue, le bouton Espagnol (ES) à la place bouton réseau social Facebook
+•   Le bouton +  (voir cas d’utilisation Afficher la page Langue)
+    Si la langue sélectionnée est anglais, le système affiche
+•   En deuxième langue,  le bouton Francais (FR) à la place du bouton réseau social Twitter
+•   En troisième langue, le bouton Espagnol (ES) à la place bouton réseau social Facebook
+•   Le bouton +  (voir cas d’utilisation Afficher la page Langue)
+    Si la langue sélectionnée est espagnol, le système affiche
+•   En deuxième langue,  le bouton Francais (FR) à la place du bouton réseau social Twitter
+•   En troisième langue, le bouton Anglais (EN) à la place bouton réseau social Facebook
+•   Le bouton +  (voir cas d’utilisation Afficher la page Langue)
+    Au clic sur la deuxième ou troisième langue, le système réaffiche  les boutons réseaux sociaux et le bouton + est caché
+"
+"Règles de gestion : 
+    Si l’utilisateur clique sur Anglais / Espagnol depuis une page française :
+    Si la page est traduite, celle-ci est affichée. 
+    Si la page n’est pas traduite
+•   le système redirige vers la page parente traduite de niveau N-1
+•   Si la page parente de niveau N-1 n’est pas traduite, le système redirige vers la page parente traduite de niveau N-2
+•   Si la page parente de niveau N-2 n’est pas traduite, le système redirige vers la page d’accueil
+	
+UseCase : 4.1.3	CU001-0021 Afficher la page Langue
+"
+"Acteur : Internaute
+Cas d’utilisation permettant à un internaute  de consulter la page langue. 
+"

@@ -1,0 +1,10 @@
+""
+Cas d'usage couvert :;;CU002-004
+Libellé du cas d'usage :;;Afficher le bloc Carrousel
+
+STEP;Action;;;;;Résultat attendu
+1;Dans le bloc gris;;;;;
+2;Au clic sur le titre,  le surtitre de l’entité ou le bouton En savoir plus;;;;; le système redirige vers la page de destination
+3;Au roll-over sur le bloc gris;;;;; le système agrandit le bloc et affiche le champ Description et le bouton en savoir plus
+4;Dans la barre de navigation;;;;;
+5;Au clic sur un des titres présents dans le menu du carrousel;;;;; le système affiche l’entité concerné dans le carrousel.

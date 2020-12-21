@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU003-010
+Libellé du cas d'usage :;;Afficher un bloc d’images
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’image en cours de visualisation;;;;; l’entité image située à sa droite est affichée
+2;Au clic sur la flèche gauche de navigation;;;;; l’entité image située à sa gauche est affichée
+3;Au clic sur la flèche droite de navigation;;;;; l’entité image située à sa droite est affichée

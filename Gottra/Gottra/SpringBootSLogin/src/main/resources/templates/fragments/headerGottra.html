@@ -1,0 +1,55 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8" />
+<title>Header</title>
+
+
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-gottra"
+		th:fragment="header">
+		<a class="navbar-brand" href="/"> <img
+			src="/img/logo.png" class="d-inline-block align-top" height="40px" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<ul class="navbar-nav   ml-auto">
+				<li class="nav-item"><a class="nav-link" href="/newproject">
+				                <i class="fas fa-plus"></i>
+				                <span th:text="#{header.newproject}">New
+						project</span></a></li>						
+            </ul>
+            
+            <ul class="nav navbar-nav  ml-auto">
+				<li class="nav-item"><a class="nav-link" href="/projects" >
+				                <i class="fas fa-copy"></i>
+				                <span th:text="#{header.projects}">My
+                        projects</span></a></li>
+
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#"
+					id="navbarDropdownMenuLink" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false" >
+					               <i class="fas fa-users"></i> 
+					               <span th:text="#{header.users}">Users</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="/userForm" th:text="#{header.newuser}">Nouveau</a> <a
+							class="dropdown-item" href="/usersSearch" th:text="#{header.userlist}">Liste</a> <a
+							class="dropdown-item" href="/usersRoles" th:text="#{header.userroles}">Rôles</a>
+					</div></li>
+				<li class="nav-item"><a class="nav-link" href="/logout">
+				<i class="fas fa-sign-out-alt"></i>
+	           <span th:text="#{header.logout}">Logout</span></a></li>
+			</ul>
+
+		</div>
+	</nav>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="fragments/layout">
+<head>
+<meta charset="UTF-8" />
+<title th:text="#{newproject.title}">Nouveau projet</title>
+
+<link rel="stylesheet" href="../static/css/bootstrap.min.css"
+	th:href="@{/css/custombootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" href="../static/css/main.css"
+	th:href="@{/css/main.css}" />
+
+</head>
+<body>
+	<section>
+		<div class="card" layout:fragment="content">
+			<h5 class="card-header" th:text="#{newproject.title}">Nouveau projet</h5>
+			<div class="card-body">
+
+				<form th:action="@{newproject}" method="post"
+					enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="projectTitle" th:text="#{newproject.project.title}">Project title</label>
+						 <input type="text" required
+							class="form-control" id="projectTitle" name="projectTitle"
+							th:placeholder="#{newproject.project.title.placeholder}">
+					</div>
+
+
+					<div class="form-group">
+						<label style="display: block" for="projectTypeStandard"
+							th:text="#{newproject.project.type}">Project title</label>
+						<div class="input-group">
+							<div id="radioBtn" class="btn-group">
+								<div class="btn btn-primary btn-sm" data-toggle="projectType"
+									data-title="standard" th:text="#{projecttype.standard}">YES</div>
+								<div class="btn btn-primary btn-sm notActive"
+									data-toggle="projectType" data-title="agile"
+									th:text="#{projecttype.agile}">NO</div>
+							</div>
+							<input type="hidden" name="projectType" id="projectType" value="standard">
+						</div>
+					</div>
+
+                    <br>
+					<div>
+						<button type="submit" class="btn btn-primary" th:text="#{newproject.submit}">Create
+							project</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<script layout:fragment="includescripts">
+	$('#radioBtn div').on('click', function(){
+        var sel = $(this).data('title');
+        var tog = $(this).data('toggle');
+        $('#'+tog).prop('value', sel);
+        
+        $('div[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').addClass('notActive');
+        $('div[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive');
+    })
+	</script>
+	
+</body>
+</html>

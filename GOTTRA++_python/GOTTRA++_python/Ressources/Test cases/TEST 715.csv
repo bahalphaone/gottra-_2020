@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU006-034
+Libellé du cas d'usage :;;Contribuer les informations générales
+
+STEP;Action;;;;;Résultat attendu
+1;Champ Catégorie d’événement : au clic sur le bouton Plus;;;;; le contributeur a la possibilité d’ajouter une catégorie d’événement (voir cas d’utilisation Contribuer une catégorie d’événement)
+2;Champ billet / tarif : au clic sur le bouton Plus;;;;; le contributeur a la possibilité d’ajouter un type de billet  (voir cas d’utilisation Contribuer un type de billet / tarif)
+3;Champ Type de public : au clic sur le bouton Plus;;;;; le contributeur a la possibilité d’ajouter un type de public  (voir cas d’utilisation Contribuer un type de public)

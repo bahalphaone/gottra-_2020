@@ -1,0 +1,15 @@
+""
+Cas d'usage couvert :;;CU101-002
+Libellé du cas d'usage :;;Afficher le menu de navigation [LOT 1]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’icône de navigation « hamburger »;;;;;
+2;le système affiche :;;;;;
+3;•	le menu de navigation avec le libellé des rubriques de niveau 1;;;;;
+4;•	les boutons d'accessibilité;;;;;
+5;•	le bouton de langue (voir cas d’utilisation affiche le bouton de langue;;;;;)
+6;le système cache le logo du Musée M;;;;;*
+7;Au clic sur l’une des entrées de niveau 1;;;;;
+8;les rubriques correspondantes de niveau 2 et 3 s’affichent;;;;;
+9;les boutons de pages s’affichent;;;;;
+10;Via un balayage latéral depuis la barre verte verticale;;;;; le système affiche les autres niveaux de navigations

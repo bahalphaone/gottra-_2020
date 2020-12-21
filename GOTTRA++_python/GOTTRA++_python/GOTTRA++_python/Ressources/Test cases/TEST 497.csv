@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU009-503
+Libellé du cas d'usage :;;Afficher la liste de documents accessibilité
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre d’un élément;;;;; celui-ci s’affiche dans une nouvelle page

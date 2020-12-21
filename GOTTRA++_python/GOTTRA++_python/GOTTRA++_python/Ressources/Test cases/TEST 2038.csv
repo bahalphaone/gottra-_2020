@@ -1,0 +1,10 @@
+""
+Cas d'usage couvert :;;CU017-007
+Libellé du cas d'usage :;;Bloc  images d’une notice
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un click sur le bouton de « zoom » lance le zoom de l’image en cours de consultatio;;;;;n
+2;•	A l’intérieure de la pagination entre les images :;;;;;
+3;Un clic sur la flèche précédente affiche l’image précédente en lieu est place de l’image en cours de consultatio;;;;;n
+4;Un clic sur la flèche suivante affiche l’image suivante en lieu est place de l’image en cours de consultatio;;;;;n
+5;•	Au clic sur le bouton galerie;;;;; la liste des images associées à la notice est affichée.

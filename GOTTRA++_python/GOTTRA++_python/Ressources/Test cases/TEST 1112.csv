@@ -1,0 +1,12 @@
+""
+Cas d'usage couvert :;;CU007-004
+Libellé du cas d'usage :;;Afficher la liste des événements de l’agenda
+
+STEP;Action;;;;;Résultat attendu
+1;La liste des événements se met à jour si ;;;;;:
+2;L’utilisateur a effectué une modification dans la date de début et la date de fin du formulaire de recherch;;;;;e
+3;L’utilisateur a modifié les filtres de recherch;;;;;e
+4;L’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+5;Le visuel de l’événement;;;;;
+6;Le titre de l’événement;;;;;
+7;Au clic sur le bouton Acheter un billet d’un évènement;;;;; l’internaute est redirigé vers le lien Billetterie de l’événement

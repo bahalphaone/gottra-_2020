@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU009-404
+Libellé du cas d'usage :;;Afficher la liste des éléments Presse
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton « accès rapide »;;;;; le système affiche accès rapide dans le bloc principal
+2;Au clic sur le titre d’un élément;;;;; l’élément Presse est affiché dans le bloc principal

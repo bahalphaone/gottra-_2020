@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU006-011
+Libellé du cas d'usage :;;Afficher la liste des événements passés
+
+STEP;Action;;;;;Résultat attendu
+1;Le visuel;;;;;
+2;Le titre;;;;;
+3;Le sous-titre;;;;;

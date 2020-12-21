@@ -1,0 +1,12 @@
+""
+Cas d'usage couvert :;;CU001-009
+Libellé du cas d'usage :;;Afficher la télécommande
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur chaque élément;;;;; une pop-in s’ouvre avec le contenu correspondant
+2;Recherche (voir cas d’utilisation Afficher la recherche depuis la télécommande);;;;;
+3;Billetterie (voir cas d’utilisation Afficher les informations de billetterie depuis la télécommande);;;;;
+4;Informations pratiques (voir cas d’utilisation Afficher les informations pratiques depuis la télécommande);;;;;
+5;Agenda (voir cas d’utilisation Afficher l‘agenda depuis la télécommande);;;;;
+6;Médias (voir cas d’utilisation Afficher les médias depuis la télécommande);;;;;
+7;Au clic sur l’icône « croix » de fermeture;;;;; la page se ferme pour afficher la page courante

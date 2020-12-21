@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU101-007
+Libellé du cas d'usage :;;Afficher le bloc de contenu En ce moment
+
+STEP;Action;;;;;Résultat attendu
+1;L’image;;;;;
+2;Le titre;;;;;
+3;Le sous-titre;;;;;
+4;Le bouton En savoir plus;;;;;

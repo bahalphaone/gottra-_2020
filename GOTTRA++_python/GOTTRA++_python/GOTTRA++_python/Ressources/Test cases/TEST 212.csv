@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU006-000
+Libellé du cas d'usage :;;Afficher les éléments de plusieurs catégories d’événement
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur une catégorie;;;;; le système redirige vers la page de la catégorie (voir cas d’utilisation Afficher la catégorie)

@@ -1,0 +1,11 @@
+""
+Cas d'usage couvert :;;CU103-013
+Libellé du cas d'usage :;;Afficher un bloc En savoir plus
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’icône Plus;;;;; le système affiche le bloc En savoir plus ouvert
+2;Au clic sur la flèche gauche de navigation;;;;; l’élément précédent est affiché
+3;Au clic sur la flèche droite de navigation;;;;; l’élément suivant est affiché
+4;Au clic un élément;;;;;
+5;Si l’élément est un document PDF;;;;; le document est téléchargé
+6;Si l’élément est un lien externe;;;;; le système affiche une nouvelle fenêtre avec le lien

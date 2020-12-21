@@ -1,0 +1,2424 @@
+"A la sélection d’un élément, les champs suivants s’affichent dans l’onglet Editorial"
+ les collections [LOT 
+"•	Notes :
+Le système affiche les entités Carrousel triées selon le champ ""position"" de façon croissante.
+Par défaut, le système affiche le contenu de la première entité du carrousel
+Pour chaque entité le système affiche:
+Les éléments d’un contenu éditorial
+Les éléments d’une entité événement
+Dans le bloc de contenu mis  en avant, le système affiche
+•	Titre
+•	Visuel Page d’accueil – bloc carroussel
+Dans la barre de navigation, le système affiche
+•	Le numéro de position devant le titre
+•	Le titre
+Chaque contenu mis en avant est visible le temps défini dans le champ Timer. Durant cette période, une barre verte de chargement s’affiche et s’allonge
+Après la visualisation du dernier contenu, le carrousel redémarre au début."
+Cas d’utilisation décrivant la consultation du filtre de catégorie des applications.
+"•	Actions : l’internaute est redirigé vers la page de l’événement au clic sur
+L’image
+Le titre
+Le sous-titre
+Le bouton En savoir plus"
+Acteur : Internaute
+"•	Règles de gestion :
+Si aucun résultat ne correspond à la recherche de l’utilisateur, le bloc de résultats Articles ne s’affiche pas"
+ Afficher les éléments d’une page éditorial importée
+"Nom du champ	Type de champ	obligatoire	Commentaires
+Titre de l’élément parcours 	Champ texte	OUI
+Visuel de l’élément	Champ image	OUI
+Position du texte 	Liste déroulante	OUI	bas gauche
+bas droite (par défaut)"
+Cas d’utilisation décrivant la consultation des accès rapides de la rubrique presse.
+Position   
+"•	Règles de gestion
+Un évènement s’affiche dans le bloc A l’affiche si
+la date de début d’un évènement est antérieure à la date du jour
+la date de fin d’un évènement est ultérieure à la date du jour
+Si une des données d’un évènement n'est pas renseignée, alors il n'est pas affiché.
+Si plusieurs catégories d’événements ont été définies, un filtre s’affiche listant les catégories définies.
+Si une catégorie contenant des sous-catégories est sélectionnée, un second filtre s’affiche avec les sous-catégories correspondantes.
+A la sélection d’un filtre, le contenu de la page est mise à jour
+Si le nombre d’entités affichés est impair, le  bloc est rectangulaire
+Si le nombre d’entités affichés est pair, le  bloc est carré
+Les événements ayant un événement parent ne sont pas affichés dans la liste des événements"
+ Afficher du contenu dans une autre langue
+Cas d’utilisation décrivant la consultation de la barre de zoom
+"Cas d’utilisation décrivant l’écran de listing des favoris de l’internaute
+L’internaute arrive sur la page du site lorsque :
+•	Il a cliqué sur le bouton Favoris présent sur toutes les pages de l’explorateur"
+"Règles de gestions
+•	Il n’y a pas de pagination"
+Voir aussi le cas d’utilisation Contribuer une liste spécifique de pages éditoriales ou d’événements
+Acteur : Internaute
+"•	Actions :
+Au clic sur un type libellé d’onglet, le système affiche :
+Les pages associées correspondantes
+Au clic sur le lien ""en savoir plus"" d’une page associée, le système redirige vers la page concernée"
+Acteur : Internaute
+"L’internaute arrive sur la page du site lorsque :
+•	Il a cliqué sur une notice présente dans un panier de notices"
+"Notes
+•	Le système affiche l’ensemble des notices
+•	Le système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+Si le titre dépasse  caractères, alors le titre est coupé et suivi de « … ».
+Si le titre dépasse  caractères, alors au survol du titre, le titre complet est affiché.
+La vignette (taille)
+Role
+Un bouton de suppression des favoris
+Un bouton de sélection pour actions"
+"Notes
+•	Le système affiche les XX premières notices
+Dans une liste réduite XX est représenté par  une liste complète XX est représenté par  système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+La vignette (taille)
+…
+Un bouton d’Ajout aux favoris
+Si la notice est déjà présente dans les favoris alors un bouton de suppression est affichée en lieu est place"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre 	Champ texte	OUI		Général
+Sous-titre	Champ texte	NON		Général
+Description		Zone de texte riche	NON		Général
+Personnes	Champ texte avec affichage des entités Personnes	NON
+Multi-sélection
+Sélection dans la base  Armadillo
+(Thésaurus personnes) 	Personnes
+Pays évoqué			Liste déroulante		NON	Multi-sélection
+Données provenant d’Armadillo
+(Thésaurus géographique)	Pays évoqué
+Mots clés	Liste déroulante avec affichage des entités Mots-clés en auto-completion		Données provenant d’Armadillo
+(Thésaurus culture)
+Multi-sélection	Général
+Mots clés libre	Champ texte avec affichage des entités Mots-clés libre en auto-completion		Multi-sélection
+Ajout possible	Général"
+Acteur : Internaute
+Cas d’utilisation décrivant les tarifs d’accès aux musées du musée
+"•	Actions :
+Au clic sur chaque élément, une pop-in s’ouvre avec le contenu correspondant
+Recherche (voir cas d’utilisation Afficher la recherche depuis la télécommande)
+Billetterie (voir cas d’utilisation Afficher les informations de billetterie depuis la télécommande)
+Informations pratiques (voir cas d’utilisation Afficher les informations pratiques depuis la télécommande)
+Agenda (voir cas d’utilisation Afficher l‘agenda depuis la télécommande)
+Médias (voir cas d’utilisation Afficher les médias depuis la télécommande)
+Au clic sur l’icône « croix » de fermeture, la page se ferme pour afficher la page courante"
+ Afficher l’application principal
+Acteur : Administrateur / Contributeur
+Cas d’utilisation décrivant la consultation des événements passés dans une liste d’événements génériques.
+Acteur : Internaute
+"•	Notes :
+le système affiche
+La  Afficher un élément éditorial Texte"
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur"
+ Afficher le document audio principal
+ Afficher le document Apprendre  dans le bloc principal
+"•	Actions :
+Au clic sur l’entité, l’utilisateur est redirigé vers la page de l’élément correspondant"
+ Contribuer un lien externe d’un bloc En savoir plus
+"•	Notes :
+Par défaut, seul le champ et la liste des filtres est visible"
+"Actions
+•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notice
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+"•	Notes :
+Au scroll de la page, Le système affiche un menu déroulant avec
+La catégorie Sélection de vidéos
+Les entités catégories de la rubrique Vidéo / Audio par ordre alphabétique
+La catégorie Toutes les vidéos
+La valeur par défaut est Sélection de vidéos"
+ Contribuer le bloc Identitaire
+ Afficher le bloc Vous êtes
+Cas d’utilisation décrivant la consultation d’un bloc éditorial  d’une page éditoriale.
+"A l’ajout d’un panier, Les champs suivants s’affichent :"
+Acteur : Internaute
+"Actions
+•	Un click sur l’onglet « Tous » affiche la liste réduite de résultats pour l’ensemble des typologies
+•	Un click sur un onglet d’une typologie affiche la liste complète des résultats pour la typologie sélectionnée."
+•	Notes :
+Acteur : Internaute
+ Afficher la liste des parcours [LOT 
+"•	Notes :
+La barre de zoom s’affiche si l’utilisateur a effectué un zoom sur un élément
+Le système affiche les éléments suivants :
+Le bouton -
+Le bouton +
+L’échelle de zoom avec  niveaux"
+"•	Actions : l’internaute est redirigé vers la page de l’événement au clic sur
+Le visuel
+Le titre
+La description
+Le bouton En savoir plus"
+Acteur : Administrateur / Contributeur
+Cas d’utilisation décrivant la consultation d’un bloc éditorial Image d’un événement.
+ Contribuer un document PDF d’un bloc En savoir plus
+"•	Liste des langues :
+Tri par ordre alpha
+Sélection unique
+Liste composée uniquement des valeurs présentes dans les résultats de recherche
+Par défaut : Aucune de sélectionnée
+•	Liste des Sous-Type
+Tri par ordre alpha
+Sélection unique
+Liste composée uniquement des valeurs présentes dans les résultats de recherche"
+ Afficher un bloc d’images
+"•	Actions :
+A l’aide d’un glisser-déposer, la carte se déplace en fonction de la position de la souris
+A l’aide du zoom, la carte est zoomée ou dézoomée"
+"•	Actions :
+Au clic sur l’icône de navigation « hamburger »,
+le système affiche :
+•	le menu de navigation avec le libellé des rubriques de niveau  boutons d'accessibilité
+•	le bouton de langue (voir cas d’utilisation affiche le bouton de langue)
+le système cache le logo du Musée M*
+Au clic sur l’une des entrées de niveau  rubriques correspondantes de niveau  et  s’affichent
+les boutons de pages s’affichent
+Via un balayage latéral depuis la barre verte verticale, le système affiche les autres niveaux de navigations"
+ Afficher le détail d’un élément résultat
+Acteur : Internaute
+"•	Actions :
+Déplacement du doigt de gauche à droite : le système affiche l’élément suivant
+Déplacement du doigt de droite à gauche : le système affiche l’élément précédent"
+"Actions
+•	Les champs concernés par les rebonds sont cliquables (voir CU « Liste des champs soumis aux rebonds »)
+•	Un clic sur le lien retour, l’internaute revient à la page précédemment consultée.
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+"Cas d’utilisation décrivant la contribution d’un bloc d’images.
+Le contributeur se place dans un événement. Il peut :
+•	Sélectionner une image existante
+Dans la médiathèque  avec le titre, le copyright et la description correspondants
+Dans la base de données Armadillo accessible via la recherche avancée  avec le titre, le copyright et la description correspondants"
+"Règles de gestions
+•	Les notices associées peuvent être de toutes typologies
+•	Seules les notices ayant les critères suivants en commun sont remontées :
+Pays en commun
+Personne en commun
+Culture en commun"
+"Nom du champ	Valeur par défaut	Liste de valeurs
+Thèmes	Afficher le nom du champ	Liste des valeurs du thésaurus  cultures provenant d’armadillo
+Type de document	Afficher le nom du champ	Œuvres
+Bibliographies
+Film et vidéos
+Audio
+Archive
+Photographies
+Articles
+Programmation
+Date de début	JJ/MM/AA
+Date de fin	JJ/MM/AA
+Pays	Afficher le nom du champ	Liste des valeurs du thésaurus  Pays provenant d’armadillo
+Catégorie	Afficher le nom du champ	Liste des valeurs du thésaurus  thématique provenant d’armadillo
+Type d’événement	Afficher le nom du champ	Liste des entités catégories d’événement de niveau "
+Cas d’utilisation décrivant la consultation des résultats Documents dans la page de recherche.
+ [LOT 
+ Afficher le contenu d’une page éditoriale importée
+"Actions
+•	Les champs concernés par les rebonds sont cliquables (voir CU « Liste des champs soumis aux rebonds »)
+•	Un clic sur le lien retour, l’internaute revient à la page précédemment consultée.
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+"•	Règles de gestion
+Si un champ n'est pas renseigné, il n'est pas affiché.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+ [LOT 
+"Dates de l’événement	                               ----------
+---------	non
+Dates saisies par l’internaute dans le calendrier"
+"•	Notes :
+La barre d’éléments s’affiche si l’utilisateur a cliqué sur le titre du parcours
+Le système affiche les éléments du parcours dans l’ordre défini en back-office
+Pour chaque élément, le système affiche la vignette du visuel"
+ Contribuer les éléments d’un bloc partenaires
+"•	Actions :
+A la sélection d’une valeur dans le filtre, la liste des documents est mise à jour (voir cas d’utilisation Afficher la liste des documents apprendre)"
+ Afficher le bouton de langue
+"•	Actions : l’internaute est redirigé vers la page de l’événement au clic sur
+L’image
+Le titre
+La description
+Le bouton En savoir plus"
+"•	Actions :
+Au clic dans une page sur le logo présent dans le header, le système redirige vers la page d’accueil est affichée avec la barre d’information en temps réel
+Au clic sur les flèches de navigation (gauche ou droite), l’entité précédente ou suivante s’affiche"
+"•	Notes :
+Les événements affichés correspondent à la/les catégorie(s) définis en back-office :
+Si la catégorie n’est pas liée à au moins une sous catégorie, le système affiche
+Le terme A l’affiche
+Les événements liés à la catégorie
+Si la catégorie est liée à seulement une sous catégorie, le système affiche
+Le nom de la sous catégorie en lieu et place de  A l’affiche
+Les événements liés à la sous-catégorie
+Si au moins deux sous-catégories d’événements sont liées à la catégorie, le système affiche
+•	Un filtre s’affiche listant les sous-catégories définies.
+A la sélection d’une sous-catégorie, le bloc concerné de la sous-catégorie reste affiché
+•	Un bloc par sous–catégorie. Pour chaque sous-catégorie, le système affiche
+Le nom de la sous-catégorie
+Les événements liés à la sous-catégorie
+L’ordre d’affichage des blocs est défini en back-office
+Les événements sont affichés par ordre de la date de début croissant
+Pour chaque entité, le système affiche :
+Le visuel  Format panoramique. Si l’événement est en  position
+Sinon le visuel Format carré (position suivantes)
+La date. La date est affichée sous la forme suivante :
+•	les jours et l’année affichés sous forme de chiffres
+•	les mois sous forme de lettre
+Janv.
+Fev.
+Mars
+Avril
+Mai
+Juin
+Juil.
+Aout
+Sept
+Oct.
+Nov.
+Dec."
+Acteur : Administrateur / Contributeur
+Acteur : contributeur & administrateur
+" la lettre d’information (newsletter)
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation de la lettre d’information.
+Le formulaire est affiché à l’aide de l’application  PowerMail qui contient une connexion avec l’application Corail.
+Le formulaire s’affiche dans la langue sélectionnée par l’utilisateur
+Le titre du formulaire est lettre d'information
+Le sous-titre du formulaire est Restez informés de la programmation du musée"
+"Cas d’utilisation décrivant la contribution d’un document de presse.
+Le contributeur se place en mode liste sur le dossier Medias > Presse."
+ Afficher les collections sur la page d’accueil
+Voir page de détail correspond à l’explorer de collections
+"•	Notes :
+L’utilisateur peut créer un lien de niveau  peut créer un lien de niveau  contributeur peut ajouter toute page dans le footer front-office"
+Cas d’utilisation décrivant la consultation du bloc Evénements liés d’un événement.
+" le formulaire Contact
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation du formulaire de contact.
+Le formulaire est contribuable à l’aide de l’application  PowerMail. L’utilisateur peut ajouter, modifier supprimer des champs.
+Le formulaire s’affiche dans la langue sélectionnée par l’utilisateur"
+Cas d’utilisation décrivant la consultation des résultats Medias dans la page de recherche.
+"Le système affiche :
+•	Les filtres (voir cas d‘utilisation Afficher les filtres)
+•	la liste des événements passés (voir cas d’utilisation Afficher la liste des événements passés)"
+Cas d’utilisation décrivant la consultation des événements passés
+Acteur : Internaute
+"Actions
+•	Les champs concernés par les rebonds sont cliquables (voir CU « Liste des champs soumis aux rebonds »)
+•	Un clic sur le lien retour, l’internaute revient à la page précédemment consultée.
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation du filtre de catégorie des documents 
+"•	Actions :
+A la sélection d’une valeur dans le menu déroulant catégorie ou du champ date, la liste des vidéos est mise à jour (voir cas d’utilisation Afficher la liste des documents de presse)"
+ Contribuer un élément Image
+"•	Règles de gestion
+Si un événement enfant est déjà lié à un événement parent, l’événement enfant est déjà sélectionné dans le champ Evénements enfant
+Si le champs Localisation hors du musée est rempli alors le champs Localisation dans le musée n'est pas obligatoire."
+"•	Notes :
+Le système affiche l’ensemble des créneaux liés à un événement"
+"Actions
+•	Un click sur un résultat renvoie l’internaute vers le détail du résultat concerné"
+Acteur : Administrateur / Contributeur
+"Règles de gestions
+•	Les images secondaires sont triées selon l’ordre défini en base de données
+•	Si l’image en cours de consultation est la première de la liste alors le bouton précédent est masqué
+•	Si l’image en cours de consultation est la dernière de la liste alors le bouton suivant est masqué
+•	S’il n’y a pas d’images secondaires associées, la pagination entre les images n’est pas affichée.
+•	S’il n’y a pas d’images secondaires associées, le nombre total d’image n’est pas affiché
+•	S’il n’y a pas d’images secondaires associées, le bouton d’accès à la galerie n’est pas affiché"
+ Règles d’options d’affichage des résultats
+Acteur : Administrateur / Contributeur
+"•	Notes
+Pour chaque entité, le système affiche :
+Le visuel  Format vertical
+La date. La date est affichée sous la forme suivante :
+•	les jours et l’année affichés sous forme de chiffres
+•	les mois sous forme de lettre
+Janv.
+Fev.
+Mars
+Avril
+Mai
+Juin
+Juil.
+Aout
+Sept
+Oct.
+Nov.
+Dec."
+"•	Actions :
+Au clic sur le bouton « accès rapide », le système affiche accès rapide dans le bloc principal
+Au clic sur le titre d’un élément, l’élément Presse est affiché dans le bloc principal"
+ Afficher la liste de documents apprendre
+"Nom du champ	Type de champ	obligatoire	Commentaires
+Titre du bloc de texte		OUI
+Contenu du bloc texte	Zone de texte	OUI"
+"Notes
+•	Le système affiche l’ensemble des notices
+•	Le système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+Si le titre dépasse  caractères, alors le titre est coupé et suivi de « … ».
+Si le titre dépasse  caractères, alors au survol du titre, le titre complet est affiché.
+La vignette (taille)
+Photographe
+Un bouton de suppression des favoris"
+Cas d’utilisation décrivant la colonne de gauche l’explorateur de collection
+Cas d’utilisation décrivant le fonctionnement d’une page qui liste d’événements liés à une exposition
+"•	Règles de gestion :
+Dans une contribution d’une page, cet élément ne peut être contribué dans un bloc à  colonne
+Pour effectuer une recherche dans la base de données Armadillo, le système affiche une recherche avancée"
+Cas d’utilisation décrivant la contribution du footer
+"Cas d’utilisation décrivant la contribution d’un bloc En savoir plus.
+Le contributeur se place dans événement et place dans l’onglet En savoir plus.
+A l’ajout d’un document PDF, les champs suivants s’affichent dans l’onglet En savoir plus :"
+ Afficher le filtre
+Acteur : Internaute
+"Pour contribuer un sous-élément de type page interne ou externe, les champs suivants s’affichent"
+Acteur : Internaute
+"•	Règles de gestion :
+La flèche de navigation gauche ne s’affiche pas si la notice affichée est définie en tant que  élément du panier
+La flèche de navigation droite ne s’affiche pas si la notice affichée est définie en tant que dernier élément du panier"
+Acteur : Internaute
+Acteur : Internaute
+"Le système affiche les éléments suivants :
+•	La barre d’information temps réel (voir cas d’utilisation afficher la barre d’information temps réel)
+•	Le bloc Carrousel (voir cas d’utilisation afficher le bloc Carrousel)
+•	Le bloc Plan d’accès / Infos pratiques (voir cas d’utilisation afficher le bloc Plan d’accès)
+•	Le bloc Collections  (voir cas d’utilisation afficher le bloc Collections)
+•	Le bloc Vous êtes (voir cas d’utilisation afficher le bloc Vous êtes)"
+"•	Notes :
+Le système affiche
+A l’emplacement du libellé Collections permanentes :
+•	Les tarifs de l’entité Billet Plateau des collections
+•	Les événements de type Expositions ou Installation à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans un autre lieu que dans la Galerie Jardin, séparés par un plus
+l’événement de type Expositions à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans le lieu galerie Galerie Jardin avec Les tarifs de l’entité Billet Expositions temporaires de la galerie Jardin
+A l’emplacement du libellé Tout visiter
+•	Les tarifs de l’entité Billet billet jumelé
+•	Le libellé Collections permanentes suivi de « + » et suivi de l’événement de type Expositions à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans le lieu galerie Galerie Jardin"
+"•	Règles de gestion :
+Certains contenus ne peuvent pas être ajoutés si le bloc éditorial est composé d’une seule colonne"
+"•	Actions : l’internaute est redirigé vers la page de l’événement au clic sur
+L’image
+Le titre
+La description
+Le bouton En savoir plus"
+"•	Actions :
+Au clic sur le point d’accès du musée M*, le pointage affiche les informations suivantes
+Nom du musée
+Adresse du musée
+Le bouton itinéraire
+Au clic sur un point d’accès, le système affiche
+un bloc de contenu les informations spécifiques pour chaque point (voir document en annexe)
+Le bouton itinéraire.
+Au clic sur le bouton Itinéraire d’un point d’accès, le système affiche sur la carte le trajet à pied et le temps de parcours entre le musée et le point d’accès sélectionné.
+Au clic sur le bouton Itinéraire du musée M*, le système affiche sur la carte le trajet à pied et le temps de parcours entre le musée et la position géolocalisé de l’utilisateur."
+ Afficher les informations de billetterie depuis la télécommande
+Cas d’utilisation décrivant la consultation des parcours depuis le bloc de la page d’accueil
+"•	Règles de gestion
+Un évènement s’affiche si la date de début de l‘événement est ultérieure à la date du jour
+si une des données de l’évènement n'est pas renseignée, alors il n'est pas affiché."
+ Afficher le formulaire de recherche de l’agenda
+"•	Règles de gestion :
+Si une valeur de l’entité n’est pas renseignée, la valeur ne s’affiche pas
+Si l’utilisateur a sélectionné une langue anglaise et espagnole, la barre d’outils s’affiche dans la langue  la barre d’éléments"
+"•	Règles de gestion
+Un événement s’affiche dans le bloc En ce moment avec un encadré A venir  si
+la date de début et de fin de l‘événement est ultérieure à la date du jour
+Un événement s’affiche dans le bloc En ce moment  si
+la date de début de l’événement est antérieure à la date du jour
+la date de fin de l’événement est ultérieure à la date du jour
+Les catégories en ordre de priorité sont les suivantes :
+les événements définis en tant que catégorie expositions (tri par date de fin croissant)
+les événements définis en tant que catégorie installations (tri par date de fin croissant)
+les événements définis en tant que catégorie concerts (tri par date de début croissant)"
+"•	Notes :
+le système affiche
+Le titre de la vidéo
+Le lecteur avec la vidéo"
+ la page de fin
+"Cas d’utilisation décrivant la contribution d’une sélection de photos.
+Le contributeur se place en mode liste sur le dossier Medias > Photos > Sélection. Il peut :
+•	Sectionner les photos
+•	Ordonnancer l’ordre d’affichage des documents sélectionnés"
+"•	Notes : le système affiche :
+Le titre du parcours
+La date éditoriale
+Le bouton Commencer
+La barre d’outils
+La pop-in d’information
+Le visuel large desktop du parcours"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre 	Champ texte			OUI	Récupéré automatiquement du champ Titre	Editorial
+Description	Champ texte	OUI	Récupéré automatiquement du champ Résumé	Editorial
+Visuel large	Champ image	OUI	Récupéré automatiquement via youtube après saisi du champ Lien Youtube	Editorial
+Durée		Champ texte	OUI	Récupéré automatiquement du champ (voir base de données Armadillo)
+Au format  :minute : seconde)	Editorial
+Catégorie de média	Liste déroulante des entités  catégories média vidéo
+OUI	Récupéré automatiquement du champ Catégorie
++ sélection manuelle
++ multi-sélection	Editorial
+Lien youtube	Champ texte			OUI	Récupéré automatiquement du champ youtube	Editorial
+Copyright
+Champ texte	NON	Récupéré automatiquement du champ (voir base de données Armadillo)	Editorial
+Date de publication	-	-	Date du jour	Editorial
+Date de tri	-	-	Date du jour modifiable	Editorial
+Champ texte libre twiiter	Champ texte	NON		Editorial"
+ Afficher la liste des vidéos
+Acteur : Administrateur / Contributeur
+"•	Notes :
+Le système affiche la photo  principal par le contributeur. Les éléments suivants de la photo  sont affichés :
+Le lecteur  avec la photo 
+3 boutons de navigation
+•	Zoom
+•	Déplacement
+•	Agrandissement plein écran
+Titre
+Description
+Un bouton Partager"
+"•	Règles de gestion :
+Le système affiche les entités catégories de niveau  et / ou de niveau  catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+"Règles de gestions
+•	Dans une liste réduite, il n’y a pas de pagination
+•	Dans une liste complète, si plus  notices sont présentes dans les résultats, alors une pagination est affichée (voir CU « Règles d’affichage de la pagination »)."
+Acteur : Contributeur / Administrateur
+"•	Règles de gestion :
+Le bloc s’affiche si des événements ont été contribués en back-office dans l’onglet En savoir plus
+Les flèches de navigation s’affichent seulement si plus  élément est  à afficher
+Si l’élément est un document PDF, le système affiche
+l’icône dossier
+l’extension du fichier dans l’icône du dossier
+Si l’élément est un lien, le système affiche
+l’icône Navigateur
+l’icône Lien dans l’icône Navigateur"
+"•	Règles de gestion :
+L’année la plus ancienne à afficher dans le calendrier est l’année  la plus récente à afficher dans le calendrier est l’année en cours
+Si aucun document n’est trouvé, le message suivant s’affiche : Aucun document ne correspond aux termes de recherche spécifiés.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation des résultats Articles dans la page de recherche.
+Acteur : Internaute
+"Notes
+•	Le système affiche les boutons suivants :
+Télécharger en PDF
+Envoyer par email
+Facebook
+Twitter
+Sélectionner / Désélectionner l’ensemble des notices
+Vider mon panier de favoris"
+"•	Actions :
+Au clic sur le lien Voir plus, le système affiche le bloc en totalité
+Au passage de la souris sur un des  visuels, le titre de la notice s’affiche sous le visuel
+Au clic sur un visuel d’une notice, le système affiche l’élément (voir Afficher un élément du panier)"
+Acteur : Administrateur / Contributeur
+"Le système affiche :
+•	Le nom de l’exposition
+•	L’image de fond de l’exposition
+•	Le libellé Evénement liés
+•	Les événements liés"
+"•	Actions :
+Au clic sur un lien, l’utilisateur est redirigé vers le lien spécifié."
+ un panier existant
+ [LOT 
+" les documents Accessibilité
+L’entité liée est l’entité Media Accessibilité"
+"Pour chaque parcours, l’utilisateur peut ajouter un ou plusieurs éléments :
+Depuis un upload
+Depuis la base de données Armadillo"
+"•	Actions :
+Au clic sur le titre d’un élément, celui-ci s’affiche dans le bloc principal"
+"•	Affichage en Galerie liste
+Option par défaut
+•	Affichage en Galerie"
+Acteur : Internaute
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte		OUI		General
+Description	Champ texte	OUI		General
+Visuel carré	Champ image	OUI		General
+Catégorie de documents	Liste déroulante des entités catégories média apprendre
+OUI	Multi-sélection possible	General
+Date de publication	Champ date (mois et année)	OUI	Par défaut, mois et année en cours	General
+Date de tri	-	-	Date du jour modifiable	Editorial
+Champ texte libre twiiter	Champ texte	NON		Editorial"
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation des filtres dans une liste d’événements.
+"•	Notes :
+Voir détails des styles graphiques du champ texte riche ( voir informations sur le champ RTE )"
+Cas d’utilisation décrivant la consultation des informations de billetterie depuis la télécommande.
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation du bloc Vous êtes de la page d’accueil.
+Acteur : Internaute
+ Afficher l’agenda depuis la télécommande [LOT 
+Obligatoire si champ  tomographique coché
+"Cas d’utilisation décrivant la consultation des informations pratiques par modes d’accès.
+L’internaute arrive sur la page du site lorsqu’il a cliqué sur une entrée du menu de navigation  (voir cas d’utilisation afficher les informatiques pratiques ):"
+ Afficher un bloc Evénements liés
+Lien d’affichage de la liste des facettes
+"Cas d’utilisation décrivant le résultat d’une recherche depuis l’explorateur de collection
+L’internaute arrive sur la page du site lorsque :
+•	Il a saisi une recherche depuis l’écran d’accueil de l’explorateur des collections
+•	Il a cliqué sur le bloc en page d’accueil
+•	Il a cliqué sur une entrée de facette
+•	Il a cliqué sur un lien direct vers les favoris"
+ éditoriale
+ les média audio
+"•	Règles de gestion :
+Si l’internaute consulte la rubrique média dans une autre langue, l’ensemble du contenu est affiché dans la langue française sauf si l'élément est traduit dans la langue choisie, alors il est afficher dans la langue choisie. L'interface dans toutes les rubriques est traduite ainsi que le contenu des listes.
+Si un onglet est désactivé en back-office, celui-ci ne s’affiche pas"
+"Champ sélectionné en Back-office	règles d’affichage en Front-office	Libellés à afficher
+Date de début	 [date  de début
+Heure de début
+Date de fin
+Heure de fin	 [date début]
+[date de "
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation d’un bloc éditorial  d’un événement.
+"•	Règles de gestion :
+Si une valeur de l’entité n’est pas renseignée, la valeur ne s’affiche pas
+Si la page éditoriale n’a pas d’éléments images liés, le bloc ne s’affiche pas"
+"•	Actions :
+Au clic sur le bouton Retour, le système redirige vers la page de saisie
+Au clic sur le bouton OK, le formulaire est validé et sauvegardé. Le message suivant est administrable et est alors affiché :
+Votre inscription a bien été prise en compte. Vous recevrez votre Pass Etudiant soit à votre domicile soit lors de votre premier cours au M*. Pour être valide, vous intégrerez à ce pass votre photographie d’identité."
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Nom du lieu du musée	Champ texte	OUI		General
+Catégorie parente	Liste déroulante des entités localisation dans le musée
+NON	Ne sont pas affichés les sous –catégories	General
+Image de fond	Champ image	OUI		General"
+"Adresse professionnelle
+Etablissement	Champ texte	OUI
+Complément adresse (chez, esc…)		Champ texte	NON
+N°, voie 	Champ texte	OUI
+BP ou lieu-dit		Champ texte	NON
+Code postal (sur  chiffres)		Champ texte	NON
+Ville 	Champ texte	OUI
+Pays 	Liste déroulante	OUI		Liste de tous les pays
+France (par défaut)
+Téléphone	Champ texte	NON
+Adresse personnelle
+Complément adresse (chez, esc…)	Champ texte	NON
+N°, voie	Champ texte	NON
+BP ou lieu-dit	Champ texte	NON
+Code postal (sur  chiffres)	Champ texte	NON
+Ville	Champ texte	NON
+Pays	Liste déroulante	NON		Sélectionner une valeur (par défaut)
+Liste de tous les pays
+Je souhaite recevoir des informations par email sur (une ou plusieurs cases possibles)
+la lettre d'information  email tous les  mois)	Case à cocher	NON
+les nouvelles expositions  email tous les  ou  mois)	Case à cocher	NON
+le programme du mois, via la Lettre d’information  email tous les mois)	Case à cocher	NON"
+ Contribuer un bloc d’images
+Cas d’utilisation décrivant la consultation d’un élément Presse dans le bloc principal.
+" la lettre d’information (newsletter)
+Acteur : contributeur & administrateur
+Cas d’utilisation décrivant la contribution du formulaire de lettre d’information.
+Le formulaire est contribuable à l’aide de l’application  PowerMail. L’utilisateur peut ajouter, modifier supprimer des champs"
+"Règles de gestion :
+Le lien vidéo doit être un lien  des  champs suivants doit être rempli : champ lien ou le champ fichier vidéo
+Cet élément ne peut être contribué dans un bloc à  colonne
+Dans un bloc à  colonnes, cet élément est affiché par défaut dans la colonne de droite
+Si la vidéo est récupérée depuis la base de données Armadillo, le système récupère automatiquement les éléments suivants :
+Titre
+Auteur
+Editeur
+Sujet
+Note
+Langue
+Date d’édition
+Description matérielle"
+"•	Actions :
+Au clic sur le titre ou le visuel d’une page éditoriale, le système redirige vers la page concerné"
+"•	Règles de gestion :
+S’il n’y a pas d’entité information temps réel, la barre d’information ne s’affiche pas
+Chaque entité information temps réel est affichée en fonction du créneau des dates définies en back-office
+Les entités informations temps réel sont affichées par ordre croissant du champ position d’affichage"
+Cas d’utilisation décrivant la consultation des résultats d’une recherche.
+"•	Notes :
+Pour chaque document Accessibilité, le système affiche
+Le titre
+La catégorie
+Le (s) documents liés à l’élément Accessibilité. Pour chaque document, le système affiche :
+•	L’icône
+L’icône lien si c’est un lien externe ou interne vers un média
+L’icône Vidéo si c’est un lien vers un média vidéo
+L’icône Audio si c’est un lien vers un média audio
+•	Le titre
+•	L’icône téléchargement
+•	Le poids du fichier correspondant
+Les boutons Partager facebook & Twiiter"
+Cas d’utilisation décrivant la consultation d’un bloc éditorial Son d’un événement.
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Presse
+"A l’ajout d’un upload de la vidéo, les champs suivants s’affichent dans l’onglet Editorial"
+Exemple d’affichage d éléments pour un bloc avec   éléments
+"Notes
+•	Le système affiche :
+Un lien sous forme d’icône pour afficher la facette Pays
+Un lien sous forme d’icône pour afficher la facette Cultures
+Un lien sous forme d’icône pour afficher la facette Personnes"
+"•	Actions :
+Au clic sur le titre ou le visuel d’une page éditoriale, le système redirige vers la page concerné"
+Acteur : Internaute
+ Afficher le média vidéo principal
+Acteur : Administrateur / Contributeur
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur le bouton media de la télécommande"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte		OUI		General
+Description	Champ texte	OUI		General
+Date de publication	Champ date	OUI		General
+Date de tri	-	OUI	Date du jour modifiable	Editorial
+Visuel carré	Champ image	OUI	Dimensions :  large	Champ image	OUI		General
+Champ texte libre twiiter	Champ texte	NON		Editorial"
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation d’un bloc éditorial Texte d’une page éditoriale.
+"Le système affiche les résultats par catégorie :
+•	Programmation (voir cas d’utilisation Afficher les résultats Programmation)
+•	Articles (voir cas d’utilisation Afficher les résultats Articles)
+•	Objet des collections (voir cas d’utilisation Afficher les résultats Objet des collections)
+•	Documents (voir cas d’utilisation Afficher les résultats Documents)
+•	Medias  (voir cas d’utilisation Afficher les résultats Medias)"
+"Cas d’utilisation décrivant la contribution d’une application.
+Le contributeur se place en mode liste sur le dossier Medias > Application."
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation de la télécommande
+ tous les  le filtre
+"•	Liste des langues :
+Tri par ordre alpha
+Sélection unique
+Liste composée uniquement des valeurs présentes dans les résultats de recherche
+Par défaut : aucune de sélectionnée
+•	Avec média en ligne ou uniquement dans les murs ou sans média en ligne ou Tous: choix unique"
+"•	Règles de gestion
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+"•	Règles de gestion :
+La barre de progression se remplit au fur et à mesure de l’avancement dans le parcours.
+Elle est divisée en fonction du nombre d’éléments définis dans le parcours
+Elle n’est pas visible sur la page de démarrage
+Elle est totalement verte sur la page de fin
+Si l’utilisateur est sur la page de démarrage
+le titre du parcours n’est pas affiché dans la barre d’outils
+Si l’utilisateur scroll vers le bas, aucune action ne se passe
+Si l’utilisateur clique sur la flèche de gauche, aucune action ne se passe
+Si l’utilisateur clique sur le bouton Etoile et si l’utilisateur provient d’une page éditoriale ou d’une page événement, l’utilisateur est redirigé vers cette même page
+Si l’utilisateur a sélectionné une langue anglaise et espagnole, la barre d’outils s’affiche dans la langue correspondante"
+"•	Notes :
+Un contributeur peut classer les positions des onglets
+Un contributeur peut classer les positions des pages associées de chaque onglet"
+Voir cas d’utilisation Afficher un bloc Partenaires  dans une page éditoriale
+"•	Règles de gestion :
+S’il n’y a pas d’image contribuée en back-office, le système affiche l’image de présentation de la page parente"
+ Naviguer dans la liste de résultats
+"•	Règles de gestion
+Un événement s’affiche dans le bloc En ce moment  si
+la date de début de l’événement est antérieure à la date du jour
+la date de fin de l’événement est ultérieure à la date du jour
+Un événement s’affiche dans le bloc En ce moment avec un encadré A venir  si
+la date de début et de fin de l‘événement est ultérieure à la date du jour
+Les contenus à afficher sont affichés en priorité par catégorie puis par date de début d’événement. Les catégories en ordre de priorité sont les suivantes :
+les événements définis en tant que catégorie expositions (tri par date de fin croissant)
+les événements définis en tant que catégorie installations (tri par date de fin croissant)
+les événements définis en tant que catégorie concerts (tri par date de début croissant)
+les événements définis en tant que catégorie colloques (tri par date de début croissant)
+Si la page en cours de consultation correspond à une entité événement, le bloc En ce moment ne doit pas lister cette entité événement.
+Si en back-office, le champ Ne pas afficher le bloc En ce moment sur le site est coché, le bloc En ce moment ne s’affiche pas sur l’ensemble du site"
+"Le système affiche le contenu du champ contenu juridique (champ éditable) :
+Conformément à la loi « informatique et libertés » du  janvier  vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser à l’adresse suivante :
+Etablissement public du M* - Service  rue de l’Université  Paris cedex  par courriel : cnil@M*.fr"
+ Sélectionner un partenaire
+Acteur : Internaute
+La liste des événements associés à la notice
+Règles de gestions
+ Afficher le filtre
+"Notes
+•	Le système affiche les  premières notices
+•	Le système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+Si le titre dépasse  caractères, alors le titre est coupé et suivi de « … ».
+Si le titre dépasse  caractères, alors au survol du titre, le titre complet est affiché.
+La vignette (taille)
+Role
+Un bouton d’Ajout aux favoris
+Si la notice est déjà présente dans les favoris alors un bouton de suppression est affiché en lieu et place"
+"•	Règles de gestion :
+Au moins deux catégories doivent être contribuées"
+Voir cas d’utilisation Contribuer une photo 
+Format vertical	Champ  ×  carré	Champ  horizontal	Champ  panoramique	Champ 
+Cas d’utilisation décrivant la consultation de la page de démarrage d’un parcours
+ Afficher un panier de notices [LOT 
+ Afficher le filtre
+"•	Notes :
+Par défaut, le système affiche les documents audio de la catégorie Sélection de documents audio.
+Pour chaque document audio, le système affiche :
+Le titre
+Le visuel carré
+La ou les catégories
+La durée du média
+L’ordre d’affichage est le suivant :
+Pour la catégorie Sélection de documents audio : par ordre de la sélection défini par le contributeur
+Pour toutes les autres catégories : par ordre de la date de tri du document audio"
+Cas d’utilisation décrivant la consultation des accès rapides de la rubrique presse.
+"•	Règles de gestion
+Les événements à afficher sont identifiés à l’aide de leur champ Lien vers événement  qui contient le nom de l’exposition
+Si le nombre d’entités affichés est impair, le  bloc est rectangulaire
+Si le nombre d’entités affichés est pair, le  bloc est carré
+Si l’utilisateur vient d’un événement, celui-ci n’est pas listé dans la liste des événements
+Les événements ayant un événement parent ne sont pas affichés dans la liste des événements
+Si une des données de l’événement n'est pas renseignée, alors il n'est pas affiché."
+Cette fonctionnalité est à prévoir et ne fait pas parti du périmètre fonctionnel
+"Si l’internaute arrive sur cette page par un moyen différent, alors il est renvoyé vers la page d’accueil de l’explorateur des collections."
+"•	Notes :
+Pour chaque document Apprendre, le système affiche
+Le titre
+La catégorie
+Le (s) documents liés à l’élément Accessibilité. Pour chaque document, le système affiche :
+•	L’icône
+L’icône lien si c’est un lien externe ou interne vers un média
+L’icône Vidéo si c’est un lien vers un média vidéo
+L’icône Audio si c’est un lien vers un média audio
+•	Le titre
+•	L’icône téléchargement
+•	Le poids du fichier correspondant
+Les boutons Partager facebook & Twiiter"
+"•	Règles de gestion :
+Le panier de notices s’affiche si le bloc a été contribué en back-office
+Le bouton Voir plus s’affiche s’il y a plus de  notices dans le panier
+Le panier de notices est affiché sous les blocs éditoriaux"
+ la liste des parcours
+"•	Notes :
+Les éléments s’affichent en fonction de la position choisie en back-office"
+"•	Affichage en Galerie
+Option par défaut
+•	Affichage en liste"
+Position       
+"•	Notes :
+Le système affiche la liste des parcours
+Par défaut, la liste affiche tous les parcours par ordre de date de classement décroissante
+Pour chaque parcours, le système affiche
+Le titre du parcours
+Le visuel du parcours carré
+Le nombre d’éléments définis pour chaque parcours
+Il n’y a pas de pagination"
+"•	Actions
+Au clic sur la flèche, le système redirige vers la page listant les événements définis en contribution (voir cas d’utilisation Afficher les événements liés à une exposition)"
+Acteur : Internaute
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Nom du partenaire	-	OUI		General
+Ligne d’affichage	Liste déroulante	OUI	Les valeurs sont    de l’image	Champ texte	OUI		General
+Position	-	OUI		General"
+ Afficher la liste de documents accessibilité
+"•	Actions :
+A la sélection d’une date dans le calendrier, le système affiche les champs suivants"
+L’entité liée est l’entité Media Audio
+Position       
+"•	Description
+•	Un élément Texte	Haut droit"
+"•	Règles de gestion :
+Ce bloc s’affiche en fonction de la position choisie en back-office"
+"Cas d’utilisation décrivant la contribution pour lister les types de publics.
+Le contributeur se place en mode liste sur le dossier Public.
+Les champs suivants s’affichent :"
+Voir cas d’utilisation Afficher un bloc En savoir plus dans une page éditoriale
+ Contribuer une catégorie d’événement
+"•	Règles de gestion
+Le bloc s’affiche si l’évenement est lié à une exposition"
+"•	Règles de gestion :
+Les visuels peuvent être sélectionnés dans la base de données Armadillo ou uploadé
+Si le champ lien vers l’événement est saisi, le champ Libellé lié au lien des événements est obligatoire
+Un parcours peut être traduit en anglais et espagnol"
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Documents 
+"•	Actions :
+Un clic sur un lien permet à l’utilisateur d’accéder directement à la page concernée (dans la même  fenêtre).
+Un clic sur un bouton « réseaux sociaux » permet à l’utilisateur d’accéder au réseau social concerné (dans une nouvelle fenêtre) :
+Un clic sur le bouton facebook redirige vers la page suivante :
+https://www.facebook.com/M*
+Un clic sur le bouton twiiter redirige vers la page suivante :
+https://twitter.com/M*
+Un clic sur le bouton youtube redirige vers la page suivante :
+https://www.youtube.com/user/M*"
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur la rubrique Expositions dans le menu"
+"Le titre
+Le sous-titre
+Le pays évoqué
+Un bouton En savoir plus
+Les événements sont affichés par ordre croissant par rapport à la date de début de l’événement."
+"•	Règles de gestion :
+Dans une contribution d’une page, cet élément ne peut être contribué dans un bloc à  colonne
+Pour effectuer une recherche dans la base de données Armadillo, le système affiche une recherche avancée"
+"•	Règles de gestion :
+Si le musée est ouvert à la date du jour, le système affiche comme horaire d’ouverture :
+L’icône de l’horloge en vert
+Le libellé suivant : Musée ouvert jusqu’à [heure de fin de la journée en cours]
+Si le musée est fermé à la date du jour, le système affiche comme horaire d’ouverture :
+L’icône de l’horloge en rouge
+Le libellé suivant : Musée fermé aujourd’hui
+Si l’utilisateur clique sur une icône du menu de navigation (voir ci-dessous), le bloc d’information n’est plus affiché"
+"•	Actions :
+A la sélection d’une nouvelle valeur dans les menus déroulants, la liste des entités événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur"
+"•	Règles de gestion :
+Le champ courriel doit contenir un « @ », sinon le msesage suivant s’affiche Courriel : l'adresse mail doit être de la forme 'personne@exemple.com'
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+Si l’adresse n’est pas présente dans le système, le message suivant s’affiche Cette adresse email n'est pas présente dans le système
+Si la désinscription est bien effectuée, le message suivant s’affiche Cette adresse a été désinscrite [adresse e-mail]"
+Voir cas d’utilisation Afficher un bloc éditorial dans une page éditoriale
+Cas d’utilisation décrivant la consultation d’un bloc éditorial texte d’une page éditoriale.
+Cas d’utilisation décrivant la consultation de la liste des événements passés
+"•	Notes :
+Le système affiche l’entité média mise en avant par le contributeur. Les éléments suivants de la photo sont affichés :
+Le bouton retour
+Titre
+La ou les catégories
+Visuel large
+Description
+Les boutons Partager facebook & Twiiter"
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Documents 
+Cas d’utilisation décrivant la consultation des événements passés dans une liste d’événements au format Expositions.
+Acteur : Administrateur / Contributeur
+"Actions
+•	Au clic sur un terme, la recherche est lancée sur l’ensemble des typologies sur le terme concerné par le clic
+•	Au clic sur le bouton « Voir tous les résultats » la recherche est lancée sur l’ensemble des typologies sur le terme saisi dans le champ de recherche"
+"•	Règles de gestion
+Depuis une page éditorial
+Titre de la page
+Description de la page
+Logo du musée M*
+visuelPage d’accueil – bloc vous êtes (voir Contribuer les visuels)
+Depuis un événement
+Titre
+Date / Horaires
+Tarifs
+Description
+visuel Page d’accueil – bloc vous êtes (voir Contribuer les visuels)
+Depuis une notice
+Nom de l’œuvre
+Description de l’œuvre
+Visuel de l’œuvre"
+Acteur : Administrateur / Contributeur
+ Afficher le bouton de partage
+Acteur : Internaute
+"•	Actions :
+A la sélection d’une valeur dans le filtre, la liste des vidéos est mise à jour (voir cas d’utilisation Afficher la liste des vidéos)
+Une catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie."
+Acteur : Internaute
+"Champ sélectionné en Back-office	règles d’affichage en Front-office	Libellés à afficher
+Date de début	 [date  de début
+Heure de début
+Date de fin
+Heure de fin	 [date début]
+[date de "
+ du formulaire
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre de la vidéo	Champ texte			OUI		General
+Lien de la vidéo	Champ texte			OUI		General
+Fichier vidéo  à uploader	Champ texte		OUI		General
+Auteur	Champ texte	NON		General
+Editeur	Champ texte	NON		General
+Sujet	Champ texte	NON		General
+Note	Champ texte	NON		General
+Langue	Champ texte	NON		General
+Date d’édition	Champ texte	NON		General
+Description matérielle	Champ texte	NON		General"
+ Afficher les événements liés
+ Afficher la liste des facettes de l’explorateur des collections
+ Bloc  images d’une notice
+Cas d’utilisation décrivant la consultation du plan d’accès
+Cas d’utilisation décrivant la consultation d’un élément d’un parcours
+Les catégories peuvent être traduites en anglais et espagnol:
+Acteur : Internaute
+ Afficher la colonne de gauche de l’explorateur des collections
+"Notes
+•	La liste des valeurs contenues dans la facette « Culture » et le nombre de notices associées
+La liste est hiérarchisée
+Si une valeur a des enfants rattachés, une icône « plus » permet de déplier le bloc contenant les enfants"
+Acteur : Internaute
+Acteur : Internaute
+Acteur : Internaute
+" le formulaire Vernissage
+Acteur : contributeur & administrateur
+Cas d’utilisation décrivant la contribution du formulaire Vernissage.
+-	Le formulaire est contribuable à l’aide de l’application  PowerMail. L’utilisateur peut ajouter, modifier supprimer des champs ainsi que le destinataire du formulaire
+-	Le formulaire est contribuable dans les langues anglaises et espagnoles
+-	Le titre et le sous-titre du formulaire est contribuable.
+-	Le texte d’information de la page de confirmation est contribuable
+-	Le texte juridique est contribuable"
+"•	Règles de gestion
+Le fil d‘ariane ne s’affiche pas sur :
+La page d’accueil
+Les pages de la télécomamande
+Les collections
+Le parcours
+Les rubriques de niveau  ne s’affichent pas
+Pour une fiche événement, le fil d’ariane correspond à
+[Page d’accueil] > [Catégorie évenement] > [Sous catégorie] si existant > Nom de l’événement
+Pour une liste d’événement lié à une exposition, le fil d’ariane correspond à
+[Page d’accueil] > [Catégorie événement] > [Sous catégorie] si existant > [Nom de l’événement]  > Evénements liés
+Pour une liste d’événement lié à un lieu, le fil d’ariane correspond à
+[Page d’accueil] > [Nom du lieu]  > Evénements liés
+Pour une page éditoriale, le fil d’ariane correspond à
+[Page d’accueil] > [Arborescence lié à la page éditorial]  > [Nom de la page éditoriale]
+Pour une liste d’événements propres à une page éditoriale, le fil d’ariane correspond à
+[Page d’accueil] > [Arborescence lié à la page éditorial]  > [Nom de la page éditoriale]"
+"•	Notes :
+Le système affiche les éléments suivants de l’application sont affichés :
+Titre
+Description
+La liste des stores disponibles
+Visuel large
+Boutons des stores disponibles
+Les boutons Partage facebook & twitter
+Par défaut, l’application affichée correspond à la  application de la sélection"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre du panier	Champ texte	OUI		General"
+"•	Notes :
+Le bloc texte s’affiche en colonne de gauche"
+"Cas d’utilisation décrivant l’ajout d’une information en back-office.
+Le contributeur se place en mode liste sur le dossier "" Page d’accueil - Information temps réel"".  Lors de l’ajout d’une information, les champs suivants s’affichent :"
+"Une catégorie peut-être contribué dans une langue anglaise ou espagnole.
+Seuls les contenus provenant d’Armadillo ne peuvent pas être traduits
+Les champs suivants s’affichent :"
+"Pour contribuer un sous-élément de type document, les champs suivants s’affichent"
+"Notes
+•	Le système affiche les  premières notices
+•	Le système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+Si le titre dépasse  caractères, alors le titre est coupé et suivi de « … ».
+Si le titre dépasse  caractères, alors au survol du titre, le titre complet est affiché.
+La vignette (taille)
+Role
+Un bouton d’Ajout aux favoris
+Si la notice est déjà présente dans les favoris alors un bouton de suppression est affichée en lieu est place"
+Voir aussi le cas d’utilisation Contribuer une liste spécifique de pages éditoriales ou d’événements
+ –  Afficher les tarifs
+ la liste des photos
+"Règles de gestions
+•	Dans une liste réduite, il n’y a pas de pagination
+•	Dans une liste complète, si plus  notices sont présentes dans les résultats, alors une pagination est affichée (voir CU « Règles d’affichage de la pagination »)."
+"Pour contribuer un sous-élément de type document, les champs suivants s’affichent"
+Cas d’utilisation décrivant la consultation des résultats Articles dans la page de recherche.
+"Règles de gestions
+•	Seuls les champs ayant une valeur d’associée, sont affichés par le système.
+•	Les règles d’affichage spécifiées dans le fichier « onglet : Ymago » sont prises en comptes "
+"•	Actions :
+A la nouvelle sélection d’une valeur dans les menus déroulants, la liste des entités événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur"
+ Afficher une liste spécifiques  de page éditoriales ou d’événement
+"Cas d’utilisation décrivant la contribution d’un contenu éditorial Vidéo.
+Le contributeur se place dans une page éditoriale et ajoute un plugin bloc Vidéo. Il peut :
+•	Sélectionner une vidéo existante
+Dans la médiathèque  la base de données Armadillo accessible via la recherche avancée
+•	Ajouter une vidéo
+A l’ajout d’un bloc Vidéo, les champs suivants s’affichent :"
+"•	Actions :
+A la sélection d’une valeur dans le filtre (niveau  et niveau  la liste des applications est mise à jour (voir cas d’utilisation Afficher la liste des applications)"
+"•	Règles de gestion
+Une entité Evénement s’affiche dans le bloc Evénements passés si la date de fin de l’événement est antérieure à la date du jour."
+ Afficher la liste des applications
+"•	Notes :
+Le système affiche l’entité audio mise en avant par le contributeur. Les éléments suivants du document audio sont affichés :
+Titre
+Sous-titre
+Vignette avec icône Play
+Description
+Les boutons Partager facebook & Twiiter"
+Cas d’utilisation décrivant la consultation des éléments de navigation d’un parcours
+Cas d’utilisation décrivant la consultation du filtre de catégorie.
+Ce cas d’utilisation reprend les mêmes principes définis dans le cas du CU « Afficher les résultats d’une recherche dans l’explorateur des collections ».
+"•	Règles de gestion
+Un événement s’affiche dans le bloc A l’affiche si
+la date de début de l’événement est antérieure à la date du jour
+la date de fin de l’événement est ultérieure à la date du jour
+Un événement s’affiche dans le bloc Prochainement si
+la date de début et de fin de l‘événement est ultérieure à la date du jour
+si une des données de l’événement n'est pas renseignée, alors il n'est pas affiché."
+"•	Actions :
+Au clic sur le titre de la photo, le système affiche la photo sélectionné dans le bloc de photo principale (voir  cas d’utilisation Afficher la photo principale)"
+Acteur : Administrateur / Contributeur
+"•	Notes :
+Par défaut, le système affiche les vidéos de la catégorie Sélection de vidéos.
+Pour chaque vidéo, le système affiche :
+Le titre
+La ou les catégories
+La durée du média
+Le visuel large du média
+L’ordre d’affichage est le suivant :
+Pour la catégorie Sélection de vidéo : par ordre de la sélection défini par le contributeur
+Pour toutes les autres catégories : par ordre de la date de tri de la vidéo"
+"A l’ajout d’un événement, les champs suivants s’affichent :"
+"Règles de gestions
+•	La cumulation des filtres permet d’effectuer une recherche de type « OU "
+"•	Actions :
+A la sélection d’une valeur dans le menu déroulant catégorie ou du champ date, la liste des éléments est mise à jour (voir cas d’utilisation Afficher la liste des documents de presse)"
+"•	Toponyme (Géographie)
+•	Ethnonyme (Culture)
+•	Personne / Institution (ex : Donateur)
+Indépendamment du rôle
+•	Type d’objet
+•	Catégorie
+•	Evénement
+•	Exposition"
+ Contribuer les éléments d’un bloc éditorial
+Acteur : Internaute
+"•	Notes :
+Le système affiche :
+Les entités Horaires du musée de la journée en cours dans l’onglet
+Les entités Horaires du musée
+Les entités Horaires du jardin"
+ Contribuer un partenaire
+Cas d’utilisation décrivant la consultation du nombre de résultat dans la page de recherche.
+"•	Règles de gestion :
+Le panier de notices s’affiche si le bloc a été contribué en back-office
+Le bouton Voir plus s’affiche s’il y a plus de  notices dans le panier"
+"Cas d’utilisation décrivant la consultation des informations de recherche depuis la télécommande.
+L’utilisateur visualise cette page après avoir cliqué sur :
+•	Il a saisi l’url directe dans son navigateur
+•	L’entrée du menu principal Recherche
+•	L’entrée Recherche de la télécommande"
+ Afficher la liste des éléments Presse
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur un événement depuis l’agenda
+•	Il a cliqué sur un événement depuis une liste événement"
+Cas d’utilisation décrivant la consultation du bloc Evénements liés d’une page éditoriale.
+Cas d’utilisation décrivant la consultation de la vidéo principal.
+"Cas d’utilisation décrivant la contribution d’un contenu éditorial Twitter.
+Le contributeur se place dans une page éditoriale et ajoute un plugin bloc Twitter.
+A l’ajout d’un bloc Twitter, les champs suivants s’affichent :"
+Cas d’utilisation permettant à un internaute  de consulter la page langue.
+ la photo principale
+L’utilisateur visualise ce bloc après avoir cliqué sur le bouton Billeterie de la télécommande
+Cas d’utilisation décrivant la consultation d’un événement.
+"•	Actions :
+Au clic sur l’entité, l’utilisateur est redirigé vers la page de l’élément correspondant"
+Voir aussi le cas d’utilisation afficher  une liste spécifique de pages éditoriales ou d’événements
+"•	Actions :
+Au clic sur le lien En savoir plus, le système redirige vers  l’explorateur des collections avec la notice concernée
+Au clic sur l’icône Fermer, le système affiche le panier de notices
+Au clic sur la flèche de navigation gauche, le système affiche la notice précédente dans l’ordre défini dans le back-office
+Au clic sur la flèche de navigation droite, le système affiche la notice suivante dans l’ordre défini dans le back-office"
+"Règles de gestion
+•	Les recherches sont sauvegardées uniquement durant la durée de la session du navigateur (cookie de la durée maximum autorisée par les navigateurs)"
+ Afficher un élément éditorial Image
+ Afficher le document dans le bloc principal
+"•	Règles de gestion :
+Si une valeur de l’entité n’est pas renseignée, le libellé et la valeur ne s’affichent pas
+Si une entité Créneau est définie comme annulé (champ Annuler ce créneau activé), le système affiche après la date le libellé suivant : (ANNULÉ)
+Si un événement est lié à un seul créneau et est défini avec des horaires identiques au musée, le système affiche les dates et les horaires séparément :"
+ Afficher les résultats Documents
+"L’utilisateur peut ajouter un élément texte, un élément image ou les  cas d’utilisation Afficher un bloc éditorial dans une page éditoriale"
+Acteur : Internaute
+"•	Règles de gestion :
+Si aucune page éditoriale n’est affichée et si les événements affichés concernent au moins  catégories différentes, un filtre s’affiche listant les catégories définies.
+Si une catégorie contenant des sous-catégories est sélectionnée, un second filtre s’affiche avec les sous-catégories correspondantes.
+A la sélection d’un filtre, le contenu de la page est mise à jour
+Si aucune image de présentation n’est associée à cette page et si cette page est lié à une page éditoriale via le bloc Evénements liés, le système affiche l’image de présentation de la page éditoriale
+s"
+ Afficher le filtre
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte		OUI	Remontée automatiquement 	General
+Type de sous élément	-	-	Lien vers une page	General
+Lien vers une page interne / externe	Champ lien	OUI		General"
+ Afficher un élément éditorial Son
+"•	Notes :
+Le footer liste les éléments suivants :
+•	Liste des liens de niveau  définis en back-office
+•	Liste des réseaux sociaux
+Bouton Facebook
+Bouton Twitter
+Bouton Youtube"
+Cas d’utilisation décrivant la consultation d’un bloc éditorial Texte d’un événement.
+ –  Afficher le filtre de résultat
+Acteur : Administrateur / Contributeur
+"•	Règles de gestion :
+Ce bloc s’affiche en fonction de la position choisie en back-office
+Si l’image est récupérée depuis la base de données Armadillo, le système récupère automatiquement
+Le titre (champ nom de l'objet)
+La légende avec les champs suivants :
+•	l'ethnonyme
+•	l'origine géographique (pays puis entre parenthèses continent)
+•	date
+•	matériaux
+•	copyright
+•	mention obligatoire
+Une image peut-être traduite en espagnol ou en anglais
+Pour effectuer une recherche dans la base de données Armadillo, le système affiche une recherche par titre"
+Cas d’utilisation décrivant la consultation des horaires du musée
+ un événement [LOT 
+ dans un parcours
+"Libellés en Front-office	Champ sélectionné en Back-office	règles d’affichage en Front-office	Libellés à afficher
+Horaires		Affichage des horaires du musée	Mardi, mercredi et  H -  H
+Jeudi, vendredi et  H -  H
+Dates	Date de début
+Date de fin	Du [date début] au [date de fin]	Du samedi  mai  au samedi  septembre 
+-	Type d’accessibilité	Accessible aux [type handicap]	Accessible aux handicaps mentaux, handicaps moteur"
+ Afficher un élément du panier de notices [LOT 
+Voir aussi le cas d’utilisation Contribuer la page d’accueil
+"Actions
+•	Au clic sur la croix de suppression, la sauvegarde est supprimée
+•	Au clic sur le nom de la sauvegarde, la recherche est lancée sur l’ensemble des typologies selon les critères sauvegardées"
+"•	Règles de gestion :
+Si l’image est récupérée depuis la base de données Armadillo, le système récupère automatiquement la légende avec les champs suivants :
+•	Le titre (champ nom de l'objet)
+•	l'ethnonyme
+•	l'origine géographique (pays puis entre parenthèses continent)
+•	date
+•	matériaux
+•	copyright
+•	mention obligatoire
+Une image peut-être traduite en espagnol ou en anglais
+Pour effectuer une recherche dans la base de données Armadillo, le système affiche la recherche avancée"
+Acteur : Internaute
+Cas d’utilisation permettant à un internaute  de consulter le bloc Plan d’accès / Infos pratiques.
+"•	Règles de gestion :
+Cette page affiche automatiquement le contenu des pages éditoriales de niveau inférieure si :
+Aucun contenu n’a été contribué dans la page courante
+Au moins une page éditoriale de niveau inférieure existe
+Cette page ne nécessite pas de contribution pour être affichée"
+ Contribuer un élément 
+Affichage Type Favoris
+Acteur : Internaute
+"•	Notes : par défaut, le système définit et affiche la date du jour comme date de début de recherche"
+"•	Règles de gestion :
+Ce bloc s’affiche en fonction de la position choisie en back-office
+Si l’image est récupérée depuis la base de données Armadillo, le système récupère automatiquement
+Le titre (champ nom de l'objet)
+La légende avec les champs suivants :
+•	l'ethnonyme
+•	l'origine géographique (pays puis entre parenthèses continent)
+•	date
+•	matériaux
+•	copyright
+•	mention obligatoire
+Une image peut-être traduite en espagnol ou en anglais
+Pour effectuer une recherche dans la base de données Armadillo, le système affiche une recherche avancée"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte	OUI		General
+Lien externe	Champ texte	OUI		General"
+"Cas d’utilisation décrivant la contribution d’une sélection de vidéos.
+Le contributeur se place en mode liste sur le dossier Medias > Vidéos > Sélection. Il peut :
+•	Sectionner les vidéos
+•	Ordonnancer l’ordre d’affichage des vidéos sélectionnées"
+"•	Actions :
+Au clic sur la photo, le système ouvre une nouvelle fenêtre avec l’image source non redimensionné
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (en fonction du nombre de caractères récupérable par Facebook)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique Photo  + Titre + lien raccourci + Champ texte libre twitter"
+ Contribuer un document apprendre
+"•	Actions :
+La liste des événements se met à jour si :
+L’utilisateur a effectué une modification dans la date de début ou la date de fin du menu
+L’utilisateur a modifié les filtres de recherche
+Action sur l’événement :
+Au clic sur une entité événement, le menu événement s’affiche avec  boutons :
+•	Boutons En savoir plus : au clic sur ce bouton, l’utilisateur est redirigé vers la page de l’événement
+•	Bouton Billetterie : au clic sur ce bouton, l’utilisateur est redirigé vers la page billetterie
+•	Bouton Ajouter à l’agenda : au clic sur ce bouton, l’événement est ajouté à l’agenda de l’internaute à l’aide de l’application tierce présente sur le téléphone.
+Le titre, la catégorie, les dates et les horaires de l’événement sont partagés.
+Pour les événements de catégorie Expositions ou Installations, les horaires ne sont pas partagés.
+Au clic sur une entité événement ayant son menu événement déjà ouvert, ce menu disparait
+Action sur l’icône horaire de l’événement :
+Au clic sur l’icône horaire :
+•	Si l’événement est lié à des entités Créneaux de dates, le système affiche la date et l’horaire liés à l’entité Créneaux de dates de l’événement
+•	Sinon le système affiche
+Au clic sur une l’icône ou les horaires d’un événement, l’icône et les horaires disparaissent"
+ la recherche
+ Afficher un bloc Parcours [LOT 
+"•	Actions :
+Au clic sur un bouton de store, le système affiche une nouvelle fenêtre avec l’url de téléchargement concerné
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (les  premiers caractères)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique applications mobiles  + Titre + lien raccourci+ Champ texte libre twitter"
+"Le titre de l’événement (entité événement)
+Le(s) types de public(s)   (entité Créneau de date de l’événement)
+Les boutons
+•	Acheter un billet
+•	Les boutons des handicaps (lié au champ accessibilité  de l’entité événement)
+Les événements sont affichés par catégorie d’événement
+Expositions (ordre d’affichage croissant par la date de fin)
+Installations  (ordre d’affichage croissant par la date de fin)
+Autres événements  (ordre d’affichage croissant par la date de début)"
+ Afficher le menu de navigation d’infos pratiques
+"Le système affiche le contenu du champ contenu juridique (champ éditable) :
+Conformément à la loi « informatique et libertés » du  janvier  vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser à l’adresse suivante :
+Etablissement public du M* - Service  rue de l’Université  Paris cedex  par courriel : cnil@M*.fr
+Vous pouvez également, pour des motifs légitimes, vous opposer au traitement de données vous concernant.
+Le M* est susceptible d’échanger ses fichiers avec d’autres partenaires culturels dans le respect des recommandations CNIL."
+ Afficher la liste de filtre
+"•	Actions :
+Au clic sur les boutons de navigation Rotation, l’utilisateur peut faire tourner l’objet
+Au clic sur le bouton de navigation Zoom, l’utilisateur peut zoomer (avant et arrière)"
+La liste des résultats réduite pour l’ensemble des typologies concernées par les résultats (Cas d’affichage de l’onglet « Tous »)
+ les événements liés à une ou plusieurs catégories [LOT 
+Voir aussi le cas d’utilisation Contribuer les événements liés à un lieu
+ Afficher les onglets médias depuis la télécommande
+"•	Notes :
+Les événements affichés correspondent au lieu défini définis en back-office
+Pour chaque entité, le système affiche :
+Le visuel  Format panoramique  position) Si l’événement est en  position
+Sinon le visuel Format carré (position suivantes)
+La date. La date est affichée sous la forme suivante :
+•	les jours et l’année affichés sous forme de chiffres
+•	les mois sous forme de lettre
+Janv.
+Fev.
+Mars
+Avril
+Mai
+Juin
+Juil.
+Aout
+Sept
+Oct.
+Nov.
+Dec."
+"Cas d’utilisation décrivant la contribution d’une liste de pages éditoriales.
+Le contributeur se place dans une page éditoriale et ajoute un bloc Liste éditoriale."
+"Cas d’utilisation décrivant la consultation du formulaire d’Emallette  formulaire est affiché à l’aide de l’application  PowerMail qui contient une connexion avec l’application Corail.
+-	Le formulaire s’affiche dans la langue sélectionnée par l’utilisateur
+-	Le titre du formulaire est formulaire e-mallette  sous-titre du formulaire est Inscrivez-vous pour télécharger l’e-mallette"
+"•	Pertinence
+Par défaut
+•	Date de publication croissante / décroissante
+•	Type croissant / décroissant
+•	Plan de classement croissant / décroissant
+•	Niveau croissant / décroissant"
+"Le système affiche :
+•	Les filtres (voir cas d‘utilisation Afficher les filtres)
+•	la liste des événements passés (voir cas d’utilisation Afficher la liste des événements passés)"
+"•	Notes :
+Le système affiche
+Les noms des catégories ou sous catégories, séparés d’une virgule.
+Si on affiche une sous-catégories, on affiche le nom de sa catégorie en amont
+Ex : Si on choisit la sous-catégorie «  » de la  catégorie « visite guidée », on affiche « Visite guidée  ans »
+L’image de fond
+La liste des catégories
+Pour chaque entité catégorie d’événement, le système affiche :
+La vignette de la catégorie
+Le titre de la catégorie
+Les catégories sont affichées dans l’ordre défini dans le back-office"
+ Contribuer une image de remplacement du bloc identitaire
+Position          
+ d’un élément dans un parcours
+"•	Règles de gestion :
+Si le document provient d’Armadillo, le système affiche le lecteur  Via
+Si le document provient d’une iframe, le système affiche l’iframe
+Le document  par défaut correspond au document le plus récent
+Si une valeur de l’entité n’est pas renseignée, le libellé et la valeur ne s’affichent pas"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Horaire identique au musée	Case à cocher	NON	Décoché par défaut	Date
+Calendrier	Champ Calendrier	NON		Date"
+"Le système affiche  filtres :
+•	Un menu déroulant par saison"
+"•	Actions :
+Au clic sur le titre d’un élément, celui-ci s’affiche dans le bloc principal"
+ Afficher un élément Son
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur la rubrique Expositions dans le menu"
+Cas d’utilisation décrivant la consultation d’une liste de pages
+"Actions
+•	Un click sur un résultat renvoie l’internaute vers le détail du résultat concerné
+•	La sélection d’un filtre met à jour la liste de résultat
+•	La sélection d’une option de tri, trie la liste de résultat
+•	La sélection d’un mode d’affiche met à jour le mode d’affichage"
+"Le système affiche :
+•	Le libellé de l’événement. Exemple : Concerts passés
+•	Les filtres (voir cas d’utilisation Afficher les filtres)
+•	La liste des événements passés (voir cas d’utilisation Afficher la liste des événements passés)"
+"•	Règles de gestion :
+Si un champ n'est pas renseigné, il n'est pas affiché.
+L’affichage du bloc varie en fonction du contenu contribué en back-office :
+Cas  : le contributeur saisit :
+•	Une Image de remplacement
+Règles à appliquer :
+•	Le système affiche l’image de remplacement
+•	Image de remplacement
+L’image de remplacement et le texte spécifique sont cliquables si le lien spécifique sur l’image a été saisi
+Le contenu vidéo n’est pas affiché sur la version mobile"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Nom du public	Champ texte	OUI		General
+Public Parent	Liste déroulante des entités Public existante	NON		General
+Groupe	Case à cocher	NON	Par défaut, non  coché	General"
+ Afficher les résultats Programmation
+ –  Afficher le bouton Cette semaine du menu
+"•	Actions :
+Au clic sur le bouton Tarifs :
+Si le tableau des tarifs était préalablement caché, le tableau des tarifs s’affiche de bas en haut
+Si le tableau des tarifs était préalablement affiché, le tableau des tarifs disparait de haut en bas
+Au clic sur le bouton Voir tous les tarifs, l’utilisateur est redirigé vers une page éditoriale
+Au clic sur le bouton Achetez mon billet, l’utilisateur est redirigé vers la page billetterie"
+ –  Afficher les éléments de la liste des événements liés à une exposition
+"Cas d’utilisation permettant à un internaute  de consulter le header du site. L’utilisateur visualise le header sur toutes les pages du site sauf pour les pages suivantes :
+•	Explorer les collections
+•	Parcours
+•	Pages de la télécommande"
+"Règles de gestion :
+•	Seuls les fichiers PDF sont autorisés
+•	L’utilisateur peut sélectionner plusieurs documents"
+Cas d’utilisation décrivant la consultation du panier de notices.
+"•	Règles de gestion :
+Cet élément ne peut être contribué dans un bloc à  colonne
+Le contributeur peut choisir le nombre maximum de twitt à afficher pour tous les blocs twitter"
+Exemple d’affichage des entités images pour une galerie ayant  images
+"•	Règles de gestion
+Une entité Evénement s’affiche dans le bloc A venir si
+la date de début et de fin de l‘événement est ultérieure à la date du jour
+Si une des données de l’événement n'est pas renseignée, alors il n'est pas affiché."
+Affichage Type liste
+Cas d’utilisation décrivant la consultation des filtres d’une recherche
+"Pour chaque élément Accessibilité, le contributeur peut ajouter  ou plusieurs documents"
+Cas d’utilisation décrivant la consultation des résultats dans la page de recherche.
+"•	Règles de gestion :
+Il n’est pas possible de supprimer un type de public"
+"•	Règles de gestion :
+Dans la liste Je souhaite recevoir des informations par email sur (une ou plusieurs cases possibles*),  des  cases à cocher doit  être au moins coché sinon le message suivant s’affiche
+Il faut choisir au moins l’une des quatre options suivantes: les nouvelles expositions, les spectacles vivants, les activités culturelles.
+Le champ courriel doit contenir un « @ »
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+Si le système a bien ajouté l’enregistrement, le message suivant s’affiche
+[Civilité] [prénom] [Nom], merci pour votre inscription."
+Cas d’utilisation décrivant la consultation d’un bloc éditorial  d’une page éditoriale.
+"•	Actions :
+Dans le bloc gris
+Au clic sur le titre, le surtitre de l’entité ou le bouton En savoir plus, le système redirige vers la page de destination
+Au roll-over sur le bloc gris, le système agrandit le bloc et affiche le champ Description et le bouton en savoir plus
+Dans la barre de navigation
+Au clic sur un des titres présents dans le menu du carrousel, le système affiche l’entité concerné dans le carrousel."
+L’internaute arrive sur la page du site lorsqu’il a cliqué sur le bouton Agenda de la télécommande
+"•	Notes :
+le système affiche en colonne de droite
+Le titre du son
+Un player audio"
+Cas d’utilisation décrivant la consultation des médias sur une page en mode pop-in.
+Acteur : Internaute
+"•	Notes :
+Le système affiche
+La liste des entités documents de catégorie « apprendre».  Par défaut, tous les documents sont affichés.
+Les documents sont classés par date de tri décroissante (du plus récent au plus ancien)
+Pour chaque document, le système affiche
+•	Le titre du document
+•	La catégorie du document
+•	Le visuel carré associée du document"
+Cas d’utilisation décrivant la consultation du footer du site. L’utilisateur visualise le footer sur toutes les pages du site.
+"Actions
+•	Les champs concernés par les rebonds sont cliquables (voir CU « Liste des champs soumis aux rebonds »)
+•	Un clic sur le lien retour, l’internaute revient à la page précédemment consultée.
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+"•	Actions : au clic sur une entrée du menu, le système affiche sur le plan les points d’accès correspondants (voir cas d’utilisation afficher les informatiques pratiques par mode d’accès ):"
+ Afficher l’accès rapide
+Moteur de recherche simple
+"•	Notes :
+Au scroll de la page, le système affiche un menu déroulant avec
+La catégorie Tous les stores
+Les entités catégories Applications Mobiles par ordre alphabétique
+La valeur par défaut est Tous les stores"
+"•	Un clic sur le libellé :
+Déplie le bloc contenant les critères appliqués et applicables, si le bloc est plié
+Plie le bloc contenant les critères appliqués et applicables, si le bloc est déplié"
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Apprendre
+ Afficher  le bloc d’images
+Acteur : Internaute
+Acteur : Internaute
+"•	Notes :
+Ce bloc est visible sur toutes les pages éditoriales et tous les événements
+Ce bloc s’affiche au-dessus du footer
+Pour chaque entité événement, le système affiche :
+Le visuel Format vertical (voir Contribuer les visuels)
+Les dates de début et date de fin
+Un encadré A venir
+Le titre
+Le sous-titre
+Un bouton En savoir plus"
+ Modifier la télécommande
+"•	Un élément Vidéo
+•	Un élément Twitter
+•	Un élément Son
+•	Un élément  élément Notice"
+ la recherche depuis la télécommande [LOT 
+"Libellé de regroupement	Sous libellé	Nom du champ		Type de champ	obligatoire	Commentaires	Liste de valeurs
+Vos coordonnées
+Civilité
+Liste déroulante	OUI		Sélectionner une valeur (par défaut)
+Madame
+Monsieur
+Mademoiselle
+Nom		Champ texte	OUI
+Prénom		Champ texte	OUI
+Courriel		Champ texte	OUI
+Vous êtes		Menu déroulant	OUI		Sélectionner une valeur (par défaut)
+CE et Collectivité
+Profesionnel du tourisme
+Relais champ social
+Enseignant
+Individuel
+Recherche
+Relais handicap
+Famille
+Je souhaite recevoir des informations par email sur (une ou plusieurs cases possibles)
+le programme du mois, via la Lettre d’information  email tous les mois)	Case à cocher	NON
+les nouvelles expositions  email tous les  ou  mois)	Case à cocher	NON
+les spectacles vivants  email tous les  mois)	Case à cocher	NON
+les activités culturelles : visites/ateliers, cinéma, colloque, événements...  email tous les  mois)	Case à cocher	NON"
+"•	Règles de gestion :
+Le champ courriel doit contenir un « @ », sinon le msesage suivant s’affiche Courriel : l'adresse mail doit être de la forme 'personne@exemple.com'
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+A la page de confirmation, le texte suivant s’affiche
+[Civilité] [Prénom][Nom], merci pour votre inscription
+télécharger l’e-mallette
+Texte d’information :
+Le fichier est un fichier « zip » (compressé). Téléchargez-le sur votre disque dur et décompressez-le : des répertoires «  » et «  » seront créés. Pour lancer le module, double-cliquez sur l'application  contenu dans le répertoire correspondant à votre système d’exploitation (PC ou MAC). Vous retrouverez également dans ce répertoire l'ensemble des contenus de la e-Mallette (textes et images) isolément, sous forme de fichiers jpeg ou pdf. En cas de problème pour utiliser la e-Mallette, vous pouvez envoyer un mail à enseignants@M*.fr"
+ Afficher le plan d’accès
+"Le titre
+L’horaire affiché sous forme de chiffres
+Le sous-titre
+Le pays évoqué
+Un bouton En savoir plus
+Les événements sont affichés :
+Par catégorie (si plusieurs catégories ont été sélectionnées en back-office)
+Par ordre croissant par rapport à la date de début de l’événement.
+La totalité des événements est affichée
+Le système affiche  résultats maximum. Un bouton Afficher plus de résultats ajoute  autres entités à la liste d’événements et ainsi de suite.
+Le système affiche un événement pour chaque entité Créneaux de dates liée à une entité événement"
+Acteur : Internaute
+"•	Actions :
+Au clic sur un élément du parcours
+le système redirige l’élément concerné
+la barre d’éléments se cache"
+"Champ sélectionné en Back-office	règles d’affichage en Front-office	Libellés à afficher
+Date de début	 [date  avril  de début
+Heure de début
+Date de fin
+Heure de fin	 [date début]
+[date de  avril  ->  avril 
+Le titre
+Le sous-titre
+Un bouton En savoir plus
+Un pictogramme rond
+Les entités événements  A l’affiche sont affichées par ordre alphabétique croissants
+Les pictogrammes ronds s’affichent  sous le bloc A L’affiche correspondent au nombre d’entités événements  A L’affiche.
+Ils s’affichent s’il y a plus de  événements à afficher.
+L’entité en cours de visualisation contient un rond actif."
+"Actions
+•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notice
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+"•	Notes :
+Le système affiche la totalité des événements liés à l’exposition sélectionnée
+Pour chaque entité, le système affiche :
+Le visuel  Format panoramique  position) Si l’événement est en  position
+Sinon le visuel Format carré (position suivantes)
+La date. La date est affichée sous la forme suivante :
+•	les jours et l’année affichés sous forme de chiffres
+•	les mois sous forme de lettre
+Janv.
+Fev.
+Mars
+Avril
+Mai
+Juin
+Juil.
+Aout
+Sept
+Oct.
+Nov.
+Dec."
+"•	Actions :
+A la sélection d’une valeur dans le filtre, la liste des documents est mise à jour (voir cas d’utilisation Afficher la liste des documents accessibilité)"
+ Afficher le document audio principal
+"•	Règles de gestion
+Une catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+Acteur : Administrateur / Contributeur
+"•	Actions :
+Au clic sur le document à télécharger, celui-ci est ouvert dans une nouvelle fenêtre
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (les  premiers caractères)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique Apprendre  + Titre + lien raccourci + Champ texte libre twitter"
+Acteur : Internaute
+"•	Notes :
+Le système affiche les éléments suivants
+Le visuel horizontal mobile du parcours
+Le bouton Recommencer
+Le texte de remerciement
+Le bouton avec le libellé du champ Libellé lié au lien des événements
+Le bouton de partage facebook et twitter
+La liste des autres parcours
+•	Les parcours affichés sont sélectionnés par le contributeur
+•	Pour chaque parcours, le système affiche
+Le visuel de la page d’accueil du parcours
+Le titre du parcours
+Le nombre d’éléments du parcours
+•	Les boutons ronds"
+Le second tri appliqué est effectué sur la valeur du champ « titre »  du musée et des événements
+"•	Actions :
+Au clic sur le titre, le système redirige vers le parcours concerné"
+"•	Notes :
+Le système affiche un menu déroulant avec
+La catégorie Sélection de photo
+Les entités catégories Média de type Photos par ordre alphabétique
+La catégorie Toutes les photos
+La valeur par défaut est Sélection de photo"
+ le formulaire  Emallette 
+Cas d’utilisation décrivant la consultation de la vidéo principal.
+ Afficher le bloc Collections [LOT 
+"•	Notes :
+le système affiche
+Le titre de la vidéo
+Un player vidéo avec la vidéo youtube"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte		OUI		General
+Description	Champ texte	OUI		General
+Visuel carré	Champ image	OUI		General
+Catégorie de documents	Liste déroulante des entités catégories média presse
+OUI	Multi-sélection possible	General
+Date de publication	Champ date (mois et année)	OUI	Par défaut, mois et année en cours
+Modifiable	General
+Date de tri	Champ date (mois et année)	OUI	Par défaut, mois et année en cours
+Modifiable	General
+Copyright	Champ texte	NON		General
+Champ texte libre twiiter	Champ texte	NON		Editorial"
+"Règles de gestions
+•	Le second tri appliqué est effectué sur la valeur du champ « titre » alphabétique."
+ Contribuer du contenu dans une autre langue
+"Cas d’utilisation décrivant la contribution des visuels d’un événement.
+A l’ajout d’un événement, les champs suivants s’affichent :"
+"•	Actions :
+Au clic sur le titre d’un élément, celui-ci s’affiche dans une nouvelle page"
+"Cas d’utilisation décrivant la contribution d’un contenu éditorial Twitter.
+Le contributeur se place dans un événement.
+A l’ajout d’un élément Twitter dans un événement, les champs suivants s’affichent dans l’onglet Editorial :"
+ Modifier le footer
+ du musée et des événements
+Cas d’utilisation décrivant le fonctionnement de la page d’accueil du site M*.
+"•	Actions :
+Au clic sur le bouton Play, le lecteur vidéo s’affiche avec la vidéo qui se lance
+Au clic sur le bouton Retour, le système affiche la liste des médias
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (en fonction du nombre de caractères récupérable par Facebook)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique vidéo  + Titre + lien raccourci + Champ texte libre twitter"
+Position    
+ et vidéos
+Acteur : Internaute
+"•	Actions :
+Au clic sur le bouton Zoom du lecteur  l’utilisateur peut zoomer vers l’avant ou vers l’arrière
+Au clic sur le bouton Déplacement du lecteur  l’utilisateur peut déplacer l’objet avec sa souris dans les  dimensions
+Au clic sur le bouton Agrandissement, le lecteur s’affiche en plein écran
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (en fonction du nombre de caractères récupérable par Facebook)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique Document D  + Titre + lien raccourci + Champ texte libre twitter
+•	Règles de gestion :
+Si le document provient d’Armadillo, le système affiche le lecteur D DVia
+Si le document provient d’une iframe, le système affiche l’iframe
+Le document D par défaut correspond au document le plus récent
+Si une valeur de l’entité n’est pas renseignée, le libellé et la valeur ne s’affichent pas"
+Acteur : Internaute
+"Libellé de regroupement	Sous libellé	Nom du champ		Type de champ	obligatoire	Commentaires	Liste de valeurs
+Email	Champ de texte	OUI"
+Acteur : Administrateur / Contributeur
+"•	Notes
+Le système affiche le bloc Panier de notices  façon fermé (hauteur fixe en hauteur)
+Le système affiche
+Le titre du panier de notices
+La liste des éléments de notices. Pour chaque notice, le visuel est affiché
+Les éléments sont affichés en fonction de leur position définie dans le back-office."
+"•	Actions :
+Navigation via les flèches du clavier
+Si l’élément en cours de consultation ne contient pas de bloc de texte, au clic sur les touches du clavier :
+•	Flèche gauche : le système affiche l’élément précédent
+•	Flèche droite : le système affiche l’élément suivant
+Si l’élément en cours de consultation contient au moins  blocs de texte, au clic sur les touches du clavier :
+•	Flèche gauche : le système affiche le bloc de texte suivant
+•	Flèche droite : le système affiche le bloc de texte précédent
+Navigation via le scroll de la souris
+Si l’élément en cours de consultation ne contient pas de bloc de texte :
+•	Au scroll haut : le système affiche l’élément précédent
+•	Au scroll bas : le système affiche l’élément suivant
+Si l’élément en cours de consultation contient au moins  blocs de texte :
+•	Au scroll haut : le système affiche l’élément texte précédent
+•	Au scroll bas : le système affiche l’élément texte suivant"
+Acteur : Administrateur / Contributeur
+"•	Règles de gestion :
+Le bloc s’affiche si le bloc a été contribué en back-office
+Si une valeur obligatoire  n’est pas renseignée, le contenu ne s’affiche pas
+Si l’utilisateur a contribué au moins  blocs éditoriaux
+Seul le premier bloc éditorial est affiché
+Un bouton Lire la suite est affiché sous le premier bloc éditorial.
+Au clic  sur le bouton Lire la suite, les autres blocs éditoriaux s’affichent en dessous du bouton. Les éventuels contenus situés initialement sous le bouton s’affichent alors sous les autres blocs éditoriaux"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Nom du partenaire	Champ texte	OUI		Partenaires
+Lien	Champ texte	NON		Partenaires
+Image à télécharger	Champ upload	OUI		Partenaires"
+Cette page est affichée automatiquement et ne nécessite pas de contribution
+Voir cas  d’utilisation Contribuer un élément vidéo
+Acteur : Internaute
+"•	Notes :
+Le système affiche  menus déroulants
+Filtre de catégories de parcours
+•	Le système affiche les libellés suivants
+Tous les parcours
+La liste des catégories de parcours affichées par ordre alphabétique
+•	Par défaut, le système affiche Tous les parcours
+Filtre de date
+•	Le système affiche les libellés suivants
+Les plus récents
+Les plus anciens
+•	Par défaut, le système affiche les plus récents"
+"Si un événement est lié à un ou plusieurs créneaux et n’est pas défini avec des horaires identiques au musée, le système affiche les informations suivantes par créneau :"
+"Notes
+•	Pour une notice de type « Films et vidéo » le système affiche :
+Le bloc Images  (voir cas d’utilisation «Bloc images d’une notice»)
+Le bloc Pagination (voir cas d’utilisation «Bloc pagination d’une notice»)
+….
+Un bouton d’Ajout aux favoris
+Si la notice est déjà présente dans les favoris alors un bouton de suppression est affichée en lieu est place"
+"•	Règles de gestion :
+Le bloc twitter est affiché à l’aide du code twitter
+Une entité événement peut-être défini  ou plusieurs  ou plusieurs  ou plusieurs localisations
+Si une entité Evénement est lié à un événement parent, le système affiche le libellé suivant :
+Dans le cadre de [Le nom de l’événement parent]"
+"•	Actions :
+Au clic sur l’icône de recherche (petite loupe), le système redirige vers la page de résultat (voir cas d’utilisation Recherche)"
+"Au clic sur le bouton Valider du formulaire, le bloc de filtre disparait et la liste des résultats est mise à jour
+Au clic sur le bouton Réinitialiser du formulaire, l’ensemble des sélections sont effacées"
+ Afficher un bloc Partenaires
+"•	Notes :
+Au scroll de la page, le système affiche un menu déroulant avec
+La catégorie Sélection de photo
+Les entités catégories de la rubrique Photos par ordre alphabétique
+La catégorie Toutes les photos
+La valeur par défaut est Sélection de photo"
+"•	Règles de gestion.
+Un maximum de  entités peut être contribué dans le carrousel"
+"•	Notes :
+Le système affiche :
+Le menu de navigation avec les onglets suivants
+•	Vidéo
+•	Audio
+•	Applications  contenu de l’onglet Vidéo est affiché par défaut (voir cas d’utilisation Afficher les vidéos)"
+ Afficher la liste des parcours [LOT 
+"•	Règles de gestion :
+Le champ courriel doit contenir un « @ », sinon le msesage suivant s’affiche Courriel : l'adresse mail doit être de la forme 'personne@exemple.com'
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+Texte d’introduction présent au dessus du formulaire :
+Bonjour,
+Désormais, les invitations du musée sont électroniques. Nous invitons les personnes n’ayant pas encore communiqué leur adresse mail à remplir le formulaire ci-dessous. Nous vous remercions par avance,
+Le M*"
+"•	Notes :
+Le système affiche le bloc twitter spécifique en colonne de droite"
+"•	Règles de gestion :
+Si le champ Localisation dans le musée a une valeur sélectionnée, le champ Localisation de rendez-vous est visible, sinon il est caché
+Si le champs Localisation hors du musée est rempli alors le champs Localisation dans le musée n'est pas obligatoire."
+ Contribuer un lien interne d’un bloc En savoir plus
+ [LOT 
+"•	Actions :
+La liste des événements se met à jour si :
+L’utilisateur a effectué une modification dans la date de début et la date de fin du formulaire de recherche
+L’utilisateur a modifié les filtres de recherche
+L’internaute est redirigé vers la page de l’événement au clic sur
+Le visuel de l’événement
+Le titre de l’événement
+Au clic sur le bouton Acheter un billet d’un évènement, l’internaute est redirigé vers le lien Billetterie de l’événement"
+•	Ajouter une nouvelle image
+"•	Actions :
+Au clic sur le lien Tout désélectionner, l’ensemble des catégories d’évènements sont désélectionnés
+Au clic sur le bouton de validation du formulaire, le bloc de filtre disparait et la liste des résultats est mise à jour"
+"•	Notes :
+Les éléments s’affichent en fonction de la position choisie en back-office"
+"•	Actions :
+Au clic sur le bouton Voir tous les horaires, le système redirige vers une page éditoriale"
+" les documents Apprendre
+L’entité liée est l’entité Media Apprendre"
+ Afficher les informations générales
+"Pour chaque typologie de résultats, les options d’affichage sont les suivantes :"
+ les parcours en page d’accueil [LOT 
+Exemple d’affichage des entités images pour une galerie ayant  images
+ une page éditoriale importée
+ un événement parent [LOT 
+"•	Règles de gestion
+Un événement s’affiche dans le bloc Evénements passés si la date de fin de l’événement est antérieure à la date du jour.
+S’il y a un seul événement affiché, les pictogrammes ronds ne sont pas affichés"
+"•	Règles de gestion :
+Si le filtre Type de document a comme valeur sélectionnée Films, photographie ou Audio, seul ce bloc de résultat s’affiche
+Si aucun résultat ne correspond à la recherche de l’utilisateur, le bloc de résultats Medias ne s’affiche pas"
+Acteur : Internaute
+Acteur : Administrateur / Contributeur
+"•	Règles de gestion :
+Dans la liste Je souhaite recevoir des informations par email sur (une ou plusieurs cases possibles*),  des  cases à cocher doit  être au moins coché sinon le message suivant s’affiche
+Il faut choisir au moins l’une des quatre options suivantes: les nouvelles expositions, les spectacles vivants, les activités culturelles.
+Le champ courriel doit contenir un « @ »
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+Si le système a bien ajouté l’enregistrement, le message suivant s’affiche
+[Civilité] [prénom] [Nom], merci pour votre inscription."
+Cas d’utilisation décrivant la consultation du filtre de catégorie.
+"•	Règles de gestion :
+Le champ courriel doit contenir un « @ », sinon le msesage suivant s’affiche Courriel : l'adresse mail doit être de la forme 'personne@exemple.com'
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être renseigné
+A la page de confirmation, le texte suivant s’affiche
+[Civilité] [Prénom][Nom], merci pour votre inscription
+télécharger l’e-mallette
+Texte d’information :
+Le fichier est un fichier « zip » (compressé). Téléchargez-le sur votre disque dur et décompressez-le : des répertoires «  » et «  » seront créés. Pour lancer le module, double-cliquez sur l'application  contenu dans le répertoire correspondant à votre système d’exploitation (PC ou MAC). Vous retrouverez également dans ce répertoire l'ensemble des contenus de la e-Mallette (textes et images) isolément, sous forme de fichiers jpeg ou pdf. En cas de problème pour utiliser la e-Mallette, vous pouvez envoyer un mail à enseignants@M*.fr"
+Cas d’utilisation décrivant la consultation de la page de démarrage d’un parcours
+Actions
+Affichage Type Galerie
+"•	Actions :
+Au clic  sur le bouton de lecture de la vidéo, la vidéo se lance
+Au clic sur le bouton Plus, l’application Twitter s’ouvre pour écrire un twitt"
+ –  Afficher un bloc Partenaires
+ Afficher les résultats d’une recherche dans l’explorateur des collections
+"Cas d’utilisation décrivant la contribution pour lister les types de billets / tarifs.
+Le contributeur se place en mode liste sur le dossier billets / tarifs.
+Les champs suivants s’affichent :"
+Cas d’utilisation décrivant la consultation du nombre de résultat dans la page de recherche.
+"•	Notes :
+Le bloc texte s’affiche en colonne de gauche
+Voir détails des styles graphiques du champ texte riche ( voir informations sur le champ RTE )"
+Les champs suivants s’affichent :
+ Afficher les résultats de la recherche par défaut dans l’explorateur des collections
+"•	Notes : Par défaut, la semaine affichée correspond à la semaine en cours, du lundi au dimanche (inclus)"
+ –  Afficher les événements liés
+Acteur : Internaute
+"Nom du champ		Type de champ	Oblig
+atoire	Commentaires	onglet
+Titre	Champ texte	OUI		Général
+Sous-titre	Champ texte	NON		Général
+Description		Zone de texte riche	NON		Général
+Public		Liste en arborescence des entités Public
+OUI	Multi-sélection	Général
+Accessibilité		Liste déroulante des entités Accessibilité
+NON	Multi-sélection"
+Cas d’utilisation décrivant la consultation du bloc Evénements liés d’une page éditoriale.
+ Contribuer les événements liés à une ou plusieurs catégorie [LOT 
+"•	Règles de gestion :
+Le panier de notices s’affiche si le bloc a été contribué en back-office
+Le bouton Voir plus s’affiche s’il y a plus de  notices dans le panier
+Le panier de notices est affiché sous les blocs éditoriaux"
+"•	Notes :
+Le système affiche
+Le numéro de téléphone
+Les horaires
+La description
+L’image de fond
+Pour chaque billet, le système affiche
+•	Le visuel
+•	Le titre"
+"•	Actions :
+Au lancement de la recherche, la liste des résultats est mise à jour"
+"•	Actions :
+L’internaute est redirigé vers la page de l’événement au clic sur
+Le visuel
+Le titre
+Le sous-titre
+Au balayage latéral de l’utilisateur de droite à gauche, le bloc affiche les  événements suivants
+Au balayage latéral de l’utilisateur de gauche à droite, le bloc affiche les  événements précédents"
+"•	Actions
+Au clic sur la description, le système redirige vers la page définie en back-office. La page de destination peut-être :
+Une liste d’événements liés à un lieu
+(voir cas d’utilisation Afficher les événements d’un lieu spécifique)
+Une liste spécifiques de pages éditoriales ou d’événement lieu
+(voir cas d’utilisation Afficher une liste spécifiques de pages éditoriales ou d’événements)"
+Haut gauche
+"•	Règles de gestion :
+Le bloc s’affiche si le bloc a été contribué en back-office
+Les flèches de navigation s’affichent seulement si plus de  éléments sont à afficher
+Si l’élément est un document PDF, le système affiche
+l’icône dossier
+l’extension du fichier dans l’icône du dossier
+Si l’élément est un lien, le système affiche
+l’icône Navigateur
+l’icône Lien dans l’icône Navigateur"
+"A l’ajout d’un élément depuis Armadillo, les éléments suivants s’affichent :"
+ les éléments génériques à tous les événements
+ Afficher le détail d’un élément résultat
+Cas d’utilisation décrivant la consultation du formulaire de recherche.
+Libellé de regroupement	Sous libellé	Nom du champ		Type de champ	obligatoire	Commentaires	Liste de valeurs
+"Le système affiche :
+•	La colonne de gauche de l’explorateur des collections (voir cas d’utilisation)
+•	La liste des typologies concernées par les résultats
+•	Le nombre de résultats global
+•	La liste des résultats réduite pour l’ensemble des typologies concernées par les résultats
+•	La liste complète pour chaque typologie concernée par les résultats
+•	La liste des critères de recherche sélectionnés (voir CU « Liste des critères de recherche sélectionnés »)"
+ Contribuer la sélection des documents 
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation du bloc A propos d’un évènement.
+ Afficher la liste des éléments Presse
+ Afficher les accès rapides
+"•	Notes :
+Pour chaque entité Evénement, le système affiche :
+Le visuel Format carré
+Les dates de début et de fin
+•	les jours et l’année affichés sous forme de chiffres
+•	les mois sous forme de lettre
+Janv.
+Fev.
+Mars
+Avril
+Mai
+Juin
+Juil.
+Aout
+Sept
+Oct.
+Nov.
+Dec."
+"•	Actions :
+Au clic sur le titre de l’application, le système affiche l’application sélectionnée dans le bloc de mise en avant"
+"•	Règles de gestion :
+les champs heure de début et heure de fin sont visibles seulement si
+le champ Toute la journée est décoché
+le champ Horaire identique au musée est décoché"
+L’entité liée est l’entité Media Vidéo
+Recherches sauvegardées
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur un événement importé depuis l’agenda"
+Cas d’utilisation permettant à un internaute  de consulter le fil d’ariane du site.
+"•	Règles de gestion
+Si un champ n'est pas renseigné, il n'est pas affiché.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+Cas d’utilisation décrivant la contribution d’un événement parent.
+Acteur : Internaute
+Cas d’utilisation décrivant la consultation d’un bloc éditorial d’un événement.
+Public	Type(s) de public(s)	voir le cas d’utilisation Afficher les types de public
+Actions
+Acteur : Internaute
+"•	Notes
+Une pagination est affichée si plus de  notices répondent aux critères d’affichage. La pagination est de la forme suivante :
+Un lien « Précédent » permet de revenir à la page précédente
+•	Ce lien ne s’affiche pas si l’utilisateur est sur la première page
+Un lien « Suivant » permet d’accéder à la page suivante
+•	Ce lien ne s’affiche pas si l’utilisateur visualise la dernière page
+La liste numérotée des pages accessibles
+•	La page en cours de visualisation est identifiée graphiquement et n’est pas cliquable"
+"•	Affichage en Galerie
+Option par défaut
+•	Affichage en liste
+•	Affichage en Carte"
+"•	Actions :
+Au clic sur le bouton Commencer, le système redirige le  élément du parcours"
+"•	Actions :
+Au clic sur l’entité, l’utilisateur est redirigé vers la page de l’élément correspondant"
+ Afficher le menu de navigation
+"Cas d’utilisation décrivant la contribution d’un bloc En savoir plus.
+Le contributeur se place dans une page éditoriale et ajoute un plugin En savoir plus.
+A l’ajout d’un lien externe, les champs suivants s’affichent :"
+"•	Notes :
+Le système affiche un menu déroulant avec
+La catégorie Sélection de documents audio
+Les entités catégories de la rubrique Vidéo / Audio par ordre alphabétique
+La catégorie Toutes les documents audio
+La valeur par défaut est Sélection de documents audio"
+"•	Pertinence
+Par défaut
+•	Date de prise de vue décroissante / croissante
+•	Auteur croissant / décroissant
+•	Titre croissant / décroissant"
+ Contribuer un élément éditorial Twitter
+"-	Type d’accessibilité	Accessible aux [type handicap]	Accessible aux handicaps mentaux, handicaps moteur
+Publics	Type de public		Tous publics"
+"•	Actions :
+Au clic sur le bouton Retour, le système affiche la liste des médias
+Au clic sur le document à télécharger, celui-ci est ouvert dans une nouvelle fenêtre
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (en fonction du nombre de caractères récupérable par Facebook)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique Accessibilité  + Titre + lien raccourci + Champ texte libre twitter"
+Acteur : Internaute
+Acteur : Internaute
+"Règles de gestions
+•	Lors de la validation du formulaire :
+Si le champ de recherche est renseigné (différent de la valeur par défaut et non vide) alors la recherche s’effectue sur le champ de recherche pour toute les typologies (voir cas d’utilisation « Règles de Recherche »)
+•	A la validation du formulaire, l’internaute est renvoyé vers l’écran de résultats"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre du fichier	Champ texte	OUI		General
+Description	Champ texte	NON		General
+Fichier à télécharger	Champ upload	OUI		General"
+ Afficher un panier de notices [LOT 
+Position          
+"•	Actions :
+Au clic sur le titre de l’application, le système affiche l’application sélectionnée dans le bloc de mise en avant"
+Le formulaire est contribuable dans les langues anglaises et espagnoles
+Exemple d’affichage d éléments pour un bloc avec   éléments
+•	Règles de gestion :
+ Afficher le menu de navigation [LOT 
+Cas d’utilisation décrivant la consultation d’un bloc éditorial Image d’une page éditoriale.
+"Le système affiche le contenu du champ contenu juridique (champ éditable) :
+Conformément à la loi « informatique et libertés » du  janvier  vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser à l’adresse suivante :
+Etablissement public du M* - Service  rue de l’Université  Paris cedex  par courriel : cnil@M*.fr
+Vous pouvez également, pour des motifs légitimes, vous opposer au traitement de données vous concernant.
+Le M* est susceptible d’échanger ses fichiers avec d’autres partenaires culturels dans le respect des recommandations CNIL."
+ Bibliographie
+"Le système affiche :
+•	Le nombre d’éléments total
+•	Les boutons d’actions
+•	La liste des notices du panier
+Contrairement aux autres pages du module, le système n’affiche pas :
+•	Les facettes
+•	Les options d’affichages"
+"Notes
+•	Le système affiche la liste des événements associés automatiquement à la notice en cours de consultation
+•	La liste est limitée à  événements
+•	Pour chaque événement, le système affiche :
+Le titre
+L’image
+Le type
+La date de début de l’événement
+•	La liste des événements est triée par date de début de la plus proche à la plus lointaine par rapport à la date du jour"
+"Cas d’utilisation décrivant la contribution de la page Langue.
+Le contributeur se place en mode liste sur le dossier langue.
+Les champs suivants s’affichent :"
+"•	Règles de gestion
+Si une des données d’un évènement n'est pas renseignée, alors il n'est pas affiché.
+Si le nombre d’entités affichés est impair, le  bloc est rectangulaire
+Si le nombre d’entités affichés est pair, le  bloc est carré
+Un événement enfants est lié à un événement parent à l’aide du champ dans le cadre qui contient le  nom de l’événement parent"
+ Afficher les filtres
+"Cas d’utilisation décrivant la contribution d’un bloc En savoir plus.
+Le contributeur se place dans une page éditoriale et ajoute un plugin En savoir plus. Il peut :
+•	Sélectionner un document PDF existant
+•	Ajouter un document PDF
+•	Ajouter un lien interne ou externe"
+Cas d’utilisation décrivant la consultation du filtre de la page de liste des parcours
+"•	Règles de gestion :
+Le contenu importé génère une page éditoriale.
+Le contenu  importé est lié à un événement mais n’est pas structuré. L’utilisateur peut toutefois compléter normalement un événements"
+"Actions
+•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notice
+•	Au click sur le bouton d’ajout / suppression aux favoris
+Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché.
+Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché."
+Acteur : Internaute
+"Cas d’utilisation décrivant la contribution d’un créneau de dates / horaires d’un événement.
+A l’ajout d’un événement, les champs suivants s’affichent :"
+"•	Règles de gestion :
+Le champ date de naissance doit être au format « JJ/MM/AAAA »
+Le champ courriel doit contenir un « @ »
+Si un champ obligatoire n’est pas renseigné, le message suivant s’affiche : [Nom du champ] : doit être  de la page de confirmation"
+"•	Notes :
+L’utilisateur peut créer
+Un bloc avec  colonne. Les contenus s’affichent alors sur toute la largeur
+Un bloc avec  colonnes de même largeur.
+L’utilisateur peut créer dans ces colonnes
+Un élément image
+Un bloc d’images
+Un élément texte
+Un élément twitter
+Un élément vidéo
+Un élément son
+Un élément  élément Notices"
+"•	Actions :
+Au clic sur le lien En savoir plus, le système redirige vers  l’explorateur des collections avec la notice concernée
+Au clic sur l’icône Fermer, le système affiche le panier de notices
+Au clic sur la flèche de navigation gauche, le système affiche la notice précédente dans l’ordre défini dans le back-office
+Au clic sur la flèche de navigation droite, le système affiche la notice suivante dans l’ordre défini dans le back-office"
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Vidéo
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte	OUI		Général
+Sous-titre	Champ texte	NON		Général
+Description		Zone de texte riche	NON		Général
+Catégorie d’événement	Liste en arborescence des entités Catégories d’événements
+OUI	Multi-sélection
+Liste de valeurs :
+Aucune (par défaut)
+Entités Catégorie  liste déroulantes (heure + minute)	NON		Général
+Billet / tarif	Liste déroulante des entités Billet Tarif
+OUI	Multi-sélection
+Liste de valeurs :
+Aucun (par défaut)
+Entités Billet tarif	Général
+Public		Liste en arborescence des entités Public
+OUI	Multi-sélection
+Liste de valeurs :
+Tous publics (par défaut)
+Entités Public	Général
+Accessibilité		Liste déroulante des entités Accessibilité
+NON	Multi sélection
+Liste de valeurs :
+Aucun
+Handicap moteur (par défaut)
+Handicap Sonore T (par défaut)
+Entité Accessibilité	Général
+Elément Bloc d’images	Liste déroulante des entités media de types images	NON	Multi-sélection
+Général
+Elément image	Liste déroulante des entités media de types images	NON		Général
+Elément Twitter	Elements twitter	NON		Général
+Elément Vidéo	Liste déroulante des entités media de types vidéo	NON		Général
+Elément Audio	Liste déroulante des entités media de types audio	NON		Général
+Elément   de texte riche	NON		Général
+Evénements liés	Liste déroulante des entités Evénements  de catégorie Expositions	NON	Multi-sélection	Général
+Dans le cadre de	Liste déroulante des entités Evénements définies en tant qu’événement parent	NON	Liste de valeurs :
+Aucun (par défaut)
+Entités Evénement	Général
+Mots clés	Champ texte avec affichage des entités Mots-clés en auto-completion	NON	Données provenant d’Armadillo
+(Thésaurus culture)
+Multi-sélection	Général
+Personnes	Champ texte avec affichage des entités Personnes	NON
+Multi-sélection
+Sélection dans la base  Armadillo
+(Thésaurus personnes) 	Général
+Mots clés libre	Champ texte avec affichage des entités Mots-clés libre en auto-completion	NON		Général
+Ne pas afficher l’événement dans l’agenda	Case à cocher	NON	Non coché par défaut	Général
+Ne pas afficher les traductions de l’événement dans l’agenda	Case à cocher	NON	Non coché par défaut		Général
+Autre information	Champ texte	NON		Général
+Mettre en avant un événement dans l’agenda	Case à cocher	NON	Non coché par défaut		Général"
+Lien d’affichage du bloc de recherche
+"Civilité
+Liste déroulante	OUI		Sélectionner une valeur (par défaut)
+Madame
+Monsieur
+Mademoiselle
+Nom	Champ texte	OUI
+Prénom	Champ texte	OUI
+Courriel	Champ  cases à cocher	OUI		Personnelle
+professionnelle
+Adresse professionnelle
+Etablissement	Champ texte	NON
+Intitulé du poste	Champ texte	NON
+Complément adresse (chez, esc…)		Champ texte	NON
+N°, voie 	Champ texte	NON
+BP ou lieu-dit		Champ texte	NON
+Code postal (sur  chiffres)		Champ texte	NON
+Ville 	Champ texte	NON
+Pays 	Liste déroulante	NON		Liste de tous les pays
+France (par défaut)
+Adresse personnelle
+Complément adresse (chez, esc…)	Champ texte	NON
+N°, voie	Champ texte	NON
+BP ou lieu-dit	Champ texte	NON
+Code postal (sur  chiffres)	Champ texte	NON
+Ville	Champ texte	NON
+Pays	Liste déroulante	NON		Sélectionner une valeur (par défaut)
+Liste de tous les pays"
+Acteur : Internaute
+"•	Actions :
+Au clic de l’utilisateur en dehors de la pop-in, la pop-in disparait"
+ –  Afficher les éléments d’un  bloc éditorial
+ –  Afficher le bloc En savoir plus
+ et vidéos
+"Cas d’utilisation décrivant la contribution d’un bloc En savoir plus.
+Le contributeur se place dans événement et place dans l’onglet En savoir plus.
+A l’ajout d’un lien externe, les champs suivants s’affichent dans l’onglet En savoir plus:"
+"•	Notes
+Pour chaque entité, le système affiche :
+Le visuel Format vertical
+Les dates de début et de fin (voir cas d’utilisation afficher les événements à l’affiche)
+Le titre
+Le sous-titre
+Un bouton En savoir plus
+Un pictogramme rond
+Les entités événements  A Venir sont affichées dans un bloc par ordre de la date de fin croissant.
+Les pictogrammes ronds s’affichent  sous le bloc A Venir correspondent au nombre d’entités événements  A venir.
+Ils s’affichent s’il y a plus de  événement à afficher
+L’entité en cours de visualisation contient un rond actif."
+ Afficher le document Accessibilité dans le bloc principal
+ Afficher un élément éditorial Vidéo
+"Règles de gestions
+•	Si plus  notices sont présentes dans les résultats, alors une pagination est affichée (voir CU « Règles d’affichage de la pagination »)."
+Voir aussi le cas d’utilisation Contribuer un événement parent
+Cas d’utilisation décrivant la navigation dans un parcours
+Cas d’utilisation décrivant la consultation des événements liés.
+"Libellés en Front-office	Champ sélectionné en Back-office	règles d’affichage en Front-office	Libellés à afficher
+Horaires		Affichage des horaires du musée	Mardi, mercredi et  H -  H
+Jeudi, vendredi et  H -  H
+Dates	Date de début
+Date de fin	Du [date début] au [date de fin]	Du samedi  mai  au samedi  septembre 
+-	Type d’accessibilité	Accessible aux [type handicap]	Accessible aux handicaps mentaux, handicaps moteur"
+"•	Règles de gestion :
+Le système affiche la/les catégorie(s) de la photo seulement si la valeur Toutes les photos est sélectionnée dans le filtre
+Une catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie.
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+Cas d’utilisation décrivant la consultation du menu de navigation.
+Acteur : Internaute
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre de l’onglet	Ligne de texte	OUI		General
+Description	Zone de texte	OUI		General
+Position d’affichage	-	-		General
+Pages associées	Zone de sélection		OUI		General"
+Cas d’utilisation décrivant le fonctionnement d’une page qui liste des événements du site M* de type Expositions.
+ Afficher un bloc Parcours [LOT 
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur un lien Dans le cadre  d’un événement enfant."
+Acteur : Administrateur / Contributeur
+"Actions
+•	Au placement du curseur dans le champ de recherche, le texte par défaut ou précédemment saisi est effacé.
+•	Appuyer sur le bouton  « Entrée » lorsque le curseur est dans le champ de recherche, lance la recherche
+•	Après avoir saisi au minimum  caractères, le système affiche le volet des termes proposés en autocomplétion"
+"L’internaute arrive sur la page du site lorsque :
+•	Il a saisi l’url directe dans son navigateur
+•	Il a cliqué sur le bouton media de la télécommande"
+"Nom du champ	Type de champ	obligatoire	Commentaires
+Titre du parcours	Champ texte		OUI
+Sous-titre du parcours	Champ texte		NON
+Date éditoriale		Champ texte	NON
+Date de classement	Champ texte		OUI	Format jour/mois/année
+Catégorie de parcours	Liste déroulante des entités catégories de parcours	OUI
+Visuel
+Visuel vertical mobile	Champ image		OUI
+Visuel horizontal mobile	Champ image		OUI
+Visuel carré	Champ image		OUI
+Visuel de la page d’accueil desktop	Champ image		OUI
+Visuel large desktop	Champ image		OUI
+Page de fin
+Texte de remerciement	Zone de texte	NON
+Lien vers l’événement	Liste déroulante des entités événements	NON
+Libellé lié au lien des événements	Champ texte	NON
+Autres parcours	Liste déroulante des entités parcours	NON	Multi-sélection possible
+Ordonnancement possible
+Maximum  parcours sélectionnable
+Champ libre twiitter 	Champ texte	NON"
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre 	Champ texte			OUI	Si sélection Armadillo, champ récupéré automatiquement du champ Titre	Editorial
+Description	Champ texte	OUI	Si sélection Armadillo, champ récupéré automatiquement du champ Résumé	Editorial
+Visuel large	Champ  sélection Armadillo, champ récupéré automatiquement 	Editorial
+Catégorie de média	Liste déroulante des entités  catégories média vidéo
+OUI	Si sélection Armadillo, champ récupéré automatiquement du champ Catégorie
++ sélection manuelle
++ multi-sélection	Editorial
+Copyright
+Champ texte	NON	Si sélection Armadillo, champ récupéré automatiquement  tomographique	Case à cocher	-	Par défaut, non coché	Editorial
+Lien Iframe	Champ texte	OUI	Visible si champ  tomographique coché"
+"•	Actions :
+Au clic sur le document à télécharger, celui-ci est ouvert dans une nouvelle fenêtre
+Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagés
+Titre
+Description (en fonction du nombre de caractères récupérable par Facebook)
+Visuel large
+Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagés
+Libellé de partage de la rubrique Apprendre  + Titre + lien raccourci + Champ texte libre twitter"
+Cas d’utilisation décrivant la consultation d’une page éditoriale.
+Cas d’utilisation décrivant la consultation de la liste des média défini avec un type de média Applications
+"•	Règles de gestion :
+Si aucun résultat ne correspond à la recherche de l’utilisateur, le bloc de résultats Articles ne s’affiche pas"
+"Nom du champ		Type de champ	Obligatoire	Commentaires	onglet
+Texte	Champ RTE	OUI		General"
+"Cas d’utilisation décrivant la contribution d’un contenu Vidéo.  Ce contenu peut-être visible dans :
+•	une page éditoriale
+•	un événement
+•	la rubrique Médias de la télécommande
+Le contributeur peut ajouter une vidéo
+•	Depuis un upload
+•	Depuis la base de données Armadillo accessible via la recherche avancée
+•	Depuis une URL youtube"
+"•	Notes :
+Menu déroulant par année
+Une saison correspond à une période calendaire du  septembre de l’année N au  aout année   Exemple : du  septembre  au  août  des saisons s’affichent dans le menu déroulant sous cette forme : [année N]-[année  . Exemple : saison -2014
+Par défaut, le système sélectionne la saison en cours
+Le système affiche par ordre de date décroissante la liste des saisons : (N,  "
+"Notes
+•	Le système affiche l’ensemble des notices
+•	Le système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+Le titre
+Si le titre dépasse  caractères, alors le titre est coupé et suivi de « … ».
+Si le titre dépasse  caractères, alors au survol du titre, le titre complet est affiché.
+La vignette (taille)
+Pays
+Role
+Un bouton de suppression des favoris
+Un bouton de sélection pour actions"
+"•	Actions :
+Au clic sur un mode  d’accès, le système affiche sur la carte la liste des différents points d’accès correspondants.
+Au clic sur un point d’accès, le système affiche
+le trajet et la durée de parcours à pied depuis ce point jusqu’au M*
+un bloc de contenu les informations spécifiques pour chaque point (voir document en annexe)"
+"•	Notes :
+Le système affiche les flèches de navigation.
+Elles sont présentes sur toutes les catégories"
+ Afficher les résultats Documents
+Cas d’utilisation décrivant la navigation dans un parcours
+"Règles de gestions
+•	Dans une liste réduite, il n’y a pas de pagination
+•	Dans une liste complète, si plus  notices sont présentes dans les résultats, alors une pagination est affichée (voir CU « Règles d’affichage de la pagination »)."
+Acteur : Administrateur / Contributeur
+"•	Règles de gestion :
+L’utilisateur peut contribuer maximum  éléments texte"
+"•	Règles de gestion :
+A la validation d’une recherche, le système fait apparaitre
+Le nombre de résultats
+La liste de résultat"
+"•	Notes :
+Au scroll de la page, le système affiche un menu déroulant avec
+La catégorie Sélection de documents  entités catégories médias  par ordre alphabétique
+La catégorie Tous les documents 
+La valeur par défaut est Sélection de documents "
+Cas d’utilisation décrivant la consultation de la pop-in d’information
+"Notes
+•	Le système affiche les XX premières notices
+Dans une liste réduite XX est représenté par  une liste complète XX est représenté par  système affiche la liste triée selon (voir CU « Règles de tri des résultats »)
+Soit selon le tri par défaut, si aucune option de tri n’a été sélectionnée par l’internaute
+Soit selon le tri sélectionné par l’internaute
+•	Pour chaque notice le système affiche :
+La vignette (taille)
+Créateur
+Titre
+Sujet
+Date
+Un bouton d’Ajout aux favoris
+Si la notice est déjà présente dans les favoris alors un bouton de suppression est affichée en lieu est place"
+ Afficher les événements enfant d’un l’événement parent
+"•	Règles de gestion :
+Si le filtre Type de document a comme valeur sélectionné Œuvres ou archives, seul ce bloc de résultat s’affiche
+Si aucun résultat ne correspond à la recherche de l’utilisateur, le bloc de résultats Collections ne s’affiche pas"
+ et vidéos
+"•	Règles de gestion :
+Une catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie.
+Le menu déroulant s’affiche si au moins une catégorie est visible dans le menu déroulant
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+ Afficher un bloc d’images
+Acteur : Administrateur / Contributeur
+Acteur : Internaute
+Lien d’accès aux favoris
+"•	Notes :
+le système affiche en colonne de droite
+La  Afficher un élément Texte"
+"•	Actions :
+A la sélection d’une valeur dans les filtres, la liste des parcours est mise à jour"
+Cas d’utilisation décrivant la consultation d’un événement parent.
+"•	Actions :
+l’internaute est redirigé vers la page de l’événement au clic sur
+L’image
+Le titre
+La description
+Le bouton En savoir plus
+Evénements  A Venir
+Au balayage latéral de l’utilisateur de droite à gauche, le bloc affiche l’événement suivant
+Au balayage latéral de l’utilisateur de gauche à droite le bloc affiche l’événement précédent"
+ [LOT 
+"Cas d’utilisation décrivant la consultation des informations pratiques par mode d’accès (par exemple : metro, bus …)."
+" un parcours
+Le parcours est constitué des éléments suivants :
+•	La barre d’outils
+•	La page de démarrage
+•	Les éléments du parcours
+•	La page de fin"
+Acteur : Internaute
+"•	Notes :
+Le système affiche
+un menu déroulant des catégories
+•	Les valeurs sont les suivantes :
+La catégorie Tous les documents de presse
+Les entités catégories Media presse par ordre alphabétique
+•	La valeur par défaut est Tous les documents de presse
+Les champs date Mois
+•	Le système affiche
+la liste de tous les mois par ordre chronologique
+la valeur Tous les mois
+•	La valeur par défaut est le Tous les mois
+Le champ date Année
+•	Le système affiche
+la liste de toutes les années par ordre chronologique
+la valeur Toutes les années
+•	La valeur par défaut est le Toutes les années"
+"•	Règles de gestion :
+Si le musée est ouvert à la date du jour, le système affiche dans l’onglet comme horaire d’ouverture :
+L’icône de l’horloge en vert
+Le libellé suivant : Ouvert jusqu’à [heure de fin de la journée en cours]
+Si le musée est fermé à la date du jour, le système affiche dans l’onglet comme horaire d’ouverture :
+L’icône de l’horloge en rouge
+Le libellé suivant : Fermé aujourd’hui
+Si il y a plus de  jours successifs ayant les mêmes horaires, le système affiche Du  jour] au [dernier jour]
+Si il a  jours successifs ayant les mêmes horaires, le système affiche  jour],  jour] et [eme jour]
+Si il ya  jours successifs, le système affiche  jour],  jour]"
+"•	Règles de gestion :
+Le système affiche la/les catégorie(s) de la vidéo seulement si la valeur Toutes les vidéos ou sélection de vidéo est sélectionnée dans le filtre
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+"•	Règles de gestion
+Dans une langue autre que la langue française, l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français."
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte		OUI	Remontée automatiquement	General
+Type de sous élément	-	-	Lien vers un média	General
+Lien vers un média	Champ  media	OUI	Lien vers un média présent dans la fenêtre médias
+General"
+Acteur : Internaute
+"•	Règles de gestion :
+Le contributeur peut ordonnancer l’ordre des éléments liés à un parcours"
+ Contribuer la sélection de média vidéo
+ Afficher un élément Vidéo
+"Nom du champ		Type de champ	obligatoire	Commentaires	onglet
+Titre	Champ texte	OUI		General
+Visuel	Champ image	OUI		General
+Lien	Champ lien	OUI		General"
+"•	Actions :
+Au clic sur l’entité, l’utilisateur est redirigé vers la page de l’élément correspondant"
+ –  Afficher un élément Son
+"•	Notes :
+Pour ajouter une notice dans un panier, l’utilisateur sélectionne dispose de  filtres de recherche :
+Le titre de la notice
+Les catégories de notices
+Œuvre
+Bibliographies
+Films et vidéos
+Audio
+Archives
+Photographies du musée et des événements
+•	A l’affichage de la liste des résultats, le système affiche la liste des notices correspondantes par ordre alphabétique croissant. Pour chaque résultat, le système affiche :
+Titre de l’élément
+Visuel de l’élément"
+"•	Règles de gestion :
+Le système affiche les dates de début et date de fin seulement si une entité événement a un seul créneau de date"
+"•	Actions :
+Si l’entité est définie par un lien, au clic sur le visuel, le système ouvre une nouvelle fenêtre le lien concerné"
+"•	Actions :
+Au clic sur le bouton de partage, un menu supplémentaire s’affiche avec  boutons :
+Au clic sur le bouton Facebook, l’événement est partagé sur le réseau social de l’internaute
+Au clic sur le bouton Twitter, l’événement est partagé sur le réseau social de l’internaute"
+ les éléments d’un parcours
+ Audio
+Acteur : Administrateur / Contributeur
+ Contribuer un élément 
+ Afficher le nombre de résultats
+"•	Notes :
+Le système affiche dans l’ordre
+A l’emplacement du libellé Collections permanentes :
+•	Les tarifs de l’entité Billet Plateau des collections
+•	Les événements de type Expositions ou Installation à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans un autre lieu que dans la Galerie Jardin, séparés par un plus
+l’événement de type Expositions à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans le lieu galerie Galerie Jardin avec Les tarifs de l’entité Billet Expositions temporaires de la galerie Jardin
+A l’emplacement du libellé Tout visiter
+•	Les tarifs de l’entité Billet billet jumelé
+•	Le libellé Collections permanentes suivi de « + » et suivi de l’événement de type Expositions à l’affiche (voir cas d’utilisation Afficher les expositions)  défini dans le lieu galerie Galerie Jardin"

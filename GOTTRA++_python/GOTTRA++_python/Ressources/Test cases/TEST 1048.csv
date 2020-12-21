@@ -1,0 +1,14 @@
+""
+Cas d'usage couvert :;;CU014-007
+Libellé du cas d'usage :;;Afficher les résultats d’une recherche dans l’explorateur des collections
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un click sur l’onglet « Tous » affiche la liste réduite de résultats pour l’ensemble des typologie;;;;;s
+2;•	Un click sur un onglet d’une typologie affiche la liste complète des résultats pour la typologie sélectionnée;;;;;.
+3;•	Un click sur un résultat renvoie l’internaute vers le détail de la notice concerné;;;;;e
+4;•	Un clic sur le lien « Voir tous XXXX » renvoie l’internaute vers la liste complète;;;;;.
+5;•	Un clic sur le nom de la typologie renvoie l’internaute vers la liste complète;;;;;.
+6;•	Un click sur un résultat renvoie l’internaute vers le détail du résultat concern;;;;;é
+7;•	La sélection d’un filtre met à jour la liste de résulta;;;;;t
+8;•	La sélection d’une option de tri;;;;; trie la liste de résultat
+9;•	La sélection d’un mode d’affiche met à jour le mode d’affichag;;;;;e

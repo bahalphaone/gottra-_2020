@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU015-005
+Libellé du cas d'usage :;;Règles d’affichage de la pagination
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur un élément de la pagination met à jour la liste des notice;;;;;s

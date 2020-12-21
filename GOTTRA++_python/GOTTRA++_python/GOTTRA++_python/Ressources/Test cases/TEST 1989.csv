@@ -1,0 +1,11 @@
+""
+Cas d'usage couvert :;;CU006-058
+Libellé du cas d'usage :;;Afficher les événements enfant d’un l’événement parent
+
+STEP;Action;;;;;Résultat attendu
+1;Si l’internaute passe la souris sur le bloc de contenu;;;;; le bloc gris s’agrandit pour afficher la description de l’événement. Seuls les 100 premiers caractères sont affichés.
+2;L’internaute est ;;;;;redirigé vers la page de l’évènement au clic sur le bloc de contenu  ou sur les éléments suivants :
+3;L’image;;;;;
+4;Le titre;;;;;
+5;La description;;;;;
+6;Le bouton En savoir plus;;;;;

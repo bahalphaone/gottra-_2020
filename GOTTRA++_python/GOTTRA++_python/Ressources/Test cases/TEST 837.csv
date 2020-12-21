@@ -1,0 +1,14 @@
+""
+Cas d'usage couvert :;;CU005-0055
+Libellé du cas d'usage :;;Naviguer dans la liste de résultats
+
+STEP;Action;;;;;Résultat attendu
+1;Flèches de navigations : les flèches permettent de naviguer dans les positions définies de la Slidebar;;;;;.
+2;Au clic sur la flèche de droite de navigation;;;;; le système déplace le curseur dans la slideBar et à la position suivante et affiche les éléments suivants
+3;Au clic sur la flèche de gauche de navigation;;;;; le système déplace le curseur dans la slideBar à la position précédent et affiche les éléments suivants
+4;Slide Bar :;;;;;
+5;Au drag’n drop via la souris;;;;; le système déplace le curseur dans la slideBar et affiche les éléments de résultats correspondants
+6;•	Règles de gestion :;;;;;
+7;Flèches de navigations :;;;;;
+8;Si les éléments affichés sont les derniers de la liste;;;;; la flèche de droite n’est pas cliquable
+9;Si les éléments affichés sont les premiers de la liste;;;;; la flèche de gauche n’est pas cliquable

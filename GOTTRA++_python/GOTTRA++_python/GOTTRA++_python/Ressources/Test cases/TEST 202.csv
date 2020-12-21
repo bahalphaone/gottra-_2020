@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU004-001
+Libellé du cas d'usage :;;Afficher les collections sur la page d’accueil
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’icône de recherche (petite loupe);;;;; le système redirige vers la page de résultat (voir cas d’utilisation Recherche)

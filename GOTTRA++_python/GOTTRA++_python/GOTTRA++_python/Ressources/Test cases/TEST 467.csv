@@ -1,0 +1,10 @@
+""
+Cas d'usage couvert :;;CU103-014
+Libellé du cas d'usage :;;Afficher un bloc Evénements liés
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur la description;;;;; le système redirige vers la page définie en back-office. La page de destination peut-être :
+2;Une liste d’événements liés à un lieu;;;;;
+3;(voir cas d’utilisation Afficher les événements d’un lieu spécifique);;;;;
+4;Une liste spécifiques de pages éditoriales ou d’événement lieu;;;;;
+5;(voir cas d’utilisation Afficher une liste spécifiques de pages éditoriales ou d’événements);;;;;

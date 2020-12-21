@@ -1,0 +1,168 @@
+/* ************* */
+/* font */
+/* ************* */
+
+/* css downloaded from: https://google-webfonts-helper.herokuapp.com/fonts/montserrat?subsets=latin */ 
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('/fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/montserrat-v12-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('/fonts/montserrat-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/montserrat-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/montserrat-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/montserrat-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/montserrat-v12-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* ************* */
+/* layout */
+/* ************* */
+
+html,body {
+  height: 100%;
+}
+
+#gottra-background {
+	position:fixed;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(#232e36, #455664);
+}
+
+#gottra-body > #gottra-content {
+    position: relative;
+    min-height: 100%;
+}
+
+#gottra-content > .container {
+    padding: 80px 15px 65px; 
+}
+
+/* unused ? */
+#gottra-body .spacer{
+	margin-top: 40px;
+}
+
+
+/* ************* */
+/* header */
+/* ************* */
+.navbar.navbar-gottra {
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #080808;
+}
+
+
+/* ************* */
+/* footer */
+/* ************* */
+#gottra-body footer {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    line-height: 50px;
+    background-color: #38393b;               
+    text-align: center;
+}
+
+#gottra-body footer a {
+	color: #adadad;
+	margin-right: 20px;
+}
+/* ************* */
+/* addfiles page */
+/* ************* */
+#gottra-body .qq-gallery .qq-upload-button {
+	width: 200px;
+	border-radius: .25rem;
+	border-width: 0;
+	background: #4bacc6;
+	box-shadow: none;
+}
+
+#gottra-body .qq-gallery .qq-upload-retry {
+    left: 10px;
+    right: 10px;
+    margin-left: 0;
+}
+
+/* ************* */
+/* project page */
+/* ************* */
+.list-group-item.list-header {
+	background-color: grey;
+	color: white;
+}
+
+.list-group-item.list-header .list-group-item {
+    background-color: transparent;     
+    margin: auto;
+}
+
+.left-bordered {
+    border: solid;
+    border-width: 0 0 0 1px;
+}
+
+.list-group-no-border .list-group-item {
+	border: 0;
+	margin-bottom: 0;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.list-group-dashed .list-group-item:before  {
+    content: "—"; 
+    margin-left: -35px;
+    padding-right: 8px;
+}
+
+
+.list-group-no-border .list-group-item:first-child {
+    padding-top: 0.75rem;
+}
+
+.list-group-no-border .list-group-item:last-child {
+    padding-bottom: 0.75rem;
+}
+
+
+.usecase-item:not(.checked) {
+    color: #888;
+}
+
+
+/* ************* */
+/* new project */
+/* ************* */
+#radioBtn .notActive{
+    color: #4bacc6;
+    background-color: #fff;
+}
+
+/* ************* */
+/* login */
+/* ************* */
+.light-font {
+	color: #eee;
+}
+

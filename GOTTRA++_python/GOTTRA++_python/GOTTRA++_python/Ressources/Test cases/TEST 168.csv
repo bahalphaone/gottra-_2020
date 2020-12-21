@@ -1,0 +1,24 @@
+""
+Cas d'usage couvert :;;CU009-303
+Libellé du cas d'usage :;;Afficher le document 3D principal
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Retour;;;;; le système affiche la liste des médias
+2;Au clic sur le bouton Zoom du lecteur 3D;;;;; l’utilisateur peut zoomer vers l’avant ou vers l’arrière
+3;Au clic sur le bouton Déplacement du lecteur 3D;;;;; l’utilisateur peut déplacer l’objet avec sa souris dans les 3 dimensions
+4;Au clic sur le bouton Agrandissement;;;;; le lecteur s’affiche en plein écran
+5;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+6;Titre;;;;;
+7;Description (en fonction du nombre de caractères récupérable par Facebook);;;;;
+8;Visuel large;;;;;
+9;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+10;Libellé de partage de la rubrique Document 3D  + Titre + lien raccourc;;;;;i
+11;A la sélection d’une valeur dans le filtre;;;;; la liste des photos est mise à jour (voir cas d’utilisation Afficher la liste des photos)
+12;Au clic sur le titre de la photo;;;;; le système affiche la photo sélectionné dans le bloc de photo principale (voir  cas d’utilisation Afficher la photo principale)
+13;Au clic sur le bouton Retour;;;;; le système affiche la liste des médias
+14;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+15;Titre;;;;;
+16;Description (en fonction du nombre de caractères récupérable par Facebook);;;;;
+17;Visuel large;;;;;
+18;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+19;Libellé de partage de la rubrique Photo  + Titre + lien raccourci + Champ texte libre twitte;;;;;r

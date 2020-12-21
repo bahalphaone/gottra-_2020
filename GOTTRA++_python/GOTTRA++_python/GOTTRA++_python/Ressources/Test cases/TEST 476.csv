@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU104-008
+Libellé du cas d'usage :;;Afficher les résultats Objet des collections
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’entité;;;;; l’utilisateur est redirigé vers la page de l’élément correspondant

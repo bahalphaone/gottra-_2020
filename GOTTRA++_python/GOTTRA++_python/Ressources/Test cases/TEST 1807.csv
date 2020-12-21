@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU012-001
+Libellé du cas d'usage :;;Afficher les informations de billetterie depuis la télécommande
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur un des billets;;;;; l’utilisateur est redirigé vers le lien concerné

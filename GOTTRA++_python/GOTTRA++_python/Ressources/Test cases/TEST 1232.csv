@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU003-011
+Libellé du cas d'usage :;;Afficher un panier de notices [LOT 3]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le lien Voir plus;;;;; le système affiche le bloc en totalité
+2;Au passage de la souris sur un des  visuels;;;;; le titre de la notice s’affiche sous le visuel
+3;Au clic sur un visuel d’une notice;;;;; le système affiche l’élément (voir Afficher un élément du panier)

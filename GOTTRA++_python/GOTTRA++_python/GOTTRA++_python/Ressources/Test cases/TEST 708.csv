@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU006-020
+Libellé du cas d'usage :;;Afficher le bloc de présentation
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’ancre;;;;; le système redirige l’utilisateur vers le bloc de contenu A propos

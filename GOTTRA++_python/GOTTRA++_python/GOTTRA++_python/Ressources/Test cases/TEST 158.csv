@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU009-005
+Libellé du cas d'usage :;;Afficher la liste des vidéos
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bloc  de la vidéo;;;;; le système affiche la vidéo sélectionnée dans le bloc de vidéo principale (voir cas d’utilisation Afficher le document vidéo principal)

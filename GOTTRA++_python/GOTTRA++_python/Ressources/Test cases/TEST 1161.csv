@@ -1,0 +1,10 @@
+""
+Cas d'usage couvert :;;CU101-003
+Libellé du cas d'usage :;;Afficher le bouton de langue
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton de la langue;;;;; le système affiche une liste de langue avec pour chaque langue ci-dessous le libellé de la langue traduite et un PDF à télécharger :
+2;Français;;;;;
+3;Anglais;;;;;
+4;Espagnol;;;;;
+5;Autres entités langues (voir l’annexe Liste de langues);;;;;

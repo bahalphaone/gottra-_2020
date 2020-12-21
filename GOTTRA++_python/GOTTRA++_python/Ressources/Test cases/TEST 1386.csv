@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU001-004
+Libellé du cas d'usage :;;Afficher le bouton de partage
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton de partage;;;;; un menu supplémentaire s’affiche avec 2 boutons :
+2;Au clic sur le bouton Facebook;;;;; l’événement est partagé sur le réseau social de l’internaute
+3;Au clic sur le bouton Twitter;;;;; l’événement est partagé sur le réseau social de l’internaute

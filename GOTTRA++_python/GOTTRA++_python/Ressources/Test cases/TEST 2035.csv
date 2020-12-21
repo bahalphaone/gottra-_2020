@@ -1,0 +1,10 @@
+""
+Cas d'usage couvert :;;CU017-004
+Libellé du cas d'usage :;;Audio
+
+STEP;Action;;;;;Résultat attendu
+1;•	Les champs concernés par les rebonds sont cliquables (voir CU « Liste des champs soumis aux rebonds »);;;;;
+2;•	Un clic sur le lien retour;;;;; l’internaute revient à la page précédemment consultée.
+3;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+4;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+5;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.

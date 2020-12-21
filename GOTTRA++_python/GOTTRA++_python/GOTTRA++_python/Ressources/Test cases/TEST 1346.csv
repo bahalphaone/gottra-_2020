@@ -1,0 +1,14 @@
+""
+Cas d'usage couvert :;;CU104-006
+Libellé du cas d'usage :;;Naviguer dans la liste de résultats
+
+STEP;Action;;;;;Résultat attendu
+1;Les flèches permettent de naviguer à travers les résultats;;;;;.
+2;Le système affiche les éléments suivants;;;;;.
+3;Au clic sur la flèche de droite de navigation;;;;;
+4;Au swipe avec le doigt de gauche à droite;;;;;
+5;Le nombre d’éléments affichés est en fonction de la largeur de la fenêtre du navigateu;;;;;r
+6;Le système affiche les éléments précédent;;;;;s
+7;Au clic sur la flèche de gauche de navigation;;;;;
+8;Au swipe avec le doigt de droite à gauche;;;;;
+9;Le nombre d’éléments affichés est en fonction de la largeur de la fenêtre du navigateu;;;;;r

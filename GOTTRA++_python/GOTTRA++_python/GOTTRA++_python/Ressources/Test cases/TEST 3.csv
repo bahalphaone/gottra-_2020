@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU001-001
+Libellé du cas d'usage :;;Afficher le header
+
+STEP;Action;;;;;Résultat attendu
+1;Si l’utilisateur clique;;;;;
+2;sur le logo depuis une page intérieure;;;;; le système redirige vers la page d’accueil du site sans jouer la vidéo du bloc identitaire et sans les informations temps réels..
+3;Sur le logo depuis la page d’accueil;;;;; le système affiche le bloc d’information temps réel et le bloc identitaire
+4;Si l’utilisateur clique sur le bouton d’accessibilité;;;;; le système redirige vers une page éditoriale.

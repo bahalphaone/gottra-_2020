@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU005-001
+Libellé du cas d'usage :;;Afficher les éléments de la recherche
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’icône de fermeture (croix);;;;; la page de recherche disparait au profit de la page précédemment affiché

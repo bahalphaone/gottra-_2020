@@ -1,0 +1,54 @@
+""
+Cas d'usage couvert :;;CU105-0336
+Libellé du cas d'usage :;;Afficher un élément du panier de notices [LOT 3]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le lien En savoir plus;;;;; le système redirige vers  l’explorateur des collections avec la notice concernée
+2;Au clic sur l’icône Fermer;;;;; le système affiche le panier de notices
+3;Au clic sur la flèche de navigation gauche;;;;; le système affiche la notice précédente dans l’ordre défini dans le back-office
+4;Au clic sur la flèche de navigation droite;;;;; le système affiche la notice suivante dans l’ordre défini dans le back-office
+5;L’internaute est ;;;;;redirigé vers la page de l’évènement au clic sur le bloc de contenu  ou sur les éléments suivants :
+6;L’image;;;;;
+7;Le titre;;;;;
+8;La description;;;;;
+9;Le bouton En savoir plus;;;;;
+10;Au clic sur le bouton Date de fin : le système affiche un calendrier pour sélectionner une date / heure de fi;;;;;n
+11;A la saisie d’une Date de fin;;;;; la liste des événements est mises à jour
+12;Au clic sur le lien Tout désélectionner;;;;; l’ensemble des catégories d’évènements sont désélectionnés
+13;Au clic sur le bouton de validation du formulaire;;;;; le bloc de filtre disparait et la liste des résultats est mise à jour
+14;La liste des événements se met à jour si ;;;;;:
+15;L’utilisateur a effectué une modification dans la date de début ou la date de fin du men;;;;;u
+16;L’utilisateur a modifié les filtres de recherch;;;;;e
+17;Action sur l’événement :;;;;;
+18;Au clic sur une entité événement;;;;; le menu événement s’affiche avec 3 boutons :
+19;•	Boutons En savoir plus : au clic sur ce bouton;;;;; l’utilisateur est redirigé vers la page de l’événement
+20;•	Bouton Billetterie : au clic sur ce bouton;;;;; l’utilisateur est redirigé vers la page billetterie
+21;•	Bouton Ajouter à l’agenda : au clic sur ce bouton;;;;; l’événement est ajouté à l’agenda de l’internaute à l’aide de l’application tierce présente sur le téléphone.
+22;Le titre,  la catégorie;;;;; les dates et les horaires de l’événement sont partagés.
+23;Pour les événements de catégorie Expositions ou Installations;;;;; les horaires ne sont pas partagés.
+24;Au clic sur une entité événement ayant son menu événement déjà ouvert;;;;; ce menu disparait
+25;Action sur l’icône horaire de l’événement :;;;;;
+26;Au clic sur l’icône horaire :;;;;;
+27;•	Si l’événement est lié à des entités Créneaux de dates;;;;; le système affiche la date et l’horaire liés à l’entité Créneaux de dates de l’événement
+28;•	Sinon le système affiche;;;;;
+29;Au clic sur une l’icône ou les horaires d’un événement;;;;; l’icône et les horaires disparaissent
+30;A l’aide d’un glisser-déposer;;;;; la carte se déplace en fonction de la position de la souris
+31;Au zoom sur la carte via un double clic;;;;; la carte est zoomée
+32;Au clic un point d’accès;;;;; voir le cas d’utilisation Afficher depuis la télécommande les informations des points d’accès
+33;Au clic sur le bouton Tarifs :;;;;;
+34;Si le tableau des tarifs était préalablement caché;;;;; le tableau des tarifs s’affiche de bas en haut
+35;Si le tableau des tarifs était préalablement affiché;;;;; le tableau des tarifs disparait de haut en bas
+36;Au clic sur le bouton Voir tous les tarifs;;;;; l’utilisateur est redirigé vers une page éditoriale
+37;Au clic sur le bouton Achetez mon billet;;;;; l’utilisateur est redirigé vers la page billetterie
+38;Au clic sur le bouton Horaires :;;;;;
+39;Si le tableau des horaires était préalablement caché;;;;; le tableau des horaires s’affiche de bas en haut
+40;Si le tableau des horaires était préalablement affiché;;;;; le tableau des horaires disparait de haut en bas
+41;Au clic sur le point d’accès du musée M*;;;;; le pointage affiche les informations suivantes
+42;Nom du musée;;;;;
+43;Adresse du musée;;;;;
+44;Le bouton itinéraire;;;;;
+45;Au clic sur un point d’accès;;;;; le système affiche
+46;un bloc de contenu les informations spécifiques pour chaque point (voir document en annexe);;;;;
+47;Le bouton itinéraire.;;;;;
+48;Au clic sur le bouton Itinéraire d’un point d’accès;;;;; le système affiche sur la carte le trajet à pied et le temps de parcours entre le musée et le point d’accès sélectionné.
+49;Au clic sur le bouton Itinéraire du musée M*;;;;; le système affiche sur la carte le trajet à pied et le temps de parcours entre le musée et la position géolocalisé de l’utilisateur.

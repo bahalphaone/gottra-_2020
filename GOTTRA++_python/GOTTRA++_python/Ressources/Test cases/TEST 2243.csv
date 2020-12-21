@@ -1,0 +1,13 @@
+""
+Cas d'usage couvert :;;CU009-203
+Libellé du cas d'usage :;;Afficher l’application principal
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Retour;;;;; le système affiche la liste des médias
+2;Au clic sur un bouton de store;;;;; le système affiche une nouvelle fenêtre avec l’url de téléchargement concerné
+3;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+4;Titre;;;;;
+5;Description (en fonction du nombre de caractères récupérable par Facebook);;;;;
+6;Visuel large;;;;;
+7;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+8;Libellé de partage de la rubrique applications mobiles  + Titre + lien raccourci + Champ texte libre twitte;;;;;r

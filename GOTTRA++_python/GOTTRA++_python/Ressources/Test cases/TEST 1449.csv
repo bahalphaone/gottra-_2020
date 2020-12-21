@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU008-007
+Libellé du cas d'usage :;;Afficher le bloc d’informations par  mode d’accès
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur un mode  d’accès;;;;; le système affiche sur la carte la liste des différents points d’accès correspondants.
+2;Au clic sur un point d’accès;;;;; le système affiche
+3;le trajet et la durée de parcours à pied depuis ce point jusqu’au M*;;;;;
+4;un bloc de contenu les informations spécifiques pour chaque point (voir document en annexe);;;;;

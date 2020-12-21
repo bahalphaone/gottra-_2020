@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU002-003
+Libellé du cas d'usage :;;Afficher le bloc Identitaire
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur un lien;;;;; l’utilisateur est redirigé vers le lien spécifié.

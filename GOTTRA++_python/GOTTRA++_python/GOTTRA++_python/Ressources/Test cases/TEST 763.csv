@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU102-005
+Libellé du cas d'usage :;;Afficher le bloc Plan d’accès / Infos pratiques
+
+STEP;Action;;;;;Résultat attendu
+1;L’utilisateur ne peut pas effectuer de  glisser-déposer;;;;; la carte ne se déplace donc en fonction de la position du clic
+2;Au clic le bouton Infos pratiques;;;;; l’utilisateur est redirigé vers la rubrique Infos pratiques (voir le cas d’utilisation Afficher les informations des points d’accès )

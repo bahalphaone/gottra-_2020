@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU009-604
+Libellé du cas d'usage :;;Contribuer un document apprendre
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Retour;;;;; le système redirige vers la page de saisie
+2;Au clic sur le bouton OK;;;;; le formulaire est validé et sauvegardé. Le message suivant est administrable et est alors affiché :
+3;Votre inscription a bien été prise en compte. Vous recevrez votre Pass Etudiant soit à votre domicile soit lors de votre premier cours au M*. Pour être valide;;;;; vous intégrerez à ce pass votre photographie d’identité.

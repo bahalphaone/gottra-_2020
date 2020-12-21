@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU102-006
+Libellé du cas d'usage :;;Afficher le bloc Vous êtes
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur la flèche droite de la navigation;;;;; le système affiche le prochain onglet avec ses pages associées
+2;Au clic sur la flèche gauche de la navigation;;;;; le système affiche le précédent onglet avec ses pages associées
+3;Au clic sur le bouton En savoir plus d’une page associée;;;;; le système redirige vers la page concernée

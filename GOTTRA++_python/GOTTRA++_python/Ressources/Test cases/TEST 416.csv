@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU009-302
+Libellé du cas d'usage :;;Afficher la liste des documents 3D
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre du document 3D;;;;; le système affiche le document 3D sélectionnée dans le bloc principal
+2;Dans une langue autre que la langue française;;;;; l'interface et les éléments traduits apparaissent dans la langue choisie. Si un élément n'est pas traduit il apparaît en français.

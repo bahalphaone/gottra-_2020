@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU014-002
+Libellé du cas d'usage :;;Afficher la colonne de gauche de l’explorateur des collections
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un clic sur le lien affiche le contenu de la facette Personnes (voir cas d’utilisation;;;;;)
+2;•	Un clic sur le lien affiche le contenu de la facette Cultures (voir cas d’utilisation;;;;;)
+3;•	Un clic sur le lien affiche le contenu de la facette Pays (voir cas d’utilisation;;;;;)

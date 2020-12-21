@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="fragments/layout">
+<head>
+<title th:text="${projectTitle}">Project</title>
+<meta charset="UTF-8" />
+
+
+<th:block th:include="files/fineUploader :: head"></th:block>
+
+</head>
+<body>
+	<div class="card" layout:fragment="content">
+
+		<h5 class="card-header" th:text="#{addfiles.title(${projectTitle})}">Project</h5>
+
+		<div class="card-body">
+			<div class="form-group">
+				<div id="uploader"></div>
+			</div>
+			<div class="form-group">
+				<a th:href="'/project/' + ${projectId}" class="btn btn-primary"
+					role="button">&nbsp;OK&nbsp;</a>
+			</div>
+
+			<script th:inline="javascript">
+/*<![CDATA[*/
+    var projectId = /*[[${projectId}]]*/;
+    var text = {
+    	failUpload:	/*[[#{fineuploader.uploadfailed}]]*/
+    };
+/*]]>*/
+</script>
+			<script>		
+			var uploader = new qq.FineUploader({
+				debug : true,
+				element : document.getElementById('uploader'),
+				validation: {
+					acceptFiles: '.docx,.txt,.pdf',
+	                allowedExtensions: ['docx', 'pdf', 'txt']
+				},
+				request : {
+					endpoint : "/fileUpload2", 
+					customHeaders : csrfHeaders,
+					params: {projectId: projectId}					
+				},
+				text: text
+			})
+		</script>
+		</div>
+	</div>
+</body>
+</html>

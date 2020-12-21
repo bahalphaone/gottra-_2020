@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU001-005
+Libellé du cas d'usage :;;Afficher le menu de navigation
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’une des entrées de niveau 1;;;;;
+2;les rubriques correspondantes de niveau 2 et 3 s’affichent;;;;;
+3;les boutons de pages s’affichent;;;;;
+4;Au clic sur l’icône Etoile;;;;; l’utilisateur est redirigé vers la page d’accueil

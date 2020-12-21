@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU009-003
+Libellé du cas d'usage :;;Afficher le filtre
+
+STEP;Action;;;;;Résultat attendu
+1;A la sélection d’une valeur dans le filtre;;;;; la liste des vidéos est mise à jour (voir cas d’utilisation Afficher la liste des vidéos)
+2;Une catégorie s’affiche dans le menu déroulant seulement si au moins un média est lié à cette catégorie.;;;;;

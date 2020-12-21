@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU006-007
+Libellé du cas d'usage :;;Afficher les événements à l’affiche
+
+STEP;Action;;;;;Résultat attendu
+1;Le visuel;;;;;
+2;Le titre;;;;;
+3;La description;;;;;
+4;Le bouton En savoir plus;;;;;

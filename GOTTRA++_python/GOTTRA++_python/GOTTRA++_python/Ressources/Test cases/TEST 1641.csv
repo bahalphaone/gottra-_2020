@@ -1,0 +1,13 @@
+""
+Cas d'usage couvert :;;CU014-009
+Libellé du cas d'usage :;;Afficher le détail d’une notice (détail d’un résultat)
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un click sur le titre ou la vignette renvoie l’internaute vers la page éditoriale dans une nouvelle fenêtr;;;;;e
+2;•	Un click sur le bouton « Voir tous » affiche le reste des résultats dans le même bloc;;;;;
+3;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail d’un événement dans une nouvelle fenêtr;;;;;e
+4;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+5;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+6;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+7;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+8;•	Au clic,  sur le bouton « Voir tous les résultats de la typologie » lance une recherche sur l’ensemble des typologies pour retrouver les notices ayant les mêmes valeurs Personnes,  Pays;;;;; Culture. L’onglet de recherche sera fixé sur la typologie concernée.

@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU104-004
+Libellé du cas d'usage :;;Afficher la liste de filtre
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic dans le champ date de début ou dans le champ date de fin;;;;; le calendrier se déplie
+2;A la saisie d’une valeur dans un filtre;;;;; la liste et le nombre de résultat se mettent à jour

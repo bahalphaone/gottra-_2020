@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU002-007
+Libellé du cas d'usage :;;Afficher le bloc Vous êtes
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur un type libellé d’onglet;;;;; le système affiche :
+2;Les pages associées correspondantes;;;;;
+3;"Au clic sur le lien ""en savoir plus"" d’une page associée";;;;; le système redirige vers la page concernée

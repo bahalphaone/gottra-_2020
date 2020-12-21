@@ -1,0 +1,19 @@
+""
+Cas d'usage couvert :;;CU001-002
+Libellé du cas d'usage :;;Afficher le bouton de langue
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur la langue sélectionnée;;;;; le système affiche les autres langues
+2;Si la langue sélectionnée est français;;;;; le système affiche
+3;•   En deuxième langue;;;;;  le bouton Anglais (EN) à la place du bouton réseau social Twitter
+4;•   En troisième langue;;;;; le bouton Espagnol (ES) à la place bouton réseau social Facebook
+5;•   Le bouton +  (voir cas d’utilisation Afficher la page Langue);;;;;
+6;Si la langue sélectionnée est anglais;;;;; le système affiche
+7;•   En deuxième langue;;;;;  le bouton Francais (FR) à la place du bouton réseau social Twitter
+8;•   En troisième langue;;;;; le bouton Espagnol (ES) à la place bouton réseau social Facebook
+9;•   Le bouton +  (voir cas d’utilisation Afficher la page Langue);;;;;
+10;Si la langue sélectionnée est espagnol;;;;; le système affiche
+11;•   En deuxième langue;;;;;  le bouton Francais (FR) à la place du bouton réseau social Twitter
+12;•   En troisième langue;;;;; le bouton Anglais (EN) à la place bouton réseau social Facebook
+13;•   Le bouton +  (voir cas d’utilisation Afficher la page Langue);;;;;
+14;Au clic sur la deuxième ou troisième langue;;;;; le système réaffiche  les boutons réseaux sociaux et le bouton + est caché

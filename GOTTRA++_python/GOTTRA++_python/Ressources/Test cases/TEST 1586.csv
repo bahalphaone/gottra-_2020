@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU006-010
+Libellé du cas d'usage :;;Afficher les filtres
+
+STEP;Action;;;;;Résultat attendu
+1;A la nouvelle sélection d’une valeur dans les menus déroulants;;;;; la liste des entités événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur

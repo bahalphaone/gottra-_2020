@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU008-003
+Libellé du cas d'usage :;;Afficher le bloc d’informations pratiques
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Horaires;;;;; le système affiche les horaires (voir cas d’utilisation Afficher les horaires)
+2;Au clic sur le bouton Tarifs;;;;; le système affiche les tarifs (voir cas d’utilisation Afficher les tarifs)

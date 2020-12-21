@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU103-015
+Libellé du cas d'usage :;;Afficher un bloc Partenaires
+
+STEP;Action;;;;;Résultat attendu
+1;Si l’entité est définie par un lien,  au clic sur le visuel;;;;; le système ouvre une nouvelle fenêtre le lien concerné

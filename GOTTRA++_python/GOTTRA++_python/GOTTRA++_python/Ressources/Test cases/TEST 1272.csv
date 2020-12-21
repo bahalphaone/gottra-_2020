@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU007-003
+Libellé du cas d'usage :;;Afficher le filtre de résultat de l’agenda
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le lien Tout désélectionner;;;;; l’ensemble des catégories d’évènements sont désélectionnés
+2;Si le bloc de filtre est visible et si l’internaute clique sur le lien Filtrer les résultats;;;;; le bloc de filtre disparait
+3;Si le bloc de filtre est caché et si l’internaute clique sur le lien Filtrer les résultats;;;;; le bloc de filtre s’affiche

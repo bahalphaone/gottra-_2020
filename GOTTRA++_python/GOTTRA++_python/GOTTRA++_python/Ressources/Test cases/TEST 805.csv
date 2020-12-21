@@ -1,0 +1,13 @@
+""
+Cas d'usage couvert :;;CU009-504
+Libellé du cas d'usage :;;Afficher le document Accessibilité dans le bloc principal
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Retour;;;;; le système affiche la liste des médias
+2;Au clic sur le document à télécharger;;;;; celui-ci est ouvert dans une nouvelle fenêtre
+3;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+4;Titre;;;;;
+5;Description (en fonction du nombre de caractères récupérable par Facebook);;;;;
+6;Visuel large;;;;;
+7;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+8;Libellé de partage de la rubrique Accessibilité  + Titre + lien raccourci + Champ texte libre twitte;;;;;r

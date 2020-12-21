@@ -1,0 +1,15 @@
+""
+Cas d'usage couvert :;;CU101-005
+Libellé du cas d'usage :;;Afficher la télécommande [LOT 1]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur chaque élément;;;;; le système affiche le contenu correspondant
+2;Billetterie (voir cas d’utilisation Afficher les informations de billetterie depuis la télécommande);;;;;
+3;Informations pratiques (voir cas d’utilisation Afficher les informations pratiques depuis la télécommande );;;;;
+4;Réseaux sociaux (voir cas d’utilisation Afficher les réseaux sociaux depuis la télécommande );;;;;
+5;Recherche (voir cas d’utilisation Afficher la recherche depuis la télécommande );;;;;
+6;Agenda (voir cas d’utilisation Afficher l‘agenda depuis la télécommande );;;;;
+7;Médias (voir cas d’utilisation Afficher les médias depuis la télécommande );;;;;
+8;Au clic sur l’icône de fermeture :;;;;;
+9;la page se ferme pour afficher la page courant;;;;;e
+10;l’icône de fermeture est remplacée par l’icône du menu de navigation;;;;;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8" />
+<title>Default title for my pages</title>
+
+<link rel="stylesheet" href="../../static/css/bootstrap.min.css"
+	th:href="@{/css/custombootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" href="../../static/css/main.css"
+	th:href="@{/css/main.css}" />
+<link rel="stylesheet" href="/vendor/fontawesome-free/v5.1.0/css/all.css" />
+
+</head>
+<body id="gottra-body">
+    <div id="gottra-background"></div>     
+	<div th:replace="fragments/headerGottra :: header"></div>
+
+	<div id="gottra-content">
+		<div class="container">
+			<div layout:fragment="content">A placeholder for real content.
+			</div>
+
+		</div>
+		<div th:replace="fragments/footer :: footer">&copy; 2016 The
+			Static Templates</div>
+	</div>
+
+	<!-- ************************************************************ -->
+
+
+	<script src="/vendor/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/vendor/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+	<div style="display:none" layout:fragment="includescripts"> A placeholder to include dedicated page scripts.</div>
+</body>
+</html>

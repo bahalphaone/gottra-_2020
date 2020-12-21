@@ -1,0 +1,54 @@
+""
+Cas d'usage couvert :;;CU012-002
+Libellé du cas d'usage :;;Contribuer les informations de la billetterie
+
+STEP;Action;;;;;Résultat attendu
+1;Navigation via les flèches du clavier;;;;;
+2;Si l’élément en cours de consultation ne contient pas de bloc de texte;;;;; au clic sur les touches du clavier :
+3;•	Flèche gauche : le système affiche l’élément précéden;;;;;t
+4;•	Flèche droite : le système affiche l’élément suivan;;;;;t
+5;Si l’élément en cours de consultation contient au moins 2 blocs de texte;;;;; au clic sur les touches du clavier :
+6;•	Flèche gauche : le système affiche le bloc de texte suivan;;;;;t
+7;•	Flèche droite : le système affiche le bloc de texte précéden;;;;;t
+8;Navigation via le scroll de la souris;;;;;
+9;Si l’élément en cours de consultation ne contient pas de bloc de texte :;;;;;
+10;•	Au scroll haut : le système affiche l’élément précéden;;;;;t
+11;•	Au scroll bas : le système affiche l’élément suivan;;;;;t
+12;Si l’élément en cours de consultation contient au moins 2 blocs de texte :;;;;;
+13;•	Au scroll haut : le système affiche l’élément texte précédent;;;;;
+14;•	Au scroll bas : le système affiche l’élément texte suivant;;;;;
+15;Au clic sur le bouton Etoile;;;;; le système redirige vers la page d’accueil du site
+16;Au clic sur le bouton Grille de parcours;;;;; le système redirige vers la liste des parcours
+17;Au clic sur le bouton plein écran;;;;; le système affiche la fonction plein écran du navigateur
+18;Au clic sur le bouton Aide;;;;; le système affiche la pop-in d’information
+19;Au passage de la souris sur la barre d’outils;;;;; la barre d’éléments s’affiche
+20;Au clic sur le bouton Commencer;;;;; le système redirige le 1er élément du parcours
+21;Au clic sur un des éléments de la barre;;;;;
+22;le système redirige l’élément concerné;;;;;
+23;la barre d’éléments se cach;;;;;e
+24;Au clic de l’utilisateur en dehors de la pop-in;;;;; la pop-in disparait
+25;Au survol de la souris sur le visuel;;;;; le curseur de la souris devient un curseur Zoom.
+26;Au 1er clic :;;;;;
+27;•	L’affichage effectue un zoom dans le visuel avec le niveau 2 de zoom vers le point sélectionné par l’utilisateu;;;;;r
+28;•	La barre de zoom s’affiche;;;;;
+29;•	Les blocs de texte ne sont pas affiché;;;;;s
+30;•	Le curseur de la souris devient un curseur Fermer.;;;;;
+31;Au second clic;;;;; on réinitialise l’affichage de l’élément sans zoom et le curseur redevient un curseur zoom
+32;Au clic sur un des ronds;;;;; le bloc de texte correspondant s’affiche
+33;Au clic sur le bouton +;;;;; le système zoome d’un niveau dans le visuel
+34;Au clic sur le bouton -;;;;; le système dézoome d’un niveau dans le visuel
+35;Au clic dans un niveau de l’échelle de zoom;;;;; le système affiche le visuel avec le zoom correspondant
+36;Au clic sur le bouton Recommencer;;;;; le système redirige vers la page de démarrage du parcours
+37;Au clic sur le bouton avec libellé;;;;; le système redirige vers la page de l’événement
+38;Les autres parcours;;;;;
+39;Au clic sur le titre ou le visuel d’un parcours;;;;; le système redirige vers la page de démarrage du parcours correspond
+40;Au clic sur un rond de navigation;;;;; la liste des parcours défile horizontalement et met le parcours sélectionné en avant
+41;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+42;Titre;;;;;
+43;Sous-titre;;;;;
+44;Visuel carré;;;;;
+45;Lien qui pointe vers la page de démarrage du parcour;;;;;s
+46;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+47;Libellé Champ de partage twitter  + Titre + lien raccourci de la page de démarrage du parcours + Champ libre twiitte;;;;;r
+48;A la sélection d’une valeur dans les filtres;;;;; la liste des parcours est mise à jour
+49;Au scroll de la page;;;;; la liste de parcours se déplace dans la page

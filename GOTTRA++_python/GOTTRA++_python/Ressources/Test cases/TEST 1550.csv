@@ -1,0 +1,13 @@
+""
+Cas d'usage couvert :;;CU001-011
+Libellé du cas d'usage :;;Afficher le footer
+
+STEP;Action;;;;;Résultat attendu
+1;Un clic sur un lien permet à l’utilisateur d’accéder directement à la page concernée (dans la même  fenêtre);;;;;.
+2;Un clic sur un bouton « réseaux sociaux » permet à l’utilisateur d’accéder au réseau social concerné (dans une nouvelle fenêtre) ;;;;;:
+3;Un clic sur le bouton facebook ;;;;;redirige vers la page suivante :
+4;https://www.facebook.com/M*;;;;;
+5;Un clic sur le bouton twiiter ;;;;;redirige vers la page suivante :
+6;https://twitter.com/M*;;;;;
+7;Un clic sur le bouton youtube ;;;;;redirige vers la page suivante :
+8;https://www.youtube.com/user/M*;;;;;

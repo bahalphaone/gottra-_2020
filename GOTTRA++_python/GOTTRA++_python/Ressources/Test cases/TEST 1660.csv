@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU102-004
+Libellé du cas d'usage :;;Afficher le bloc Carrousel
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur l’image ou le titre de l’entité;;;;; le système redirige vers la page de destination
+2;A l’aide d’un balayage latéral de gauche à droite;;;;; l’entité carrousel suivante est affichée
+3;A l’aide d’un balayage latéral de droite à gauche;;;;; l’entité carrousel précédente est affichée
+4;.;;;;;

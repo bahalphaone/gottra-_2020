@@ -1,0 +1,12 @@
+""
+Cas d'usage couvert :;;CU014-003
+Libellé du cas d'usage :;;Afficher le bloc de recherche de l’explorateur des collections
+
+STEP;Action;;;;;Résultat attendu
+1;•	Au placement du curseur dans le champ de recherche;;;;; le texte par défaut ou précédemment saisi est effacé.
+2;•	Appuyer sur le bouton  « Entrée » lorsque le curseur est dans le champ de recherche;;;;; lance la recherche
+3;•	Après avoir saisi au minimum 3 caractères;;;;; le système affiche le volet des termes proposés en autocomplétion
+4;•	Au clic sur un terme;;;;; la recherche est lancée sur l’ensemble des typologies sur le terme concerné par le clic
+5;•	Au clic sur le bouton « Voir tous les résultats » la recherche est lancée sur l’ensemble des typologies sur le terme saisi dans le champ de recherch;;;;;e
+6;•	Au clic sur la croix de suppression;;;;; la sauvegarde est supprimée
+7;•	Au clic sur le nom de la sauvegarde;;;;; la recherche est lancée sur l’ensemble des typologies selon les critères sauvegardées

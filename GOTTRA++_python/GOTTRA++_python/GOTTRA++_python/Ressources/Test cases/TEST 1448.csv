@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU008-005
+Libellé du cas d'usage :;;Afficher les horaires
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Voir tous les horaires;;;;; le système redirige vers une page éditoriale

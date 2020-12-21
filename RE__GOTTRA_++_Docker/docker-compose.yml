@@ -1,0 +1,49 @@
+version: "3"
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    container_name: mysql
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+      - MYSQL_DATABASE=gottra
+    ports:
+      - "3306:3306"
+    volumes:
+      - ${REPSQL}:/var/lib/mysql
+    labels:
+      - "nature=process"
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      MYSQL_USERNAME: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+      restart: always
+    ports:
+      - 8082:80
+    links:
+      - db:mysql
+
+  eclipse:
+    container_name: eclipseV1
+    extra_hosts:
+      - "localhost:${IP}"
+    image: sts4
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${WORKSPACE}:${WORKSPACECONTAINER}
+    environment:
+      - DISPLAY=${IP}:0.0
+      - WORKSPACE=${WORKSPACECONTAINER}
+    ports:
+      - "8084:80"
+    labels:
+      - "nature=process"
+    links:
+      - db:mysql

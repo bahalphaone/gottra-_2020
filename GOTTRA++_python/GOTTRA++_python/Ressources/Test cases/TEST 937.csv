@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU009-103
+Libellé du cas d'usage :;;Afficher la liste des documents audio
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre du document audio;;;;; le système affiche document audio sélectionné dans le bloc de vidéo principale (voir  cas d’utilisation Afficher le document audio principal)

@@ -1,0 +1,46 @@
+""
+Cas d'usage couvert :;;CU009-604
+Libellé du cas d'usage :;;Afficher le document Apprendre  dans le bloc principal
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le document à télécharger;;;;; celui-ci est ouvert dans une nouvelle fenêtre
+2;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+3;Titre;;;;;
+4;Description (les 100 premiers caractères);;;;;
+5;Visuel large;;;;;
+6;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+7;Libellé de partage de la rubrique Apprendre  + Titre + lien raccourci + Champ texte libre twitte;;;;;r
+8;Au clic sur le bouton Retour;;;;; le système redirige vers la page de saisie
+9;Au clic sur le bouton OK;;;;; le formulaire est validé et sauvegardé. Le message suivant est administrable et est alors affiché :
+10;Votre inscription a bien été prise en compte. Vous recevrez votre Pass Etudiant soit à votre domicile soit lors de votre premier cours au M*. Pour être valide;;;;; vous intégrerez à ce pass votre photographie d’identité.
+11;Au clic sur un des billets;;;;; l’utilisateur est redirigé vers le lien concerné
+12;Au clic sur le numéro de téléphone;;;;; le numéro est pré-composé sur le téléphone de l’utilisateur
+13;Déplacement du doigt de gauche à droite : le système affiche l’élément suivan;;;;;t
+14;Déplacement du doigt de droite à gauche : le système affiche l’élément précéden;;;;;t
+15;Au clic sur le bouton Etoile;;;;; le système redirige vers la page d’accueil du site
+16;Au clic sur le bouton Grille de parcours;;;;; le système redirige vers la liste des parcours
+17;Au touch du doigt sur le titre du parcours;;;;; la barre d’éléments s’affiche
+18;Au clic sur le bouton Commencer;;;;; le système redirige le 1er élément du parcours
+19;Au clic sur un élément du parcours;;;;;
+20;le système redirige l’élément concerné;;;;;
+21;la barre d’éléments se cach;;;;;e
+22;Au touch du doigt (double contact) sur le visuel de l’élément;;;;; l’affichage effectue un zoom en fonction de la sélection par l’utilisateur
+23;Au déplacement du doigt dans le visuel;;;;; le visuel se déplace en fonction de la position du doigt
+24;Au clic sur la croix;;;;; on réinitialise l’affichage de l’élément sans zoom
+25;Au clic sur le libellé Aller à l’œuvre suivante;;;;; le système affiche l’élément suivant
+26;Au clic sur le bouton Recommencer;;;;; le système redirige vers la page de démarrage du parcours
+27;Au clic sur le bouton avec libellé;;;;; le système redirige vers la page de l’événement
+28;Les autres parcours;;;;;
+29;Au swipe du doigt;;;;; les parcours défilent de gauche à droite
+30;Les ronds ne sont pas cliquables;;;;;
+31;Au clic sur le visuel du parcours;;;;; le système redirige vers le parcours concerné
+32;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+33;Titre;;;;;
+34;Sous-titre;;;;;
+35;Visuel carré;;;;;
+36;Lien qui pointe vers la page de démarrage du parcour;;;;;s
+37;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+38;Libellé Champ de partage twitter    + Titre + lien raccourci de la page de démarrage du parcours + Champ libre twiitte;;;;;r
+39;A la sélection d’une valeur dans les filtres;;;;; la liste des parcours est mise à jour
+40;Au scroll;;;;; la liste de parcours se déplace dans la page
+41;Seuls les parcours traduits sont affiché;;;;;s

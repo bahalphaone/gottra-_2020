@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU017-008
+Libellé du cas d'usage :;;Bloc  Pagination d’une notice
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un clic sur la flèche précédente renvoie l’internaute vers la notice précédent;;;;;e
+2;•	Un clic sur la flèche suivante renvoie l’internaute vers la notice suivant;;;;;e

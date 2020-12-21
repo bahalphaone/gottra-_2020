@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU006-064
+Libellé du cas d'usage :;;Rechercher un évènement en back-office [LOT 2]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Modifier;;;;; l’utilisateur est redirigé vers le formulaire de modification
+2;Au clic sur le bouton Supprimer;;;;; une demande de validation est affichée à l’utilisateur.
+3;Au clic sur le bouton de validation;;;;; l’évènement est supprimé

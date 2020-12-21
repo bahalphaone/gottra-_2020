@@ -1,0 +1,34 @@
+// ******************
+// customize bootstrap
+// ******************
+$gottra-blue: #4bacc6;
+
+$theme-colors: (
+  "light": #fff,
+  "primary": $gottra-blue
+);
+
+$card-bg: #ebebeb;
+$card-cap-bg: $card-bg;
+
+$font-family-sans-serif: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+// ******************
+// Bootstrap and its default variables
+// ******************
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// ******************
+// add new components
+// ******************
+.btn-primary-transparent {
+    @include button-variant(rgba(0,0,0,0), $gottra-blue, $hover-background: rgba(0,0,0,.1), $active-background: rgba(0,0,0,.12));    
+    
+    &,
+    &:hover,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+        color: $gottra-blue;
+    }
+}

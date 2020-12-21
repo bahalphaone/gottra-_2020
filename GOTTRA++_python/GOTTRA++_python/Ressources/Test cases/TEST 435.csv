@@ -1,0 +1,16 @@
+""
+Cas d'usage couvert :;;CU014-008
+Libellé du cas d'usage :;;Afficher les critères de recherche sélectionnés
+
+STEP;Action;;;;;Résultat attendu
+1;•	Au clic sur la croix de suppression d’un critère;;;;; le système met à jour
+2;La liste des critères sélectionné;;;;;s
+3;La liste des résultats de l’ensemble des typologies;;;;;
+4;•	Au clic sur le bouton « Réinitialiser »;;;;;
+5;L’ensemble des critères (recherche,  recherche avancée;;;;; facette) sont supprimés
+6;La liste des résultats de l’ensemble des typologies est mise à jou;;;;;r
+7;•	Au clic sur le bouton « Sauvegarder »;;;;;
+8;Le système affiche une popin permettant de saisir le nom à donner à sa recherch;;;;;e
+9;Un bouton de validation et un bouton d’annulation;;;;;
+10;A la sauvegarde;;;;; le système affiche un message de confirmation
+11;•	A la sélection d’un filtre;;;;; la liste de résultats de la typologie concernée est mise à jour

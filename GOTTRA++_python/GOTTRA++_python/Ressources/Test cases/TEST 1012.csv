@@ -1,0 +1,24 @@
+""
+Cas d'usage couvert :;;CU007-002
+Libellé du cas d'usage :;;Afficher le formulaire de recherche de l’agenda
+
+STEP;Action;;;;;Résultat attendu
+1;Navigation dans le calendrier;;;;;
+2;Au clic sur la flèche de gauche :;;;;;
+3;•	le système affiche le mois précédent dans le calendrie;;;;;r
+4;•	le système supprime les éventuelles sélections de dat;;;;;e
+5;•	le système affiche le nom du mois précédent dans le bloc de navigatio;;;;;n
+6;Au clic sur la flèche de droite :;;;;;
+7;•	le système affiche le mois suivant dans le calendrie;;;;;r
+8;•	le système supprime les éventuelles sélections de dat;;;;;e
+9;•	le système affiche le nom du mois suivant dans le bloc de navigatio;;;;;n
+10;Date de début;;;;;
+11;A la saisie d’une date de début via le calendrier;;;;; la même date est alors affichée dans le champ de date de début du formulaire
+12;A la saisie d’une date de début via le formulaire;;;;; la même date est sélectionnée dans le champ de date de début du calendrier
+13;Date de fin;;;;;
+14;A la saisie d’une date de fin via le calendrier;;;;; la même date est alors affichée dans le champ de date de début du formulaire
+15;A la saisie d’une date de début via le formulaire;;;;; la même date est sélectionnée dans le champ de date de début du calendrier
+16;A la saisie de valeurs dans les champs De et au;;;;; un filtre de date est alors crée avec cette sélection
+17;Dans le datePicker,  si l’utilisateur clique dans une date de début jusqu’à une date de fin en gardant le clic enfoncé;;;;; un filtre de date est alors crée avec cette sélection.
+18;Au clic sur une date spécifique présente dans la précédente sélection;;;;; la date est désélectionnée
+19;Au clic sur une date spécifique extérieure à la précédente sélection;;;;; seul la nouvelle date est sélectionnée

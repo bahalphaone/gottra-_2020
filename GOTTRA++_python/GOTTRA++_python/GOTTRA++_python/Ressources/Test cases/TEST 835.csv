@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU005-003
+Libellé du cas d'usage :;;Afficher le champ de recherche
+
+STEP;Action;;;;;Résultat attendu
+1;Au lancement de la recherche;;;;; la liste des résultats est mise à jour

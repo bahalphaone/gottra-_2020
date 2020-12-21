@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU103-0116
+Libellé du cas d'usage :;;Afficher un élément du panier de notices [LOT 3]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le lien En savoir plus;;;;; le système redirige vers  l’explorateur des collections avec la notice concernée
+2;Au clic sur l’icône Fermer;;;;; le système affiche le panier de notices
+3;Au clic sur la flèche de navigation gauche;;;;; le système affiche la notice précédente dans l’ordre défini dans le back-office
+4;Au clic sur la flèche de navigation droite;;;;; le système affiche la notice suivante dans l’ordre défini dans le back-office

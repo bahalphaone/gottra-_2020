@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU009-202
+Libellé du cas d'usage :;;Afficher la liste des applications
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre de l’application;;;;; le système affiche l’application sélectionnée dans le bloc de mise en avant

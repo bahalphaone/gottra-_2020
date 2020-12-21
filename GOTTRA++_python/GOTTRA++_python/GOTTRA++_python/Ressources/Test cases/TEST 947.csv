@@ -1,0 +1,17 @@
+""
+Cas d'usage couvert :;;CU009-4025
+Libellé du cas d'usage :;;Afficher le document dans le bloc principal
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton Retour;;;;; le système affiche la liste des médias
+2;Au clic sur un document;;;;; le document est ouvert dans une nouvelle fenêtre avec le fichier à télécharger
+3;Au clic sur le titre d’une page interne;;;;; celle-ci est ouverte dans la même fenêtre
+4;Au clic sur le titre d’une page externe;;;;; celle-ci est ouverte dans une nouvelle fenêtre
+5;Au clic sur le titre d’une page média;;;;; celle-ci est ouverte dans une même fenêtre
+6;On peut ;;;;;retourner à la page média d’origine via la page précédente
+7;Au clic sur le bouton Partager de Facebook. Les éléments suivants sont partagé;;;;;s
+8;Titre;;;;;
+9;Description (en fonction du nombre de caractères récupérable par Facebook);;;;;
+10;Visuel large;;;;;
+11;Au clic sur le bouton Partager de Twitter. Les éléments suivants sont partagé;;;;;s
+12;Libellé de partage de la rubrique Presse  + Titre + lien raccourci + Champ texte libre twitte;;;;;r

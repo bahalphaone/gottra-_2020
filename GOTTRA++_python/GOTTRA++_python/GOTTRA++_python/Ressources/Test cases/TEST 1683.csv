@@ -1,0 +1,73 @@
+""
+Cas d'usage couvert :;;CU005-000
+Libellé du cas d'usage :;;Afficher les éléments de plusieurs catégories d’événement
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur une catégorie;;;;; le système redirige vers la page de la catégorie (voir cas d’utilisation Afficher la catégorie)
+2;l’internaute est ;;;;;redirigé vers la page de l’évènement au clic sur
+3;L’image;;;;;
+4;Le titre;;;;;
+5;La description;;;;;
+6;Le bouton En savoir plus;;;;;
+7;A la nouvelle sélection d’une valeur dans les menus déroulants;;;;; la liste des événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur
+8;L’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+9;Le visuel;;;;;
+10;Le titre;;;;;
+11;Au balayage latéral de l’utilisateur de droite à gauche;;;;; le bloc affiche les 2 prochains événements
+12;Au balayage latéral de l’utilisateur de gauche à droite le bloc affiche les 2 précédents événement;;;;;s
+13;l’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+14;L’image;;;;;
+15;Le titre;;;;;
+16;La description;;;;;
+17;Le bouton En savoir plus;;;;;
+18;l’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+19;L’image;;;;;
+20;Le titre;;;;;
+21;La description;;;;;
+22;Le bouton En savoir plus;;;;;
+23;Evénements  A Venir;;;;;
+24;Au balayage latéral de l’utilisateur de droite à gauche;;;;; le bloc affiche l’événement suivant
+25;Au balayage latéral de l’utilisateur de gauche à droite le bloc affiche l’événement précéden;;;;;t
+26;A la nouvelle sélection d’une valeur dans les menus déroulants;;;;; la liste des événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur
+27;L’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+28;Le visuel;;;;;
+29;Le titre;;;;;
+30;Le sous-titre;;;;;
+31;Au balayage latéral de l’utilisateur de droite à gauche;;;;; le bloc affiche les 2 événements suivants
+32;Au balayage latéral de l’utilisateur de gauche à droite;;;;; le bloc affiche les 2 événements précédents
+33;l’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+34;L’image;;;;;
+35;Le titre;;;;;
+36;La description;;;;;
+37;Le bouton En savoir plus;;;;;
+38;Evénements  A Venir;;;;;
+39;Au balayage latéral de l’utilisateur de droite à gauche;;;;; le bloc affiche l’événement suivant
+40;Au balayage latéral de l’utilisateur de gauche à droite le bloc affiche l’événement précéden;;;;;t
+41;A la nouvelle sélection d’une valeur dans les menus déroulants;;;;; la liste des événements passés est mise à jour en fonction des valeurs sélectionnées par l’utilisateur
+42;L’internaute est ;;;;;redirigé vers la page de l’événement au clic sur
+43;Le visuel;;;;;
+44;Le titre;;;;;
+45;Le sous-titre;;;;;
+46;Au balayage latéral de l’utilisateur de droite à gauche;;;;; le bloc affiche les 2 événements suivants
+47;Au balayage latéral de l’utilisateur de gauche à droite;;;;; le bloc affiche les 2 événements précédents
+48;L’internaute est ;;;;;redirigé vers la page de l’évènement au clic sur le bloc de contenu  ou sur les éléments suivants :
+49;L’image;;;;;
+50;Le titre;;;;;
+51;La description;;;;;
+52;Le bouton En savoir plus;;;;;
+53;Au clic sur l’ancre;;;;; le système redirige l’utilisateur vers le bloc de contenu éditorial
+54;Au clic  sur le bouton de lecture de la vidéo;;;;; la vidéo se lance
+55;Au clic sur le bouton Plus;;;;; l’application Twitter s’ouvre pour écrire un twitt
+56;Au clic sur le bouton lecture du player vidéo;;;;; la vidéo se lance
+57;Au clic sur le bouton lecture du player audio;;;;; le son se lance
+58;Au clic sur l’image en cours de visualisation;;;;; l’entité image située à sa droite est affichée
+59;Via un balayage latéral de gauche à droite;;;;; le système affiche l’entité image suivante
+60;Via un balayage latéral de gauche à droite;;;;; le système affiche l’entité image précédente
+61;Au clic sur l’icône Plus;;;;; le système affiche le bloc En savoir plus ouvert
+62;Au clic sur la flèche gauche de navigation;;;;; l’élément précédent est affiché
+63;Au clic sur la flèche droite de navigation;;;;; l’élément suivant est affiché
+64;Au clic un élément;;;;;
+65;Si l’élément est un document PDF;;;;; le document est téléchargé
+66;Si l’élément est un lien externe;;;;; le système affiche une nouvelle fenêtre avec le lien
+67;Au clic sur la description;;;;; le système redirige vers la page listant les événements du lieu défini en contribution (voir cas d’utilisation Afficher les événements liés à une exposition)
+68;Si l’entité est définie par un lien,  au clic sur le visuel;;;;; le système ouvre une nouvelle fenêtre le lien concerné

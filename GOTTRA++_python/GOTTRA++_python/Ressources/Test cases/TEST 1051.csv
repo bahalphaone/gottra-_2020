@@ -1,0 +1,80 @@
+""
+Cas d'usage couvert :;;CU014-010
+Libellé du cas d'usage :;;Afficher l’écran des favoris
+
+STEP;Action;;;;;Résultat attendu
+1;•	Un click sur le bouton « Télécharger en pdf » lance la génération en pdf des notices sélectionnées (voir cas d’utilisation « Génération en pdf d’un lot de notice »;;;;;)
+2;•	Un click sur le bouton « Envoyer par email » ouvre l’outil de messagerie de l’internaute;;;;;
+3;Sujet : «  [M*] Mes notices sélectionnée;;;;;s
+4;Contenu : « Bonjour;;;;; ci-joint mes notices favorites »
+5;Pièce jointe : PDF regroupant l’ensemble des notices sélectionnées (voir cas d’utilisation « Génération en pdf d’un lot de notice »;;;;;)
+6;•	Un click sur le bouton « Sélectionner / Désélectionner l’ensemble des notices »;;;;;
+7;Si au moins une notice est déjà sélectionnée alors le système désélectionne l’ensemble des notices déjà sélectionnée;;;;;s
+8;Si aucune notice n’a été préalablement sélectionnée;;;;; alors le système sélectionne toutes les notices présentes dans le panier des favoris
+9;•	Un click sur le bouton «  Vider mon panier de favoris » supprime l’ensemble des notices du panie;;;;;r
+10;•	Un click sur un résultat renvoie l’internaute vers le détail du résultat concern;;;;;é
+11;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+12;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+13;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+14;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+15;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+16;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+17;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+18;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+19;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+20;•	Au click sur le bouton de suppression aux favoris;;;;;
+21;la notice est supprimée des favori;;;;;s
+22;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+23;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+24;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+25;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+26;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+27;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+28;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+29;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+30;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+31;•	Au click sur le bouton de suppression aux favoris;;;;;
+32;la notice est supprimée des favori;;;;;s
+33;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+34;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+35;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+36;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+37;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+38;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+39;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+40;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+41;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+42;•	Au click sur le bouton de suppression aux favoris;;;;;
+43;la notice est supprimée des favori;;;;;s
+44;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+45;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+46;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+47;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+48;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+49;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+50;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+51;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+52;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+53;•	Au click sur le bouton de suppression aux favoris;;;;;
+54;la notice est supprimée des favori;;;;;s
+55;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+56;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+57;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+58;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+59;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+60;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+61;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+62;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+63;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+64;•	Au click sur le bouton de suppression aux favoris;;;;;
+65;la notice est supprimée des favori;;;;;s
+66;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+67;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+68;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+69;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+70;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+71;•	Au click sur le bouton d’ajout / suppression aux favoris;;;;;
+72;Si la notice n’est pas présente dans les favoris alors la notice est ajoutée aux favoris et le bouton « Supprimer » est affiché;;;;;.
+73;Si la notice est déjà présente dans les favoris alors la notice est supprimée des favoris et le bouton « Ajouter » est affiché;;;;;.
+74;•	Un click sur le titre ou la vignette renvoie l’internaute vers le détail de la notic;;;;;e
+75;•	Au click sur le bouton de suppression aux favoris;;;;;

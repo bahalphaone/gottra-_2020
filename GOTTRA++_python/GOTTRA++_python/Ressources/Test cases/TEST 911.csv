@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU103-000
+Libellé du cas d'usage :;;Afficher une  liste de pages éditoriales
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre ou le visuel d’une page éditoriale;;;;; le système redirige vers la page éditoriale (voir cas d’utilisation afficher une page éditoriale)

@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU103-006
+Libellé du cas d'usage :;;Afficher un élément éditorial Vidéo
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton lecture du player vidéo;;;;; la vidéo se lance

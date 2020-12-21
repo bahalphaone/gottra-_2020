@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU002-006
+Libellé du cas d'usage :;;Afficher la liste des parcours [LOT 6]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le titre ou sur le visuel;;;;; le système redirige vers la page concernée en pop-in

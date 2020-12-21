@@ -1,0 +1,9 @@
+""
+Cas d'usage couvert :;;CU001-013
+Libellé du cas d'usage :;;Afficher le bloc de contenu En ce moment
+
+STEP;Action;;;;;Résultat attendu
+1;L’image;;;;;
+2;Le titre;;;;;
+3;La description;;;;;
+4;Le bouton En savoir plus;;;;;

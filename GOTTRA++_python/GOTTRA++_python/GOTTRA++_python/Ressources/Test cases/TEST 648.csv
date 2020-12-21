@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU009-201
+Libellé du cas d'usage :;;Afficher le filtre
+
+STEP;Action;;;;;Résultat attendu
+1;A la sélection d’une valeur dans le filtre (niveau 1 et niveau 2);;;;; la liste des applications est mise à jour (voir cas d’utilisation Afficher la liste des applications)

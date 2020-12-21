@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU101-001
+Libellé du cas d'usage :;;Afficher le header du site [LOT 1]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le logo;;;;; l’utilisateur est redirigé vers la page d’accueil du site

@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU101-005
+Libellé du cas d'usage :;;Afficher la télécommande [LOT 1]
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur chaque élément;;;;; le système affiche le contenu correspondant
+2;Billetterie (voir cas d’utilisation Afficher les informations de billetterie depuis la télécommande);;;;;

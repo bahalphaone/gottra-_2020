@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU103-009
+Libellé du cas d'usage :;;Afficher un élément éditorial Son
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le bouton lecture du player audio;;;;; le son se lance

@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU008-002
+Libellé du cas d'usage :;;Afficher le plan d’accès
+
+STEP;Action;;;;;Résultat attendu
+1;A l’aide d’un glisser-déposer;;;;; la carte se déplace en fonction de la position de la souris
+2;A l’aide du zoom;;;;; la carte est zoomée ou dézoomée

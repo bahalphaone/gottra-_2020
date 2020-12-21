@@ -1,0 +1,20 @@
+""
+Cas d'usage couvert :;;CU014-005
+Libellé du cas d'usage :;;Afficher la liste des facettes de l’explorateur des collections
+
+STEP;Action;;;;;Résultat attendu
+1;•	Au placement du curseur dans le champ de recherche;;;;; le texte par défaut ou précédemment saisi est effacé.
+2;•	Après avoir saisi au minimum 3 caractères;;;;; le système réduit la liste des valeurs afin de n’afficher uniquement les valeurs ayant comme début la saisie de l’internaute
+3;•	Un clic sur une valeur met à jour la liste de résultats pour  l’ensemble des typologie;;;;;s
+4;•	Un clic sur l’icône Plier / Déplier;;;;;
+5;Si le bloc enfant est plié;;;;; le clic déplie le bloc enfant
+6;Si le bloc enfant est déplie;;;;; le clic plie le bloc enfant
+7;•	Un clic sur une valeur « sans enfant » met à jour la liste de résultats pour  l’ensemble des typologie;;;;;s
+8;•	Un clic sur une valeur « avec enfant » affiche le bouton « Valider » et déplie ses enfant;;;;;s
+9;•	Au clic sur le bouton « ;;;;;valider » met à jour la liste de résultats pour  l’ensemble des typologies répondant à la valeur sélectionnée (surbrillance verte).
+10;•	Un clic sur l’icône Plier / Déplier;;;;;
+11;Si le bloc enfant est plié;;;;; le clic déplie le bloc enfant
+12;Si le bloc enfant est déplie;;;;; le clic plie le bloc enfant
+13;•	Un clic sur une valeur « sans enfant » met à jour la liste de résultats pour  l’ensemble des typologie;;;;;s
+14;•	Un clic sur une valeur « avec enfant » affiche le bouton « Valider » et déplie ses enfant;;;;;s
+15;•	Au clic sur le bouton « ;;;;;valider » met à jour la liste de résultats pour  l’ensemble des typologies répondant à la valeur sélectionnée (surbrillance verte).

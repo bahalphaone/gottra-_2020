@@ -1,0 +1,8 @@
+""
+Cas d'usage couvert :;;CU006-021
+Libellé du cas d'usage :;;Afficher les informations générales
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic sur le nom de l’événement parent;;;;; le système redirige vers l’événement correspondant
+2;Au clic sur le champs Localisation dans le musée ou Localisation du rendez-vous;;;;; l’utilisateur est redirigé vers le plan interactif
+3;Au clic sur le lien Voir tous les tarifs;;;;; l’utilisateur est redirigé vers la page Tarifs

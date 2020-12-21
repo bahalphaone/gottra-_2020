@@ -1,0 +1,424 @@
+"2.	Gestion profil utilisateur  
+"
+"2.1.	Descriptions des écrans
+•	Ecran de saisie de l’identification
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Nom utilisateur	Zone de texte	Oui	12	C’est le login
+Mot de passe	Zone de texte	Oui	12	General
+Créer un compte	Pushbuttom	 		Au clic, création d’un compte 
+Connexion 	pushbuttom		 		Cliquer pour poursuivre
+				
+"
+"•	Ecran de création de l’identifiant
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Login	Alphanumérique	Oui	12	
+Mot de passe 	Alphanumérique	Oui	12	 
+Nom  	Alphanumérique	Oui	24	 
+Prénom	Alphanumérique	Oui	24	 
+Email	Alphanumérique	Oui	60	 
+Numéro telephone	Numérique		Oui	10	
+S’enregistrer	pushbuttom			Cliquer pour mis à jour du Login
+ 
+"
+"2.2.	Acteur
+La création ou la modification s’effectue par une personne habilitée. Il s’agira en l’occurrence de l’administrateur ou du chef de projet.
+"
+"2.3.	Actions
+Pour créer un compte :
+o	Affichage de l’écran de saisie de l’identification (Ecran 1)
+-	Saisir le champ « Nom utilisateur »
+-	Cliquer sur « Créer un compte ».
+	L’identifiant existe déjà, envoie d’un message ‘’Identifiant existe déjà’’ et le curseur se positionne sur le champ « Nom utilisateur »
+	L’identifiant n’existe pas alors passage à l’écran suivant « Ecran création de l’identifiant »
+"
+"o	Affichage de l’écran de saisie de création de l’identifiant (Ecran 2)
+-	Champs à renseigner
+	Login
+	Mot de passe
+	Nom
+	Prénom
+	Email
+	Téléphone
+-	Cliquer sur la touche « Entrée », le système vérifie la forme de l’email et vérifie que le numéro de téléphone saisi est bien un numéro de téléphone.
+-	Si tout est ok, Message de validation, « valider en cliquant sur « Entrée ».
+-	Mise à jour dans le système des informations saisies. 
+ 
+"
+"Pour modifier un compte :
+"
+"La confirmation de toute création ou modification sera effective après avoir appuyé sur la touche « Entrée ».
+"
+"2.4.	Règle de gestion
+L’outil fonctionne avec un lien internet.
+Le nom du champ  « Nom utilisateur » doit être unique dans le cas d’une création.
+Pour modifier un élément de l’utilisateur ou son mot de passe, faire comme dans le cas d’une création et faire apparaître les champs renseignés. 
+Dès que les champs « Nom, Prénom, Mail et Téléphone » apparaissent renseignés, toute modification est possible.
+Le mot de passe s’il existe sera caché et apparaîtra sous la forme d’une suite de points.
+Toute modification entraine l’apparition d’un message de confirmation.
+"
+" 
+"
+" 
+ 
+"
+"3.	Saisie de projet
+"
+"3.1.	Description des écrans
+•	Ecran Acceuil  
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Projets	Pushbuttom	 	 	 Au clic, gestion de projet
+MyGottra	Pushbuttom	 	 	 
+Information	Pushbuttom	 		 
+"
+"•	Ecran gestion de projet 
+"
+"Nom du champ		Type de champ	 Commentaires
+Saisie du Projet	Pushbuttom	Pour la création
+Consulter Projets	Pushbuttom	La consultation
+Analyse et gestion de projet	Pushbuttom	La modification ou la suppression
+ 	 		 
+"
+"•	Ecran Type de projets 
+"
+"Nom du champ		Type de champ	 Commentaires
+Fonctionnel	Bouton	Choix du bouton au clic
+Automatisation	Bouton	Choix du bouton au clic
+Performance	Bouton	Choix du bouton au clic
+Suivant	Pushbuttom		Cliquer pour poursuivre 
+"
+"•	Ecran Identification du projet
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Nom de mission	Alphanumérique	Non	24	 
+Nom du projet	Alphanumérique	Oui	24	 
+Nombre de jours	Numérique	Oui	5	 
+Précédent	Pushbuttom			Au clic revenir à l’écran précedent
+suivant	Pushbuttom			Au clic écran suivant
+"
+"•	Ecran Maturité du projet
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Niveau maturité projet	Menu déroulant	 Oui		 Choix dans le menu déroulant
+Localisation équipe	Menu déroulant	 Oui		 Choix dans le menu déroulant
+Nombre de consultants seniors	Numérique	 	4	 
+Nombre de consultants Confirmés	Numérique		4	
+Nombre de consultants référents fonctionnels	Numérique		4	
+ Nombre de consultants juniors 	Numérique		4	
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic écran suivant
+"
+"•	Ecran Méthode de projet/Technologie
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Cycle V	Bouton	 	 	 Choix entre ‘oui’ ou ‘non’
+Méthode Agile	Bouton	 	 	 Choix entre ‘oui’ ou ‘non’
+Progiciel	Bouton	 	 	 Choix entre ‘oui’ ou ‘non’
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic écran suivant
+"
+"•	Ecran option agile ou option progiciel
+Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Type agile	Alphanumérique	 Oui	 30	 
+Nom Progiciel	Alphanumérique	 Oui	 30	 
+"
+" 
+"
+"3.2.	Acteur
+La création s’effectue par une personne habilitée. Il s’agira avant tout du chef de projet ou d’une personne dûment autorisée à cet effet.
+"
+"3.3.	Notes
+Il est nécessaire de s’authentifier.
+Le système affiche un icône « Menu » sur lequel on viendra cliquer pour faire apparaître un écran de gestion du projet.
+Enchaînement des écrans : Menu, écran accueil, écran gestion de projet, écran type de projet, écran identification projet.
+"
+" 
+"
+"3.4.	Actions
+Cliquer sur Projets de l’écran accueil, alors viendra s’afficher l’écran de gestion de projet.
+Pour la création, cliquer sur saisie du projet.
+Choisir le type de projets en cliquant sur l’un des 3 types. En cliquant ensuite sur « Suivant ».
+Pour les menus déroulants, le choix s’effectue en cliquant dessus.
+"
+"1.1.1.1.	Ecran d’identification
+"
+"A l’écran d’identification, saisir au les informations sur l’écran afin créer le projet :
+-	Nom de mission
+-	Nom de projet
+-	Nombre de jours
+"
+"Cliquer sur « Suivant » pour accéder à l’écran Maturité du projet
+"
+"1.1.1.2.	Ecran maturité du projet
+Saisir les champs :
+-	Niveau maturité projet
+-	Localisation équipe
+-	Nombre de consultants seniors
+-	Nombre de consultants Confirmés
+-	Nombre de consultants référents fonctionnels
+-	Nombre de consultants juniors
+"
+"Choix en table pour les champs « Niveau maturité projet »  et « Localisation équipe ».
+"
+"Les choix pour « Niveau maturité du projet » sont : 
+o	Assistance technique
+o	Centre de compétence
+o	Forfait
+o	Centre de service
+Les choix pour « Localisation équipe » sont :
+o	Chez le client
+o	Proximité du client
+o	Nearshore
+o	Offshore
+"
+"1.1.1.3.	Ecran méthode de projet/Technologie
+"
+"Si le choix du projet est de type agile alors on autorise la saisie du type de méthode agile.
+Si le type de projet est de type progiciel, alors il est demandé de saisir le nom du projet en question. 
+"
+"3.5.	Règles de gestion
+Le type de projet est limité à 3 choix : Fonctionnel, automatisation et de performance.
+Pour la création du projet, le nom doit être unique, donc inexistant.
+Seuls sont obligatoires, le nom du projet et le nombre de jours.
+Le nombre de jours correspond à la charge cumulée du projet.
+"
+" 
+"
+"4.	Information sur les tests
+"
+"4.1.	Description des écrans
+"
+"•	Ecran Etape des tests 
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Stratégie	Pushbuttom	 	 	 Au clic, Ecran de saisie
+Définition	Pushbuttom	 	 	 Au clic, Ecran de saisie
+Conception	Pushbuttom	 		 Au clic, Ecran de saisie
+JDD	Pushbuttom			(Jeu de données )
+Au clic, Ecran de saisie
+Exécution	Pushbuttom			Au clic, Ecran de saisie
+"
+"•	Ecran Stratégie 
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Charge de chef de projet	 Numérique	 Oui	5	 
+Charge testeur	 Numérique	 Oui	5	 
+Nombre de pages analysées
+        Spécification	 Numérique	 	5	  
+Nombre de pages rédigées
+      Plan de test	 Numérique		5	 
+ Niveau de complexité des
+      Spécifications	 Numérique	Oui	1	 Menu déroulant 
+ 5 Options possible
+Niveau de complexité de la stratégie de test	 Numérique	Oui	1	Menu déroulant 
+ 5 Options possible
+Niveau de complexité du plan de test rédigé	 Numérique	Oui	1	Menu déroulant 
+ 5 Options possible
+"
+"•	Ecran Définition (des jeux de test)
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Type de test	 Texte	 		Occurrence de 3  
+Nbre de cas de tests définis	 Numérique			Occurrence de 3  
+Charges J/H	 Numérique			Occurrence de 3  
+Charge J/H estimé	 Zone output			Occurrence de 3  
+Calculer les charges	 puschbuttom			
+				
+"
+"•	Conception  (des jeux de test)
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Type de test	 Texte	 		3 Occurrences 
+Nbre de cas de tests définis	 Numérique			3 Occurrences 
+Charges J/H	 Numérique			3 Occurrences  
+Charge J/H estimé	 Zone output			3 Occurrences
+Calculer les charges	 puschbuttom			
+				
+"
+"•	Les jeux de données (JDD)
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Type de test	 Texte	 		3 Occurrences
+Nbre de cas de tests définis	 Numérique			3 Occurrences
+Charges J/H	 Numérique			3 Occurrences
+Charge J/H estimé	 Zone output			3 Occurrences
+Calculer les charges	 puschbuttom			
+				
+"
+" 
+•	Exécution des jeux de test
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Type de test	 Texte	 		3 Occurrences
+Nbre de cas de tests définis	 Numérique			3 Occurrences
+Charges J/H	 Numérique			3 Occurrences
+Charge J/H estimé	 Zone output			3 Occurrences
+Calculer les charges	 puschbuttom			
+				
+"
+" 
+"
+"4.2.	Acteur
+La saisie s’effectue par une personne habilitée. Il s’agira avant tout du chef de projet ou d’une personne dûment autorisée à cet effet.
+"
+"4.3.	Notes
+Les informations saisies sont sauvegardées dès lors qu’on passe à l’écran suivant.
+Le système permettra de saisir des lignes supplémentaires ou d’en retirer à l’aide d’icône prévu à cet effet pour les écrans qui ont le champ « Type de test » à savoir écrans définition, conception, JDD et exécution.
+La charge jour/homme estimée est calculée automatiquement par le système.
+"
+" 
+4.4.	Actions
+Sur chaque écran on positionnera 2 icones, une pour passer à la page suivante et une autre pour la page précédente.
+Un clic sur « page suivante » fera une mémorisation des informations saisies et passage à la page suivante.
+Un clic sur la « page précédente » aura pour conséquence de ne pas affecter les informations saisies et retour arrière.
+Récapitulation : On rappelle que sur chaque écran on visualise 2 icones :
+-	« Suivant » pour aller à l’écran suivant. Cette action mémorisera les informations saisies.
+-	« Précédent » pour revenir à l’écran précédent et n’affectera en aucun cas les éléments saisis.
+"
+"Enchaînement des écrans : Le choix est à faire entre 5 choix. La saisie peut être faite sur un ou plusieurs voir même tous.
+Il y a la possibilité de choisir dans le désordre sur un ou plusieurs voir même en cours de saisie en cliquant sur le bouton adéquate.
+Clic dans l’écran « étape de test » pour obtenir l’écran de saisie « stratégie » ou « Définition des jeux de test » ou de « Conception des jeux de test » ou « des jeux de données » ou de « l’exécution  des jeux de test ».
+"
+"Ecran stratégie des jeux de test :
+Tous les champs sont en input donc à saisir. 
+Un clic sur le menu déroulant pour les champs qui commencent par ‘’niveau de complexité ‘’. Le choix de la complexité est effectué en cliquant sur un des nombres de 1 à 5.
+"
+"Les autres écrans à savoir « Définition », « Conception », « JDD » et « Exécution » sont du même acabit ou même genre.
+Champ « Type de test » est informé par les options « Simple » « moyen » et « complexe ». Un clic dans le menu déroulant pour saisir la valeur désirée.
+Les autres champs en input sont à saisir.
+Clic sur « + » pour ajout de lignes.
+Clic sur « - »  pour suppression de lignes.
+Cliquer sur « calculer les charges »  pour alimenter le champ « charge J/H estimée »
+"
+"4.5.	Règles de gestion
+La stratégie des jeux de tests est la gestion des charges et du niveau de complexité des tests.
+Les niveaux de complexité sont au nombre de 5. La valeur 1 est la complexité la plus basse et 5 et la complexité la plus haute.
+Le champ « Type de test » est attribué de la valeur du degré de complexité de la plus petite « simple » en passant par le qualificatif « moyen » pour terminer par le degré le plus « complexe ».
+Le champ « Charge J/H estimé » est un champ output. Il n’est pas à saisir. L’outil calcule la charge estimée.
+ 
+"
+"5.	Les Outils
+"
+"5.1.	Description des écrans des outils de test
+"
+"•	Ecran application fontionnelle
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Choix 1	Pushbuttom	 	 	 Menu déroulant
+Choix 2	Pushbuttom	 	 	 Menu déroulant
+Choix 3	Pushbuttom	 		 Menu déroulant
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic passer à l’écran suivant
+"
+"•	Ecran application d’automatisation
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Ecrit en dur	Texte	 	 	 « S’agit-il d’un automate de test ? » 
+Oui	Bouton	 	 	 Un clic pour acter le oui
+Non	Bouton	 		 Un clic pour acter le non
+Ecrit en dur	Texte	 	 	 « Automate de test mobile ? » 
+Oui	Bouton	 	 	 Si oui, un clic dessus
+Non	Bouton	 		 Si non, un clic dessus
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic passer à l’écran suivant
+"
+" 
+"
+"•	Ecran automate de test
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Choix 1	Pushbuttom	 	 	 Menu déroulant
+Choix 2	Pushbuttom	 	 	 Menu déroulant
+Choix 3	Pushbuttom	 		 Menu déroulant
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic passer à l’écran suivant
+"
+"•	Ecran test mobile
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Choix 1	Pushbuttom	 	 	 Menu déroulant
+Choix 2	Pushbuttom	 	 	 Menu déroulant
+Choix 3	Pushbuttom	 		 Menu déroulant
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic passer à l’écran suivant
+"
+"•	Ecran Test de performance
+"
+"Nom du champ		Type de champ	obligatoire	 Nb octets	 Commentaires
+Choix 1	Pushbuttom	 	 	 Menu déroulant
+Choix 2	Pushbuttom	 	 	 Menu déroulant
+Choix 3	Pushbuttom	 		 Menu déroulant
+Précédent	Pushbuttom			Au clic revenir à l’écran précédent
+suivant	Pushbuttom			Au clic passer à l’écran suivant
+"
+" 
+5.1.	Acteur
+La saisie s’effectue par une personne habilitée. Il s’agira avant tout du chef de projet ou d’une personne dûment autorisée à cet effet.
+"
+"5.2.	Notes
+Dans ce paragraphe, les saisies se font à l’aide d’un menu déroulant. Un clic sur l’une des options, valide le choix et le système l’enregistre.
+On rappelle que sur chaque écran on visualise 2 icones :
+-	« Suivant » pour aller à l’écran suivant. Cette action mémorisera les informations saisies.
+-	« Précédent » pour revenir à l’écran précédent et n’affectera en aucun cas les éléments saisis.
+ 
+5.3.	Actions
+Ecran Application fonctionnelle 
+Sur chacun des choix de l’écran, cliquer sur la fenêtre pour faire apparaître le menu déroulant.
+Ensuite cliquer sur l’un des éléments visualisables, à savoir :
+o	QC/ALM
+o	Slik Central Test Manager
+o	QA complete
+o	QA directors / cars
+o	Rational quality manager
+o	Squach
+o	TestyLink
+o	Autre
+"
+"Ecran Application d’automatisation
+Dans le cadre d’un projet automatique, l’appareillage de l’outil de gestion de test est affecté suite à un choix entre :
+1)	D’un automate de test
+Répondre par ‘oui’ ou par ‘non’ en cochant l’une de ces 2 possibilités par un clic.
+2)	D’un automate de test mobile
+Cocher ‘oui’ ou ‘non’ par un clic.
+	Si oui dans le cas d’un automate de test, apparaît l’écran « automate de test ».
+	Sur menu déroulant, cliquer sur l’un des outils :
+o	UFT/QTP
+o	Silk Test
+o	Test complete
+o	Test partner
+o	Rational functional tester
+o	Selenium
+o	Selenium/Eclipse
+o	Soap UI
+	Si oui dans automate de test mobile, apparaît l’écran « test mobile ».
+	Dès apparition d menu déroulant cliquer sur l’un des éléments :
+o	UFT Mobile
+o	Silk Mobile
+o	Test complete Mobile
+o	Autre
+"
+"Ecran test de performance
+	Cliquer sur le camp CHOIX 1 par exemple et choisir dans menu déroulant suivant :
+o	LoadRunner
+o	Slik Performer
+o	LoadUI
+o	Qaload
+o	Rational perfomance tester
+o	Introscope
+o	Jprofiler
+o	Autre
+"
+"	
+"
+" 
+"
+"5.4.	Règles de gestion
+Les outils de tests seront fonction du type de projet sélectionné en amont. 
+3 types de projet sont à sélectionner.
+-	Le Fonctionnel
+-	L’Automatique
+-	Le Performant
+En fonction du choix opéré dans le cadre du type de projet, la sélection de l’outil sera différente et se fera à l’aide d’un menu déroulant.
+"

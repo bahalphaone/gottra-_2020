@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="fragments/layout">
+<head>
+<title th:text="#{projects.title}">Mes projets</title>
+<meta charset="UTF-8" />
+
+<link rel="stylesheet" href="../static/css/bootstrap.min.css"
+	th:href="@{/css/custombootstrap.min.css}" />
+
+</head>
+<body>
+	<section>
+		<div class="card" layout:fragment="content">
+			<h5 class="card-header" th:text="#{projects.title}">Mes projets</h5>
+			<div class="card-body">
+				<ul class="list-group">
+					<li class="list-group-item" th:each="project : ${projects}"><a
+						th:href="'/project/' + ${project.getId()}"
+						th:text="${project.getTitle()}"></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

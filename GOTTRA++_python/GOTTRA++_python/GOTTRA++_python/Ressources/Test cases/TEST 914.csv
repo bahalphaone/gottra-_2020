@@ -1,0 +1,6 @@
+""
+Cas d'usage couvert :;;CU103-007
+Libellé du cas d'usage :;;Afficher un élément éditorial Twitter
+
+STEP;Action;;;;;Résultat attendu
+1;Au  clic sur le bouton Plus;;;;; l’utilisateur peut twitter via l’application concernée

@@ -1,0 +1,7 @@
+""
+Cas d'usage couvert :;;CU002-002
+Libellé du cas d'usage :;;Afficher la barre d’information temps réel
+
+STEP;Action;;;;;Résultat attendu
+1;Au clic dans une page sur le logo présent dans le header;;;;; le système redirige vers la page d’accueil est affichée avec la barre d’information en temps réel
+2;Au clic sur les flèches de navigation (gauche ou droite);;;;; l’entité précédente ou suivante s’affiche
